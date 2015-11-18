@@ -1,9 +1,31 @@
+body.view-incourse{
+    .content-wrapper{
+        .container {
+            .course-wrapper {
+                .course-index {
+                    #accordion {
+                        .chapter {
+                            h3.active {
+                                a{
+                                    color: #0078b0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        }
+    } 
 .course-wrapper {
     .size(100%, auto);
 
     padding: 0;
 
     .course-index {
+        h3.active {
+
+        }
         .square(100%);
         .make-md-column(3);
         .make-lg-column(3);
@@ -33,7 +55,7 @@
             .chapter {
                 border-radius: 0;
                 background-image: none;
-                
+
                 box-shadow: none;
                 border-bottom: 1px solid @color-border;
                 padding: 0;

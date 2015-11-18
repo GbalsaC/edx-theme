@@ -60,6 +60,11 @@ header.global, header.global-new, header.global.slim {
                 display: none;
             }
         }
+        h2.course-header{
+            font-weight: 100;
+            margin: 0;
+            font-size: 1.5em;
+        }
 
         .nav-global {
             margin: 0.6em 0 0 0;
@@ -120,7 +125,7 @@ header.global, header.global-new, header.global.slim {
             margin: 0;
 
             > li.primary > a {
-                .ionisx-btn(@color-primary, @white);
+                .ionisx-btn(@white, @color-primary);
 
                 border-radius: 0;
                 border-top-left-radius: 4px;
@@ -206,4 +211,27 @@ header.global, header.global-new, header.global.slim {
             }
         }
     }
+}
+
+.view-profile{
+    .profile-image-field{
+        .image-wrapper{
+            border-radius: 50%;
+            border:2px solid #B7AAAA;
+            .image-frame{
+                border-radius: 50%;
+            }
+        }
+    }
+    .content-wrapper{
+        background-color: #F9F9F9;
+
+    }
+ .profile-self {
+    .wrapper-profile-field-account-privacy{
+        background-color: #FFFFFF;
+
+    }
+    }
+
 }
