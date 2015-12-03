@@ -1,0 +1,10 @@
+body.is-authenticated{
+	
+
+}
+body.view-dashboard{
+	@extend body.is-authenticated;
+	
+
+
+}
