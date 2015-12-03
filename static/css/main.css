@@ -17614,6 +17614,16 @@ body .content-wrapper,
   margin: 0;
   padding: 0;
 }
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses {
+  border: 0 none;
+  margin: 0 0 12px 0;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses .header-courses {
+  font-size: 12px;
+  line-height: 16.64px;
+  font-weight: 600;
+  color: slategrey;
+}
 @media (min-width: 992px) {
   .content-wrapper > .dashboard .my-courses {
     float: left;
