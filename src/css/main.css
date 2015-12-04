@@ -9053,7 +9053,7 @@ body.view-incourse .content-wrapper > .book-wrapper:after {
 .ionisx-modal .inner-wrapper {
   overflow: visible;
   background: none;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border: 1px solid rgba(8, 8, 8, 0.8);
   border-radius: 4px;
   padding: 40px;
@@ -9714,7 +9714,7 @@ body,
 .view-login,
 .view-register,
 .view-passwordreset {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 body header.global,
 .view-login header.global,
@@ -10525,7 +10525,7 @@ body header.global.slim > nav h2,
   margin: 0.9em 0 0 0;
   padding: 0;
   text-shadow: none;
-  color: #f7f7f7;
+  color: #ffffff;
 }
 @media (max-width: 991px) {
   body header.global > nav h2,
@@ -10605,7 +10605,7 @@ body header.global.slim > nav .nav-global a,
   font-weight: 500;
   letter-spacing: inherit;
   padding: 0;
-  color: #f7f7f7;
+  color: #ffffff;
   text-transform: none;
   border: 0 none;
 }
@@ -13069,7 +13069,7 @@ body .leanModal_box .inner-wrapper,
 .view-passwordreset .leanModal_box .inner-wrapper {
   overflow: visible;
   background: none;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border: 1px solid rgba(8, 8, 8, 0.8);
   border-radius: 4px;
   padding: 40px;
@@ -15214,7 +15214,7 @@ body #forgot-password-modal .inner-wrapper,
 .view-passwordreset #forgot-password-modal .inner-wrapper {
   overflow: visible;
   background: none;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border: 1px solid rgba(8, 8, 8, 0.8);
   border-radius: 4px;
   padding: 40px;
@@ -16507,7 +16507,7 @@ body footer.global,
 .view-passwordreset footer.global {
   background-color: #c9caca;
   font-size: 0.9em;
-  color: #f7f7f7;
+  color: #ffffff;
   padding: 20px 0;
   overflow: hidden;
 }
@@ -16607,13 +16607,13 @@ body footer.global ul.links li a,
 .view-login footer.global ul.links li a,
 .view-register footer.global ul.links li a,
 .view-passwordreset footer.global ul.links li a {
-  color: #f7f7f7;
+  color: #ffffff;
 }
 body footer.global ul.links li a:hover,
 .view-login footer.global ul.links li a:hover,
 .view-register footer.global ul.links li a:hover,
 .view-passwordreset footer.global ul.links li a:hover {
-  color: #f7f7f7;
+  color: #ffffff;
 }
 body footer.global .copyright,
 .view-login footer.global .copyright,
@@ -16677,7 +16677,7 @@ body .content-wrapper,
 .view-passwordreset .content-wrapper {
   margin: 0;
   padding: 0;
-  background: none;
+  background: #ffffff;
   padding-bottom: 30px;
 }
 @media (min-width: 767px) {
@@ -17829,11 +17829,11 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .cover {
   width: 100%;
   height: auto;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   transition: none;
   max-height: none;
   text-align: center;
-  border: 1px solid #f7f7f7;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   float: left;
   display: block;
@@ -19729,7 +19729,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
   }
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   display: block;
   border-radius: 4px;
 }
@@ -21785,7 +21785,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   -ms-user-select: none;
   user-select: none;
   color: #080808;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border-color: #080808;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -21795,7 +21795,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #f7f7f7;
+  border-color: #ffffff;
   font-size: 0.9em;
   margin-left: 1em;
 }
@@ -21838,19 +21838,19 @@ fieldset[disabled] abody.view-incourse .content-wrapper .container .course-wrapp
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel.focus {
   color: #080808;
-  background-color: #dedede;
+  background-color: #e6e6e6;
   border-color: #000000;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:hover {
   color: #080808;
-  background-color: #dedede;
+  background-color: #e6e6e6;
   border-color: #000000;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:active,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel.active,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel {
   color: #080808;
-  background-color: #dedede;
+  background-color: #e6e6e6;
   border-color: #000000;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:active:hover,
@@ -21863,7 +21863,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel.active.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel.focus {
   color: #080808;
-  background-color: #cccccc;
+  background-color: #d4d4d4;
   border-color: #000000;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:active,
@@ -21880,11 +21880,11 @@ fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrappe
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel.disabled.focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel[disabled].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel.focus {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border-color: #080808;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel .badge {
-  color: #f7f7f7;
+  color: #ffffff;
   background-color: #080808;
 }
 @media (max-width: 767px) {
@@ -21893,7 +21893,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   }
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:focus {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   color: #080808;
   border-color: #080808;
 }
@@ -21901,17 +21901,19 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:active {
   background: none;
   background-color: #080808;
-  color: #f7f7f7;
+  color: #ffffff;
   box-shadow: none;
-  border-color: #f7f7f7;
+  border-color: #080808;
+  border-color: #ffffff;
   outline: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .discussion-module .discussion .new-post-article > .inner-wrapper > .new-post-form .new-post-cancel:hover {
   background: none;
   background-color: #080808;
-  color: #f7f7f7;
-  border-color: #f7f7f7;
+  color: #ffffff;
+  border-color: #ffffff;
   box-shadow: none;
+  border-color: #080808;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn {
   width: auto;
@@ -22928,7 +22930,7 @@ body.view-incourse .content-wrapper .container .info-wrapper .updates > section 
   border-radius: 4px;
 }
 body.view-incourse .content-wrapper .container .info-wrapper .updates > section > article:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container .info-wrapper .updates > section > article > h2 {
   font: inherit;
@@ -23226,7 +23228,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 ul.instructor-nav li a:hover,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 ul.instructor-nav li a:hover {
   text-decoration: none;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content ul.instructor-nav li a.active-section,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content ul.instructor-nav li a.active-section,
@@ -23870,8 +23872,8 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
   margin: 0 0 15px 0;
   padding: 0;
   box-shadow: none;
-  background-color: #f7f7f7;
-  border: 1px solid #f7f7f7;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
 }
 body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .forum-response .discussion-response {
@@ -23897,7 +23899,7 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
 body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-pagination {
   padding: 15px;
   box-shadow: none;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .response-pagination .response-display-count {
   padding: 0;
@@ -23917,7 +23919,7 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
 }
 body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .post-extended-content .comments > li {
   border: 0 none;
-  border-bottom: 1px solid #f7f7f7;
+  border-bottom: 1px solid #ffffff;
   border-left: 3px solid transparent;
   font-size: 0.8em;
   padding: 10px 15px 5px 15px;
