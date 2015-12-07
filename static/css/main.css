@@ -16677,7 +16677,7 @@ body .content-wrapper,
 .view-passwordreset .content-wrapper {
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: none;
   padding-bottom: 30px;
 }
 @media (min-width: 767px) {
