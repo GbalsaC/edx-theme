@@ -17605,6 +17605,7 @@ body .content-wrapper,
   content: '\f024';
 }
 .content-wrapper > .dashboard .my-courses {
+  width: 100% !important;
   width: auto;
   height: auto;
   position: relative;
@@ -17879,6 +17880,9 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   margin: 3px 5px;
   border: 1px solid #c9caca;
 }
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details {
+  height: 250px;
+}
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .course-actions .wrapper-action-more {
   display: inline-block;
   position: relative;
@@ -17903,40 +17907,51 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   box-sizing: border-box;
   letter-spacing: 0;
   border: 1px solid #0d4e6c;
-  border-radius: 3px;
-  padding: 2px 7px;
+  border-radius: 16px;
+  padding: 0px 5px;
   background-color: transparent;
   color: #0d4e6c;
   text-align: center;
   float: left;
+  line-height: 16px;
+  margin-top: 7px;
+  margin-left: -6px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-image {
   width: 100%;
+  height: 100px;
   margin: 0px;
   padding: 3%;
   border-bottom: solid 1px #DCD7D7;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child {
+  border-bottom: 1px solid #DCD7D7;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details {
   display: block;
   float: left;
   width: 100%;
-  padding: 3%;
+  height: calc(150px - 3%);
+  position: relative;
+  padding: 0;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-title {
   margin: 0px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-title a {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 16px;
   margin: 0px;
+  font-weight: 600;
+  color: #616277;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info {
   margin: 0px;
   display: block;
   float: left;
-  width: 100%;
+  width: 90%;
   padding: 0;
-  margin-top: 10px;
+  margin-top: -2px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info span {
   font-size: 12px !important;
@@ -17944,9 +17959,57 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions {
   display: block;
   float: right;
-  width: 100%;
+  width: 7%;
   padding: 0;
-  margin-top: 5px;
+  margin-top: -2px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
+  position: absolute;
+  top: 7px;
+  right: -17px;
+  min-width: 140px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 {
+  display: block;
+  float: left;
+  width: 100%;
+  height: calc(150px - 3%);
+  position: relative;
+  padding: 0;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-title {
+  margin: 0px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-title a {
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0px;
+  font-weight: 600;
+  color: #616277;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-info {
+  margin: 0px;
+  display: block;
+  float: left;
+  width: 90%;
+  padding: 0;
+  margin-top: -2px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-info span {
+  font-size: 12px !important;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .wrapper-course-actions {
+  display: block;
+  float: right;
+  width: 7%;
+  padding: 0;
+  margin-top: -2px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
+  position: absolute;
+  top: 7px;
+  right: -17px;
+  min-width: 140px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info {
   width: 100%;
