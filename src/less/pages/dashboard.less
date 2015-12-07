@@ -134,25 +134,10 @@
             .course-item {
                 border: 0 none;
                 padding: 0;
-                margin: 0 0 30px 0;
                 transition: all .1s ease-in;
-                background-color: @white;
+                background-color: transparent;
                 border-radius: @default-border-radius;
-                padding: 15px;
-
-                @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-                    @_margin-right: 10px;
-
-                    // (container-width - container-padding - margin) / 2 - some pixels :)
-                    width: floor((@container-sm - 2 * 15px - @_margin-right) / 2) - 3px;
-                    margin-right: @_margin-right;
-                    display: inline-block;
-                    vertical-align: top;
-
-                    &:nth-of-type(even) {
-                        margin-right: 0;
-                    }
-                }
+                                
 
                 &:hover {
                     
@@ -221,6 +206,7 @@
                 }
                 .course{
                     margin: 3px 5px;
+                    background-color: @white;
                     border: 1px solid @color-fourth;
                     .details{
                         height: 250px;
@@ -257,8 +243,8 @@
                             text-align: center;
                             float: left;
                             line-height: 16px;
-                            margin-top: 7px;
-                            margin-left: -6px;
+                            margin-top: 12px;
+                            margin-left: -9px;
                         }
                         .wrapper-course-image{
                             width: 100%;
