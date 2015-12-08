@@ -17817,8 +17817,8 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   transition: none;
   max-height: none;
   text-align: center;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
+  border: none;
+  border-radius: 0px;
   float: left;
   display: block;
 }
@@ -17865,7 +17865,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   border: 1px solid #c9caca;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details {
-  height: 250px;
+  height: 200px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .course-actions .wrapper-action-more {
   display: inline-block;
@@ -17876,13 +17876,14 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-right: 10px;
+  margin-right: 0px;
+  margin-left: -4px;
   float: right;
-  min-width: 40px;
+  min-width: 22px;
   color: #919191;
   border-radius: 3px;
-  padding: 4px;
-  border: 1px solid #fff;
+  padding: 0px;
+  border: none;
   text-align: center;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .enter-course {
@@ -17890,11 +17891,11 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   letter-spacing: 0;
-  border: 1px solid #0d4e6c;
+  border: 1px solid #7A7E80;
   border-radius: 16px;
-  padding: 0px 5px;
+  padding: 0px 4px;
   background-color: transparent;
-  color: #0d4e6c;
+  color: #7A7E80;
   text-align: center;
   float: left;
   line-height: 16px;
@@ -17903,9 +17904,10 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-image {
   width: 100%;
-  height: 100px;
+  height: 120px;
   margin: 0px;
-  padding: 3%;
+  padding: 0%;
+  overflow: hidden;
   border-bottom: solid 1px #DCD7D7;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child {
@@ -17915,7 +17917,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   display: block;
   float: left;
   width: 100%;
-  height: calc(150px - 3%);
+  height: calc(50px);
   position: relative;
   padding: 0;
 }
@@ -17940,6 +17942,15 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info span {
   font-size: 12px !important;
 }
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university {
+  padding-left: 5%;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-course-id {
+  padding-left: 5%;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-date-block {
+  padding-left: 0;
+}
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions {
   display: block;
   float: right;
@@ -17952,6 +17963,20 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   top: 7px;
   right: -17px;
   min-width: 140px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 0px;
+  margin-left: -4px;
+  float: right;
+  min-width: 22px;
+  color: #919191;
+  border-radius: 3px;
+  padding: 0px;
+  border: none;
+  text-align: center;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 {
   display: block;

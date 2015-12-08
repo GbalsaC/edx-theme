@@ -154,8 +154,8 @@
                     transition: none;
                     max-height: none;
                     text-align: center;
-                    border: 1px solid @color-background;
-                    border-radius: @default-border-radius;
+                    border: none;
+                    border-radius: 0px;
                     float: left;
                     display: block;
 
@@ -209,7 +209,7 @@
                     background-color: @white;
                     border: 1px solid @color-fourth;
                     .details{
-                        height: 250px;
+                        height: 200px;
                         .course-actions{ 
                             .wrapper-action-more{
                                 display: inline-block;
@@ -220,13 +220,14 @@
                                 -webkit-box-sizing: border-box;
                                 -moz-box-sizing: border-box;
                                 box-sizing: border-box;
-                                margin-right: 10px;
+                                margin-right: 0px;
+                                margin-left: -4px;
                                 float: right;
-                                min-width: 40px;
+                                min-width: 22px;
                                 color: #919191;
                                 border-radius: 3px;
-                                padding: 4px;
-                                border: 1px solid #fff;
+                                padding: 0px;
+                                border: none;
                                 text-align: center;
                             }
                         }
@@ -235,11 +236,11 @@
                             -moz-box-sizing: border-box;
                             box-sizing: border-box;
                             letter-spacing: 0;
-                            border: 1px solid #0d4e6c;
+                            border: 1px solid #7A7E80;
                             border-radius: 16px;
-                            padding: 0px 5px;
+                            padding: 0px 4px;
                             background-color: transparent;
-                            color: #0d4e6c;
+                            color: #7A7E80;
                             text-align: center;
                             float: left;
                             line-height: 16px;
@@ -248,9 +249,10 @@
                         }
                         .wrapper-course-image{
                             width: 100%;
-                            height: 100px;
+                            height: 120px;
                             margin: 0px;
-                            padding: 3%;
+                            padding: 0%;
+                            overflow: hidden;
                             border-bottom: solid 1px #DCD7D7;
                         }
                         .wrapper-course-details:first-child{
@@ -260,7 +262,7 @@
                                 display: block;
                                 float: left;
                                 width: 100%;
-                                height: ~"calc(150px - 3%)";
+                                height: ~"calc(50px)";
                                 position: relative;
                                 padding: 0;
                             .course-title{
@@ -283,9 +285,9 @@
                                 span{
                                     font-size: 12px !important;
                                 }
-                                .info-university{}
-                                .info-course-id{}
-                                .info-date-block{}
+                                .info-university{padding-left: 5%;}
+                                .info-course-id{padding-left: 5%;}
+                                .info-date-block{padding-left: 0;}
 
 
                             }
@@ -302,6 +304,20 @@
                                             top: 7px;
                                             right: -17px;
                                             min-width: 140px;
+                                        }
+                                        .action{
+                                            -webkit-box-sizing: border-box;
+                                            -moz-box-sizing: border-box;
+                                            box-sizing: border-box;
+                                            margin-right: 0px;
+                                            margin-left: -4px;
+                                            float: right;
+                                            min-width: 22px;
+                                            color: #919191;
+                                            border-radius: 3px;
+                                            padding: 0px;
+                                            border: none;
+                                            text-align: center;
                                         }
                                     }
                                 }
