@@ -17859,13 +17859,26 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .cover div.cover-course-status.course-ended {
   color: #c0392b;
 }
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back {
+  height: 222px;
+  width: 100%;
+  position: absolute;
+  background: white;
+  z-index: 10;
+  padding: 4%;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back:hover {
+  opacity: 1;
+}
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course {
   margin: 3px 5px;
   background-color: #ffffff;
   border: 1px solid #c9caca;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details {
-  height: 200px;
+  height: 220px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .course-actions .wrapper-action-more {
   display: inline-block;

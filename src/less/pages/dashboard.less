@@ -88,11 +88,13 @@
     .my-courses {
         width: 100% !important;
         header.wrapper-header-courses{
-            border: 0 none;
-            margin: 0 0 12px 0;
+                margin: 0 5px 12px 5px;
+                height: 45px;
+                border: 1px solid #E8E1E1;
+                padding: 7px 10px;
+                background: white;
             .header-courses{
                 font-size: 12px;
-                line-height: 16.64px;
                 font-weight: 600;
                 color: slategrey;
             }
@@ -204,12 +206,39 @@
                         }
                     }
                 }
+                .course-back{
+                        height: 212px;
+                        width: ~"calc(100% - 10px);"
+                        padding: 4%;
+                        top: 3px;
+                        left: 5px;
+                        position: absolute;
+                        background: white;
+                        z-index: 10;
+                        opacity: 0;
+                        transition: ease-in .2s all;
+                    &:hover{
+                        opacity: 1;
+                    }
+                    .details{
+                        190px;
+                        .short-description{
+                            font-size: 11px;
+                            text-align: justify;
+                            color: #383B3E;
+                            line-height: 19px;
+                            height: 150px;
+                            margin-bottom: 10px;
+                        }
+
+                    }
+                }
                 .course{
                     margin: 3px 5px;
                     background-color: @white;
                     border: 1px solid @color-fourth;
                     .details{
-                        height: 200px;
+                        height: 210px;
                         .course-actions{ 
                             .wrapper-action-more{
                                 display: inline-block;
@@ -221,7 +250,8 @@
                                 -moz-box-sizing: border-box;
                                 box-sizing: border-box;
                                 margin-right: 0px;
-                                margin-left: -4px;
+                                margin-left: -7px;
+                                margin-top: 6px;
                                 float: right;
                                 min-width: 22px;
                                 color: #919191;
@@ -257,12 +287,13 @@
                         }
                         .wrapper-course-details:first-child{
                             border-bottom: 1px solid #DCD7D7;
+                            height: ~"calc(55px)";
                         }
                         .wrapper-course-details{
                                 display: block;
                                 float: left;
                                 width: 100%;
-                                height: ~"calc(50px)";
+                                height: ~"calc(30px)";
                                 position: relative;
                                 padding: 0;
                             .course-title{
@@ -284,6 +315,7 @@
                                 margin-top: -2px;
                                 span{
                                     font-size: 12px !important;
+                                    margin-top: 5px;
                                 }
                                 .info-university{padding-left: 5%;}
                                 .info-course-id{padding-left: 5%;}

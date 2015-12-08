@@ -110,7 +110,7 @@ header.global, header.global-new, header.global.slim {
 
             a {
                 &.cta-login, &.cta-register {
-                    .ionisx-btn(@color-primary, @white);
+                    .ionisx-btn(@color-primary, @black);
 
                     text-transform: none;
                 }
@@ -125,7 +125,7 @@ header.global, header.global-new, header.global.slim {
             margin: 0;
 
             > li.primary > a {
-                .ionisx-btn(@white, @color-primary);
+                .ionisx-btn(@white, @black);
 
                 border-radius: 0;
                 border-top-left-radius: 4px;
@@ -146,7 +146,7 @@ header.global, header.global-new, header.global.slim {
                 }
 
                 &.dropdown.active {
-                    .ionisx-btn-hover(@color-primary, @white);
+                    .ionisx-btn-hover(@color-primary, @black);
                 }
 
                 &.dropdown {
@@ -191,16 +191,16 @@ header.global, header.global-new, header.global.slim {
                         outline: none;
                         padding: 0;
                         letter-spacing: normal;
-                        color: inherit;
+                        color: @black;
 
                         &:hover, &:focus, &:active {
                             background: none;
-                            color: inherit;
+                            color: @white;
                         }
                     }
 
                     &:hover {
-                        background-color: @color-primary;
+                        background-color: #4E4747;
                         color: @white;
 
                         > a {
