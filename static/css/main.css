@@ -10605,7 +10605,7 @@ body header.global.slim > nav .nav-global a,
   font-weight: 500;
   letter-spacing: inherit;
   padding: 0;
-  color: #ffffff;
+  color: #080808;
   text-transform: none;
   border: 0 none;
 }
@@ -10621,7 +10621,7 @@ body header.global.slim > nav .nav-global a:hover,
 .view-login header.global.slim > nav .nav-global a:hover,
 .view-register header.global.slim > nav .nav-global a:hover,
 .view-passwordreset header.global.slim > nav .nav-global a:hover {
-  color: #ffffff;
+  color: #212121;
 }
 body header.global > nav .nav-global a:focus,
 .view-login header.global > nav .nav-global a:focus,
@@ -10635,7 +10635,7 @@ body header.global.slim > nav .nav-global a:focus,
 .view-login header.global.slim > nav .nav-global a:focus,
 .view-register header.global.slim > nav .nav-global a:focus,
 .view-passwordreset header.global.slim > nav .nav-global a:focus {
-  color: #ffffff;
+  color: #212121;
   text-decoration: underline;
 }
 body header.global > nav .nav-global a.cta-register,
@@ -10741,7 +10741,8 @@ body header.global.slim > nav .nav-courseware a.cta-register,
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: #080808;
+  border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
   transition: all 0.1s ease-in;
@@ -10750,7 +10751,7 @@ body header.global.slim > nav .nav-courseware a.cta-register,
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #ffffff;
+  border-color: #080808;
   text-transform: none;
 }
 body header.global > nav .nav-courseware a.cta-login:focus,
@@ -11206,7 +11207,7 @@ body header.global.slim > nav .nav-courseware a.cta-register.focus,
 .view-register header.global.slim > nav .nav-courseware a.cta-register.focus,
 .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register.focus {
   color: #ffffff;
-  background-color: #e6e6e6;
+  background-color: #000000;
   border-color: #bfbfbf;
 }
 body header.global > nav .nav-courseware a.cta-login:hover,
@@ -11234,7 +11235,7 @@ body header.global.slim > nav .nav-courseware a.cta-register:hover,
 .view-register header.global.slim > nav .nav-courseware a.cta-register:hover,
 .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register:hover {
   color: #ffffff;
-  background-color: #e6e6e6;
+  background-color: #000000;
   border-color: #e0e0e0;
 }
 body header.global > nav .nav-courseware a.cta-login:active,
@@ -11310,7 +11311,7 @@ body header.global.slim > nav .nav-courseware a.cta-register.active,
 .open > .dropdown-toggle.view-register header.global.slim > nav .nav-courseware a.cta-register,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav .nav-courseware a.cta-register {
   color: #ffffff;
-  background-color: #e6e6e6;
+  background-color: #000000;
   border-color: #e0e0e0;
 }
 body header.global > nav .nav-courseware a.cta-login:active:hover,
@@ -11530,7 +11531,7 @@ body header.global.slim > nav .nav-courseware a.cta-register.active.focus,
 .open > .dropdown-toggle.view-register header.global.slim > nav .nav-courseware a.cta-register.focus,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav .nav-courseware a.cta-register.focus {
   color: #ffffff;
-  background-color: #d4d4d4;
+  background-color: #000000;
   border-color: #bfbfbf;
 }
 body header.global > nav .nav-courseware a.cta-login:active,
@@ -11823,7 +11824,7 @@ fieldset[disabled] body header.global.slim > nav .nav-courseware a.cta-register.
 fieldset[disabled] .view-login header.global.slim > nav .nav-courseware a.cta-register.focus,
 fieldset[disabled] .view-register header.global.slim > nav .nav-courseware a.cta-register.focus,
 fieldset[disabled] .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register.focus {
-  background-color: #ffffff;
+  background-color: #080808;
   border-color: #ffffff;
 }
 body header.global > nav .nav-courseware a.cta-login .badge,
@@ -11850,7 +11851,7 @@ body header.global.slim > nav .nav-courseware a.cta-register .badge,
 .view-login header.global.slim > nav .nav-courseware a.cta-register .badge,
 .view-register header.global.slim > nav .nav-courseware a.cta-register .badge,
 .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register .badge {
-  color: #ffffff;
+  color: #080808;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -11905,7 +11906,7 @@ body header.global.slim > nav .nav-courseware a.cta-register:focus,
 .view-login header.global.slim > nav .nav-courseware a.cta-register:focus,
 .view-register header.global.slim > nav .nav-courseware a.cta-register:focus,
 .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register:focus {
-  background-color: #ffffff;
+  background-color: #080808;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -11959,9 +11960,10 @@ body header.global.slim > nav .nav-courseware a.cta-register:active,
 .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register:active {
   background: none;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #080808;
   box-shadow: none;
   border-color: #ffffff;
+  border-color: #080808;
   outline: none;
 }
 body header.global > nav .nav-courseware a.cta-login:hover,
@@ -11990,7 +11992,8 @@ body header.global.slim > nav .nav-courseware a.cta-register:hover,
 .view-passwordreset header.global.slim > nav .nav-courseware a.cta-register:hover {
   background: none;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #080808;
+  border-color: #080808;
   box-shadow: none;
   border-color: #ffffff;
 }
@@ -12057,7 +12060,8 @@ body header.global.slim > nav ol.user > li.primary > a,
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: #080808;
+  border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
   transition: all 0.1s ease-in;
@@ -12066,7 +12070,7 @@ body header.global.slim > nav ol.user > li.primary > a,
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #ffffff;
+  border-color: #080808;
   border-radius: 0;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -12309,7 +12313,7 @@ body header.global.slim > nav ol.user > li.primary > a.focus,
 .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
   color: #ffffff;
-  background-color: #e6e6e6;
+  background-color: #000000;
   border-color: #bfbfbf;
 }
 body header.global > nav ol.user > li.primary > a:hover,
@@ -12325,7 +12329,7 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
   color: #ffffff;
-  background-color: #e6e6e6;
+  background-color: #000000;
   border-color: #e0e0e0;
 }
 body header.global > nav ol.user > li.primary > a:active,
@@ -12365,7 +12369,7 @@ body header.global.slim > nav ol.user > li.primary > a.active,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a {
   color: #ffffff;
-  background-color: #e6e6e6;
+  background-color: #000000;
   border-color: #e0e0e0;
 }
 body header.global > nav ol.user > li.primary > a:active:hover,
@@ -12477,7 +12481,7 @@ body header.global.slim > nav ol.user > li.primary > a.active.focus,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
   color: #ffffff;
-  background-color: #d4d4d4;
+  background-color: #000000;
   border-color: #bfbfbf;
 }
 body header.global > nav ol.user > li.primary > a:active,
@@ -12626,7 +12630,7 @@ fieldset[disabled] body header.global.slim > nav ol.user > li.primary > a.focus,
 fieldset[disabled] .view-login header.global.slim > nav ol.user > li.primary > a.focus,
 fieldset[disabled] .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 fieldset[disabled] .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  background-color: #ffffff;
+  background-color: #080808;
   border-color: #ffffff;
 }
 body header.global > nav ol.user > li.primary > a .badge,
@@ -12641,7 +12645,7 @@ body header.global.slim > nav ol.user > li.primary > a .badge,
 .view-login header.global.slim > nav ol.user > li.primary > a .badge,
 .view-register header.global.slim > nav ol.user > li.primary > a .badge,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a .badge {
-  color: #ffffff;
+  color: #080808;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -12672,7 +12676,7 @@ body header.global.slim > nav ol.user > li.primary > a:focus,
 .view-login header.global.slim > nav ol.user > li.primary > a:focus,
 .view-register header.global.slim > nav ol.user > li.primary > a:focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:focus {
-  background-color: #ffffff;
+  background-color: #080808;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -12702,9 +12706,10 @@ body header.global.slim > nav ol.user > li.primary > a:active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:active {
   background: none;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #080808;
   box-shadow: none;
   border-color: #ffffff;
+  border-color: #080808;
   outline: none;
 }
 body header.global > nav ol.user > li.primary > a:hover,
@@ -12721,7 +12726,8 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
   background: none;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #080808;
+  border-color: #080808;
   box-shadow: none;
   border-color: #ffffff;
 }
@@ -12782,7 +12788,8 @@ body header.global.slim > nav ol.user > li.primary > a.dropdown.active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown.active {
   background: none;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #080808;
+  border-color: #080808;
   box-shadow: none;
   border-color: #ffffff;
 }
@@ -12890,7 +12897,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li > a,
   outline: none;
   padding: 0;
   letter-spacing: normal;
-  color: inherit;
+  color: #080808;
 }
 body header.global > nav ol.user ul.dropdown-menu > li > a:hover,
 .view-login header.global > nav ol.user ul.dropdown-menu > li > a:hover,
@@ -12929,7 +12936,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li > a:active {
   background: none;
-  color: inherit;
+  color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global > nav ol.user ul.dropdown-menu > li:hover,
@@ -12943,7 +12950,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li:hover {
-  background-color: #ffffff;
+  background-color: #4E4747;
   color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover > a,
@@ -17612,12 +17619,14 @@ body .content-wrapper,
   padding: 0;
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses {
-  border: 0 none;
-  margin: 0 0 12px 0;
+  margin: 0 5px 12px 5px;
+  height: 45px;
+  border: 1px solid #E8E1E1;
+  padding: 7px 10px;
+  background: white;
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses .header-courses {
   font-size: 12px;
-  line-height: 16.64px;
   font-weight: 600;
   color: slategrey;
 }
@@ -17860,17 +17869,30 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   color: #c0392b;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back {
-  height: 222px;
-  width: 100%;
+  height: 212px;
+  width: calc(100% - 10px);
+  padding: 4%;
+  top: 3px;
+  left: 5px;
   position: absolute;
   background: white;
   z-index: 10;
-  padding: 4%;
   opacity: 0;
-  transition: all 0.2s ease-in;
+  transition: ease-in 0.2s all;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back:hover {
   opacity: 1;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .details {
+  height: 190px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .details .short-description {
+  font-size: 11px;
+  text-align: justify;
+  color: #383B3E;
+  line-height: 19px;
+  height: 150px;
+  margin-bottom: 10px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course {
   margin: 3px 5px;
@@ -17878,7 +17900,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   border: 1px solid #c9caca;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details {
-  height: 220px;
+  height: 210px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .course-actions .wrapper-action-more {
   display: inline-block;
@@ -17890,7 +17912,8 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-right: 0px;
-  margin-left: -4px;
+  margin-left: -7px;
+  margin-top: 6px;
   float: right;
   min-width: 22px;
   color: #919191;
@@ -17925,12 +17948,13 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child {
   border-bottom: 1px solid #DCD7D7;
+  height: calc(55px);
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details {
   display: block;
   float: left;
   width: 100%;
-  height: calc(50px);
+  height: calc(30px);
   position: relative;
   padding: 0;
 }
@@ -17954,6 +17978,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info span {
   font-size: 12px !important;
+  margin-top: 5px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .course-info .info-university {
   padding-left: 5%;
@@ -17990,48 +18015,6 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   padding: 0px;
   border: none;
   text-align: center;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 {
-  display: block;
-  float: left;
-  width: 100%;
-  height: calc(150px - 3%);
-  position: relative;
-  padding: 0;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-title {
-  margin: 0px;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-title a {
-  font-size: 13px;
-  line-height: 16px;
-  margin: 0px;
-  font-weight: 600;
-  color: #616277;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-info {
-  margin: 0px;
-  display: block;
-  float: left;
-  width: 90%;
-  padding: 0;
-  margin-top: -2px;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .course-info span {
-  font-size: 12px !important;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .wrapper-course-actions {
-  display: block;
-  float: right;
-  width: 7%;
-  padding: 0;
-  margin-top: -2px;
-}
-.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details2 .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
-  position: absolute;
-  top: 7px;
-  right: -17px;
-  min-width: 140px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info {
   width: 100%;
