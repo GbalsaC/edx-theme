@@ -2,9 +2,33 @@ body.view-incourse{
     .content-wrapper{
         .container {
             .course-wrapper {
+                .course-content{
+                    .sequence-nav{
+                        button{
+                            background: none;
+                            border: 2px solid transparent;
+                            box-shadow: none;
+                            height: 44px;
+                            overflow: hidden;
+                            text-shadow: none;
+                            transition: none;
+                            color: @color-secondary;
+                        }
+                        .button.disabled{
+                            opacity: 0;
+                        }
+                    }
+                }
                 .course-index {
                     #accordion {
                         .chapter {
+                            ul{
+                                li{
+                                    a{
+                                        color: @color-secondary;
+                                    }
+                                }
+                            }
                             h3.active {
                                 a{
                                     color: #0078b0;
@@ -226,7 +250,7 @@ body.view-incourse{
                             background: none;
                             border: 0 none;
                             box-shadow: none;
-                            color: @white;
+                            color: @black;
                             border-top: 2px solid @color-border;
                             border-bottom: 2px solid @color-border;
 
@@ -236,7 +260,7 @@ body.view-incourse{
 
                             &.active {
                                 border-color: @color-primary;
-                                color: @color-primary;
+                                color: @color-secondary;
 
                                 @media (max-width: @screen-sm-max) {
                                     display: block;

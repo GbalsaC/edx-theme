@@ -41,7 +41,7 @@ header.global, header.global-new, header.global.slim {
                 @media (max-width: @screen-xs-max) {
                     .size(@logo-sm-img-width, 36px);
 
-                    background-image: url(@logo-sm-img-path);
+                    background-image: url(@logo-img-path);
                 }
             }
         }
@@ -125,7 +125,7 @@ header.global, header.global-new, header.global.slim {
             margin: 0;
 
             > li.primary > a {
-                .ionisx-btn(@white, @black);
+                .ionisx-btn(#696161, @white);
 
                 border-radius: 0;
                 border-top-left-radius: 4px;
@@ -184,7 +184,7 @@ header.global, header.global-new, header.global.slim {
                     transition: all .1s ease-in;
                     border: 0 none;
                     padding: 2px 8px;
-                    color: @color-primary;
+                    color: @black;
 
                     > a {
                         border: 0 none;
@@ -194,7 +194,7 @@ header.global, header.global-new, header.global.slim {
                         color: @black;
 
                         &:hover, &:focus, &:active {
-                            background: none;
+                            background: #4E4747;
                             color: @white;
                         }
                     }
