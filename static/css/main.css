@@ -12934,8 +12934,8 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li > a:active {
-  background: #4E4747;
-  color: #ffffff;
+  background: #ffffff;
+  color: #080808;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global > nav ol.user ul.dropdown-menu > li:hover,
@@ -17912,6 +17912,9 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   color: #fff;
   margin: 0px 20px;
 }
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details {
+  background-color: #ffffff;
+}
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions {
   display: block;
   float: right;
@@ -18018,7 +18021,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   display: block;
   float: left;
   width: 100%;
-  height: calc(30px);
+  height: calc(35px);
   position: relative;
   padding: 0;
 }
