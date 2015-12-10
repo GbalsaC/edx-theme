@@ -89,7 +89,7 @@
         width: ~"100% !important";
         header.wrapper-header-courses{
                 margin: 0 5px 12px 5px;
-                height: 45px;
+                height: 50px;
                 border: 1px solid #E8E1E1;
                 padding: 7px 10px;
                 background: white;
@@ -152,7 +152,6 @@
                 .cover {
                     .size(100%, auto);
 
-                    background-color: @color-background;
                     transition: none;
                     max-height: none;
                     text-align: center;
@@ -162,18 +161,16 @@
                     display: block;
 
                     @media (max-width: @screen-sm-max) {
-                        .size(100%, auto);
-
+                        
                         float: none;
-                        margin-bottom: 20px;
                     }
 
                     img {
-                        min-height: 0;
-
+                       .size(65%, auto);
+                        margin: 12% 10%;
                         @media (min-width: @screen-md-min) {
-                            .size(100%, auto);
-
+                            .size(80%, auto);
+                            margin: 10%;
                             max-height: 120px;
                         }
                     }
@@ -207,7 +204,7 @@
                     }
                 }
                 .course-back{
-                        height: 212px;
+                        height: 294px;
                         width: ~"calc(100% - 10px)";
                         padding: 4%;
                         top: 3px;
@@ -230,23 +227,23 @@
                                 text-align: justify;
                                 color: #383B3E;
                                 line-height: 19px;
-                                height: 150px;
-                                margin-bottom: 10px;
+                                height: 160px;
+                                margin-bottom: 50px;
                             }
                             .enter-course{
                                         -webkit-box-sizing: border-box;
                                         -moz-box-sizing: border-box;
                                         box-sizing: border-box;
                                         letter-spacing: 0;
-                                        border: 1px solid #173240;
-                                        border-radius: 3px;
+                                        border: 1px solid #2F8DB9;
+                                        border-radius: 30px;
                                         padding: 10px 14px;
                                         text-align: center;
                                         float: left;
                                         line-height: 16px;
-                                        background-color: #0d4e6c;
+                                        background-color: #2F8DB9;
                                         color: #fff;
-                                        margin: 0px 20px;
+                                        margin: 0px 20px 0px 36px;
                             }
                             .wrapper-course-details{
                                 background-color: @white;
@@ -274,7 +271,7 @@
                                                     text-align: center;
                                                     .fa{
                                                         font-size: 27px;
-                                                        color:#0D4E6C;
+                                                        color:#2F8DB9;
 
                                                     }
                                             }
@@ -311,7 +308,7 @@
                     background-color: @white;
                     border: 1px solid @color-fourth;
                     .details{
-                        height: 210px;
+                        height: 292px;
                         .course-actions{ 
                             .wrapper-action-more{
                                 display: inline-block;
@@ -352,7 +349,8 @@
                         }
                         .wrapper-course-image{
                             width: 100%;
-                            height: 120px;
+                            height: 170px;
+                            background-color:#F9F9F9; 
                             margin: 0px;
                             padding: 0%;
                             overflow: hidden;
@@ -360,15 +358,17 @@
                         }
                         .wrapper-course-details:first-child{
                             border-bottom: 1px solid #DCD7D7;
-                            height: ~"calc(55px)";
+                            height: ~"calc(70px)";
+                            padding-top:10px;
+                            padding-bottom: 17px;
                         }
                         .wrapper-course-details{
                                 display: block;
                                 float: left;
                                 width: 100%;
-                                height: ~"calc(35px)";
+                                height: ~"calc(50px)";
                                 position: relative;
-                                padding: 0;
+                                padding: 10px 0;
                             .course-title{
                                 margin: 0px;
                                 a{
@@ -404,6 +404,9 @@
                                 margin-top: -2px;
                                 .course-actions{
                                     .wrapper-action-more{
+                                        .fa{
+                                           color: #677377; 
+                                        }
                                         .actions-dropdown{
                                             position: absolute;
                                             top: 7px;
