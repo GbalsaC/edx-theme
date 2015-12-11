@@ -17754,8 +17754,36 @@ body .content-wrapper,
   padding: 7px 10px;
   background: white;
 }
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses .iconContent i {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 6px;
+  color: gray;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses .iconContent i:hover {
+  color: #4A6EB3;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses select,
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses input[type=text] {
+  -webkit-font-smoothing: auto;
+  -webkit-appearance: none;
+  background: none;
+  background-color: #ffffff;
+  font: inherit;
+  color: inherit;
+  box-shadow: none;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  outline: none;
+  padding: 4px .5em;
+  height: 35px;
+  transition: all 0.1s ease-in;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses input[type=text] {
+  border-right: 1px solid rgba(210, 203, 203, 0.47);
+}
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses .header-courses {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   color: slategrey;
 }
