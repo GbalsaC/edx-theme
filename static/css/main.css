@@ -12889,6 +12889,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li,
   border: 0 none;
   padding: 2px 8px;
   color: #080808;
+  background-color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li > a,
 .view-login header.global > nav ol.user ul.dropdown-menu > li > a,
@@ -12906,7 +12907,8 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li > a,
   outline: none;
   padding: 0;
   letter-spacing: normal;
-  color: #080808;
+  color: inherit;
+  background-color: inherit;
 }
 body header.global > nav ol.user ul.dropdown-menu > li > a:hover,
 .view-login header.global > nav ol.user ul.dropdown-menu > li > a:hover,
@@ -12944,8 +12946,8 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li > a:active,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li > a:active {
-  background: #ffffff;
-  color: #080808;
+  background: #080808;
+  color: inherit;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global > nav ol.user ul.dropdown-menu > li:hover,
@@ -12959,7 +12961,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li:hover {
-  background-color: #4E4747;
+  background-color: #080808;
   color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover > a,
@@ -17768,7 +17770,7 @@ body .content-wrapper,
   -webkit-font-smoothing: auto;
   -webkit-appearance: none;
   background: none;
-  background-color: #ffffff;
+  background-color: #fafaf9;
   font: inherit;
   color: inherit;
   box-shadow: none;
