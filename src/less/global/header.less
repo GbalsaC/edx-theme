@@ -185,22 +185,24 @@ header.global, header.global-new, header.global.slim {
                     border: 0 none;
                     padding: 2px 8px;
                     color: @black;
+                    background-color: @white;
 
                     > a {
                         border: 0 none;
                         outline: none;
                         padding: 0;
                         letter-spacing: normal;
-                        color: @black;
+                        color: inherit;
+                        background-color: inherit;
 
                         &:hover, &:focus, &:active {
-                            background: @white;
-                            color: @black;
+                            background: @black;
+                            color: inherit;
                         }
                     }
 
                     &:hover {
-                        background-color: #4E4747;
+                        background-color: @black;
                         color: @white;
 
                         > a {
