@@ -9726,6 +9726,12 @@ body,
 .view-passwordreset {
   background-color: #ffffff;
 }
+body nav.nav-course .label,
+.view-login nav.nav-course .label,
+.view-register nav.nav-course .label,
+.view-passwordreset nav.nav-course .label {
+  color: #353434;
+}
 body header.global,
 .view-login header.global,
 .view-register header.global,
@@ -10444,6 +10450,23 @@ body header.global.slim > nav > .navbar-collapse,
     margin-right: 0;
     margin-left: 0;
   }
+}
+body header.global > nav h1.menu,
+.view-login header.global > nav h1.menu,
+.view-register header.global > nav h1.menu,
+.view-passwordreset header.global > nav h1.menu,
+body header.global-new > nav h1.menu,
+.view-login header.global-new > nav h1.menu,
+.view-register header.global-new > nav h1.menu,
+.view-passwordreset header.global-new > nav h1.menu,
+body header.global.slim > nav h1.menu,
+.view-login header.global.slim > nav h1.menu,
+.view-register header.global.slim > nav h1.menu,
+.view-passwordreset header.global.slim > nav h1.menu {
+  width: 30px;
+  float: left;
+  margin: 0 30px 0 0;
+  font-size: 30px;
 }
 body header.global > nav h1.logo,
 .view-login header.global > nav h1.logo,
