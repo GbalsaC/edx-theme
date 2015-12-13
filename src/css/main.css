@@ -10558,7 +10558,7 @@ body header.global.slim > nav h2,
   margin: 0.9em 0 0 0;
   padding: 0;
   text-shadow: none;
-  color: #ffffff;
+  color: #6D6868;
 }
 @media (max-width: 991px) {
   body header.global > nav h2,
