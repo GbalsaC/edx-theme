@@ -10589,7 +10589,7 @@ body header.global.slim > nav h2.course-header,
 .view-register header.global.slim > nav h2.course-header,
 .view-passwordreset header.global.slim > nav h2.course-header {
   font-weight: 100;
-  margin: 0;
+  margin: 10px 0 0 0;
   font-size: 1.5em;
 }
 body header.global > nav .no-margin,
@@ -12147,7 +12147,7 @@ body header.global.slim > nav ol.user > li.primary > a,
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: none !important;
+  border: none !important;
   border-radius: 0;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -18101,7 +18101,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   top: 3px;
   left: 5px;
   position: absolute;
-  background: white;
+  background: rgba(255, 255, 255, 0.85);
   z-index: 10;
   opacity: 0;
   transition: ease-in 0.2s all;
@@ -18112,6 +18112,7 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .course {
   margin: 0px;
   border: none;
+  background-color: transparent;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .course .details {
   height: 190px;
@@ -21604,8 +21605,42 @@ body.view-incourse .content-wrapper .container > div .wrap-instructor-info {
   float: right;
   margin: 0;
 }
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs li {
+  float: left;
+  list-style: none;
+  margin: 0 0.5em 0 0;
+}
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs li a {
+  font: inherit;
+  color: inherit;
+  font-weight: 200;
+  border-radius: 4px;
+  padding: 8px 12px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs2 li {
+  float: left;
+  list-style: none;
+  margin: 0 0.5em 0 0;
+}
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs2 li a {
+  font: inherit;
+  color: inherit;
+  font-weight: 200;
+  border-radius: 4px;
+  padding: 8px 12px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper {
+  background-color: transparent;
+}
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button {
-  background: none;
   border: 2px solid transparent;
   box-shadow: none;
   height: 44px;
@@ -21613,6 +21648,16 @@ body.view-incourse .content-wrapper .container body.view-incourse .content-wrapp
   text-shadow: none;
   transition: none;
   color: #058ed0;
+  background: none;
+  -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+  -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+  position: absolute;
+  display: block;
+  top: 0;
+  width: 40px;
+  height: 46px;
+  padding: 0;
 }
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .button.disabled {
   opacity: 0;
@@ -21755,9 +21800,10 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content {
   padding-left: 15px;
   padding-right: 15px;
   font: inherit;
+  background-color: transparent;
   display: block;
   margin: 0 0 0 -1px;
-  padding: 30px;
+  padding: 0px 30px;
   border-left: 1px solid transparent;
 }
 @media (min-width: 992px) {
@@ -21776,6 +21822,10 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content {
   body.view-incourse .content-wrapper .container .course-wrapper .course-content {
     padding: 10px;
   }
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock {
+  background-color: white;
+  padding: 30px 10px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_VerticalModule .vert-mod .vert {
   border: 0 none;
@@ -22908,8 +22958,10 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   color: #bdc3c7;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav {
-  margin: 0 0 2em 0;
+  margin: 0;
   border: 0 none;
+  height: 46px;
+  background-color: #F7F7F7;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button {
   background: none;
@@ -22927,6 +22979,12 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.disabled .icon {
   opacity: 0.5;
 }
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-previous {
+  right: 40px;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-next {
+  right: 0px;
+}
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper {
   background: none;
   box-shadow: none;
@@ -22936,6 +22994,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper .left-shadow,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper .right-shadow {
+  display: none;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol#sequence-list {
   display: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol {
