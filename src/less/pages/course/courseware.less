@@ -104,6 +104,7 @@ body.view-incourse{
     .size(100%, auto);
 
     padding: 0;
+    background-color: transparent;
 
     .course-index {
         h3.active {
@@ -260,6 +261,7 @@ body.view-incourse{
             border: 0 none;
             height: 46px;
             background-color: #F7F7F7;
+            position: relative;
 
             button {
                 background: none;
@@ -269,6 +271,7 @@ body.view-incourse{
                 overflow: hidden;
                 text-shadow: none;
                 transition: none;
+                position: absolute;
 
                 &.disabled {
                     background-color: fade(@color-disabled, 25%);
