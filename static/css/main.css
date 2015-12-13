@@ -21663,7 +21663,7 @@ body.view-incourse .content-wrapper .container body.view-incourse .content-wrapp
   opacity: 0;
 }
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
-  color: #058ed0;
+  color: #796C6C;
 }
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3.active a {
   color: #0078b0;
@@ -21751,6 +21751,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li {
   margin: 0 0 0.6em 0;
+  color: #796C6C;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li:last-child {
   margin: 0;
@@ -21781,6 +21782,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
   position: absolute;
   right: 0.5em;
   bottom: 0.15em;
+  color: #2D88CE;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li.graded img {
   display: none;
@@ -21791,7 +21793,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li.active a {
   border-color: #ffffff;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #000000;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content {
   width: 100%;
@@ -22964,6 +22966,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   height: 46px;
   background-color: #F7F7F7;
   position: relative;
+  width: calc(120%);
+  left: -10px;
+  top: -30px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button {
   background: none;
@@ -22984,9 +22989,12 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-previous {
   right: 40px;
+  position: absolute;
+  left: initial;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-next {
   right: 0px;
+  position: absolute;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper {
   background: none;

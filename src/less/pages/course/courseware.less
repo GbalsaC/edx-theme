@@ -83,7 +83,7 @@ body.view-incourse{
                             ul{
                                 li{
                                     a{
-                                        color: @color-secondary;
+                                        color: #796C6C;
                                     }
                                 }
                             }
@@ -179,7 +179,7 @@ body.view-incourse{
 
                     li {
                         margin: 0 0 0.6em 0;
-
+                        color: #796C6C;
                         &:last-child {
                             margin: 0;
                         }
@@ -215,6 +215,7 @@ body.view-incourse{
                                 position: absolute;
                                 right: 0.5em;
                                 bottom: 0.15em;
+                                color: #2D88CE;
                             }
 
                             img {
@@ -228,7 +229,7 @@ body.view-incourse{
                             a {
                                 border-color: @color-primary;
                                 background-color: @color-primary;
-                                color: @white;
+                                color: #000000;
                             }
                         }
                     }
@@ -262,6 +263,10 @@ body.view-incourse{
             height: 46px;
             background-color: #F7F7F7;
             position: relative;
+            width: calc(100% + 20px);
+            left: -10px;
+            top: -30px;
+
 
             button {
                 background: none;
@@ -284,9 +289,12 @@ body.view-incourse{
             }
             button.button-previous{
                 right: 40px;
+                position: absolute;
+                left: initial;
             }
             button.button-next{
                 right: 0px;
+                position: absolute;
             }
 
             .sequence-list-wrapper {
