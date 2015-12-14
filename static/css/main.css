@@ -21732,6 +21732,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter {
   border-radius: 0;
   background-image: none;
+  background-color: white;
   box-shadow: none;
   border-bottom: 1px solid transparent;
   padding: 0;
@@ -21788,7 +21789,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a p.subtitle {
   color: #080808;
-  margin-left: 38px;
+  margin-left: 43px;
   margin-top: 6px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li.graded a:after {
