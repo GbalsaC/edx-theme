@@ -21621,6 +21621,15 @@ body.view-incourse .content-wrapper .container body.view-courseware .content-wra
   font-size: 14px;
   text-decoration: none;
 }
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material ol.course-tracker {
+  background-color: #ffffff;
+}
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material ol.course-tracker li a {
+  font-size: 21px;
+}
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material ol.course-tracker li a i {
+  color: #598FD8;
+}
 body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs2 li {
   float: left;
   list-style: none;
@@ -21806,7 +21815,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content {
   background-color: transparent;
   display: block;
   margin: 0 0 0 -1px;
-  padding: 0px 30px;
+  padding: 0px 0px 0px 30px;
   border-left: 1px solid transparent;
 }
 @media (min-width: 992px) {
@@ -23006,6 +23015,24 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper .left-shadow,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper .right-shadow {
   display: none;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol#icon-holder h3 {
+  margin-top: 14px;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol#icon-holder a {
+  background-color: #6EB8E9;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -16px;
+  color: white;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol#icon-holder a i {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol#sequence-list {
   display: none;
