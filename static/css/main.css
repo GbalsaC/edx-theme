@@ -21611,7 +21611,6 @@ body.view-incourse .content-wrapper .container body.view-courseware .content-wra
   margin: 0 0.5em 0 0;
 }
 body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs li a {
-  font: inherit;
   color: inherit;
   font-weight: 200;
   border-radius: 4px;
@@ -21620,6 +21619,9 @@ body.view-incourse .content-wrapper .container body.view-courseware .content-wra
   text-align: center;
   font-size: 14px;
   text-decoration: none;
+}
+body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material .course-tabs li a i {
+  color: #598FD8;
 }
 body.view-incourse .content-wrapper .container body.view-courseware .content-wrapper .wrapper-course-material ol.course-tracker {
   background-color: #ffffff;
@@ -21770,7 +21772,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
   font: inherit;
-  color: #ffffff;
+  color: #080808;
   background: none;
   padding: 0.3em 0.5em;
   border-radius: 4px;
