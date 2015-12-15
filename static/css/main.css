@@ -18471,10 +18471,11 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item {
   border: 0 none;
-  padding: 0;
+  padding: 0 15px 15px 15px;
   transition: all 0.1s ease-in;
   background-color: transparent;
   border-radius: 4px;
+  list-style: none;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item:last-child {
   margin: 0;
@@ -18703,9 +18704,13 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
   margin: 0px;
   display: block;
   float: left;
-  width: 90%;
+  width: 100%;
+  height: 100px;
   padding: 0;
-  margin-top: -2px;
+  margin-top: -9px;
+}
+.content-wrapper > .find-courses .courses .listing-courses .course-item .course .details .wrapper-course-details .course-info h2 {
+  margin: 10px 0;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .course .details .wrapper-course-details .course-info span {
   font-size: 12px !important;
