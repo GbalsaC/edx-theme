@@ -10618,7 +10618,7 @@ body header.global.slim > nav .nav-global,
 .view-login header.global.slim > nav .nav-global,
 .view-register header.global.slim > nav .nav-global,
 .view-passwordreset header.global.slim > nav .nav-global {
-  margin: 0.6em 0 0 0;
+  margin: 1em 0 0 0;
 }
 @media (max-width: 480px) {
   body header.global > nav .nav-global,
@@ -18063,13 +18063,13 @@ fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-me
   }
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .cover img {
-  width: 65%;
+  width: auto;
   height: auto;
   margin: 12% 10%;
 }
 @media (min-width: 992px) {
   .content-wrapper > .dashboard .my-courses .listing-courses .course-item .cover img {
-    width: 80%;
+    width: auto;
     height: auto;
     margin: 10% auto;
     max-height: 120px;
@@ -21793,9 +21793,11 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
   padding-left: 43px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a p.subtitle {
-  color: #080808;
+  color: #504848;
+  padding-left: 0px;
   margin-left: 43px;
   margin-top: 6px;
+  font-size: 12px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li.graded a:after {
   content: '\f017';
