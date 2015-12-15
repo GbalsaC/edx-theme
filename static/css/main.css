@@ -16873,6 +16873,10 @@ body.view-dashboard .window-wrap .content-wrapper section.course-info header.cou
   position: relative;
   width: 100%;
 }
+.view-login header.global > nav .nav-courseware {
+  float: left;
+  margin-top: 10px;
+}
 body .content-wrapper,
 .view-login .content-wrapper,
 .view-register .content-wrapper,
@@ -17060,7 +17064,7 @@ body .content-wrapper,
   display: block;
   font: inherit;
   font-size: 22px;
-  color: #ffffff;
+  color: #080808;
   text-transform: none;
 }
 .content-wrapper > .introduction header h1.title .title-sub {
@@ -19108,7 +19112,7 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
 }
 .content-wrapper > .login .content a {
   font: inherit;
-  color: #ffffff;
+  color: #080808;
 }
 .content-wrapper > .login .content form .status {
   outline: none;
@@ -19543,7 +19547,7 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
 }
 .content-wrapper > .login aside a {
   font: inherit;
-  color: #ffffff;
+  color: #3D9FCE;
 }
 .content-wrapper > .passwordreset {
   width: auto;
