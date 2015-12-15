@@ -19602,7 +19602,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   width: auto;
   height: auto;
   margin: 12% 10%;
-  width: 100% !important;
+  width: auto !important;
 }
 @media (min-width: 992px) {
   .content-wrapper > .dashboard .my-courses .listing-courses .course-item .cover img,
@@ -19610,7 +19610,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
     width: auto;
     height: auto;
     margin: 10% auto;
-    width: 100% !important;
+    width: auto !important;
     max-height: 120px;
   }
 }
