@@ -16845,7 +16845,12 @@ body footer.global .by-ionisx img,
 .view-passwordreset footer.global .by-ionisx img {
   height: 50px;
 }
-body .window-wrap .content-wrapper section.course-info header.course-profile {
+body .content-wrapper section.course-info .course-sidebar > section {
+  box-shadow: none;
+  background-color: white;
+  border: 1px solid #c8c8c8;
+}
+body .content-wrapper section.course-info header.course-profile {
   background: #f5f5f5;
   background-image: none;
   background-size: cover;
@@ -16859,6 +16864,27 @@ body .window-wrap .content-wrapper section.course-info header.course-profile {
   position: relative;
   width: 100%;
 }
+body .content-wrapper section.course-info header.course-profile .intro-inner-wrapper {
+  background: rgba(255, 255, 255, 0.91);
+  border: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 760px;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+body .content-wrapper section.course-info .details {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body .content-wrapper section.course-info .details a {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body .window-wrap .content-wrapper section.course-info header.course-profile,
 body.view-dashboard .window-wrap .content-wrapper section.course-info header.course-profile {
   background: #f5f5f5;
   background-image: none;
