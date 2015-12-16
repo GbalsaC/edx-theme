@@ -10140,20 +10140,6 @@ fieldset[disabled] .view-register header.global.slim .btn-link:focus,
 fieldset[disabled] .view-passwordreset header.global.slim .btn-link:focus {
   color: #cccccc;
 }
-body header.global:hover,
-.view-login header.global:hover,
-.view-register header.global:hover,
-.view-passwordreset header.global:hover,
-body header.global-new:hover,
-.view-login header.global-new:hover,
-.view-register header.global-new:hover,
-.view-passwordreset header.global-new:hover,
-body header.global.slim:hover,
-.view-login header.global.slim:hover,
-.view-register header.global.slim:hover,
-.view-passwordreset header.global.slim:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
 body header.global > nav,
 .view-login header.global > nav,
 .view-register header.global > nav,
@@ -23575,6 +23561,7 @@ body.view-incourse .content-wrapper .wrapper-course-material {
   background: none;
   border-radius: 0;
   box-shadow: none;
+  max-width: 100%;
 }
 body.view-incourse .content-wrapper .course-material,
 body.view-incourse .content-wrapper .course-content {
@@ -23996,6 +23983,7 @@ body.view-incourse .content-wrapper .container body.view-courseware .content-wra
 }
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper {
   background-color: transparent;
+  max-width: 100% !important;
 }
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button {
   border: 2px solid transparent;
@@ -24029,7 +24017,7 @@ body.view-incourse .content-wrapper .container body.view-incourse .content-wrapp
   color: #0078b0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper {
-  width: 100%;
+  width: 98%;
   height: auto;
   padding: 0;
   background-color: transparent;
