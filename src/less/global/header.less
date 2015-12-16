@@ -296,21 +296,20 @@ header.global, header.global-new, header.global.slim {
 
             ul.dropdown-menu2 {
                 width: 200px;
-                height: 500px;
+                height: 457px;
                 padding: 0;
                 z-index: 10;
                 left: -7px;
-                top: 68px;
+                top: 73px;
                 position: absolute;
                 box-shadow: none;
-                border: 1px solid #ffffff;
+                border: 1px solid @white;
                 border-top: 0 none;
                 border-top-right-radius: 0;
                 background-color: #ffffff;
                 padding: 0;
                 z-index: 10;
                 box-shadow: none;
-                border: 1px solid @color-primary;
                 border-top: 0 none;
                 border-top-right-radius: 0;
                 background-color: @white;
@@ -318,11 +317,23 @@ header.global, header.global-new, header.global.slim {
                 &:before {
                     display: none;
                 }
+                li#menuTop::before{
+                    content: " ";
+                    position: absolute;
+                    left: 31px;
+                    top: -9px;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-bottom: 9px solid #FFFFFF;
+
+                }
 
                 > li {
                     transition: all .1s ease-in;
                     border: 0 none;
-                    padding: 10px 8px;
+                    padding: 10px 10px;
                     color: @gray2;
                     background-color: @white;
 

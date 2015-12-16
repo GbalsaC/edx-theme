@@ -13926,14 +13926,14 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 {
   width: 200px;
-  height: 500px;
+  height: 457px;
   left: -7px;
-  top: 68px;
+  top: 73px;
   position: absolute;
+  border: 1px solid #ffffff;
   padding: 0;
   z-index: 10;
   box-shadow: none;
-  border: 1px solid #ffffff;
   border-top: 0 none;
   border-top-right-radius: 0;
   background-color: #ffffff;
@@ -13952,6 +13952,28 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2:before,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2:before {
   display: none;
 }
+body header.global > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-login header.global > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-register header.global > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+body header.global-new > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+body header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before {
+  content: " ";
+  position: absolute;
+  left: 31px;
+  top: -9px;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid #FFFFFF;
+}
 body header.global > nav ol.menu ul.dropdown-menu2 > li,
 .view-login header.global > nav ol.menu ul.dropdown-menu2 > li,
 .view-register header.global > nav ol.menu ul.dropdown-menu2 > li,
@@ -13966,7 +13988,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li {
   transition: all 0.1s ease-in;
   border: 0 none;
-  padding: 10px 8px;
+  padding: 10px 10px;
   color: #8e8787;
   background-color: #ffffff;
 }
@@ -20315,9 +20337,13 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses {
   margin: 0 10px 12px 10px;
   height: 50px;
-  border: 1px solid #E8E1E1;
+  border: none;
   padding: 7px 10px;
   background: white;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses .iconContent,
+.content-wrapper > .dashboard .find-courses header.wrapper-header-courses .iconContent {
+  padding-top: 4px;
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses .iconContent i,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses .iconContent i {
@@ -20332,6 +20358,18 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses select,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses select,
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses select#searchCat,
+.content-wrapper > .dashboard .find-courses header.wrapper-header-courses select#searchCat {
+  color: #BDC3CE;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses select:hover,
+.content-wrapper > .dashboard .find-courses header.wrapper-header-courses select:hover,
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses select#searchCat:hover,
+.content-wrapper > .dashboard .find-courses header.wrapper-header-courses select#searchCat:hover {
+  color: #2F3133 !important;
+}
+.content-wrapper > .dashboard .my-courses header.wrapper-header-courses select,
+.content-wrapper > .dashboard .find-courses header.wrapper-header-courses select,
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses input[type=text],
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses input[type=text] {
   -webkit-font-smoothing: auto;
@@ -20339,7 +20377,6 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
   background: none;
   background-color: #fafaf9;
   font: inherit;
-  color: inherit;
   box-shadow: none;
   border-radius: 4px;
   border: 2px solid transparent;
@@ -20350,6 +20387,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses input[type=text],
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses input[type=text] {
+  color: inherit;
   border-right: 1px solid rgba(210, 203, 203, 0.47);
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses .header-courses,
@@ -20775,7 +20813,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course {
   background-color: #ffffff;
-  border: 1px solid #c9caca;
+  border: none;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details {
@@ -20830,11 +20868,11 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   margin: 0px;
   padding: 0%;
   overflow: hidden;
-  border-bottom: solid 1px #DCD7D7;
+  border-bottom: none;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child {
-  border-bottom: 1px solid #DCD7D7;
+  border-bottom: none;
   height: calc(70px);
   padding-top: 10px;
   padding-bottom: 17px;
