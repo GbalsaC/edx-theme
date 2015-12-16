@@ -4150,7 +4150,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 80px;
+  min-height: 60px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4256,10 +4256,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 30px 15px;
+  padding: 20px 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 80px;
+  height: 60px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4279,8 +4279,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 23px;
-  margin-bottom: 23px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -4304,7 +4304,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 15px -15px;
+  margin: 10px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4342,8 +4342,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 .navbar-form {
@@ -4354,8 +4354,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 23px;
-  margin-bottom: 23px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
@@ -4440,20 +4440,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 23px;
-  margin-bottom: 23px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 .navbar-btn.btn-sm {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .navbar-btn.btn-xs {
-  margin-top: 29px;
-  margin-bottom: 29px;
+  margin-top: 19px;
+  margin-bottom: 19px;
 }
 .navbar-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   .navbar-text {
@@ -6568,8 +6568,8 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper:after,
 body.view-incourse .content-wrapper .course-material:before,
 body.view-incourse .content-wrapper .course-material:after,
-body.view-incourse .content-wrapper #course-content:before,
-body.view-incourse .content-wrapper #course-content:after,
+body.view-incourse .content-wrapper .course-content:before,
+body.view-incourse .content-wrapper .course-content:after,
 body.view-incourse .content-wrapper .container:before,
 body.view-incourse .content-wrapper .container:after,
 body.view-incourse .content-wrapper .container > .discussion-body:before,
@@ -6648,7 +6648,7 @@ body footer.global .footer-container:after,
 .content-wrapper > .activation:after,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper:after,
 body.view-incourse .content-wrapper .course-material:after,
-body.view-incourse .content-wrapper #course-content:after,
+body.view-incourse .content-wrapper .course-content:after,
 body.view-incourse .content-wrapper .container:after,
 body.view-incourse .content-wrapper .container > .discussion-body:after,
 body.view-incourse .content-wrapper > .book-wrapper:after {
@@ -9723,6 +9723,9 @@ textarea:active + span:after {
   margin-left: 0;
   margin-right: 0;
 }
+body {
+  padding-top: 50px;
+}
 body,
 .view-login,
 .view-register,
@@ -9750,11 +9753,14 @@ body header.global.slim,
   width: auto;
   height: auto;
   position: relative;
-  min-height: 80px;
+  min-height: 60px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  width: 100%;
+  top: 0px;
+  position: fixed;
   padding: 0;
   border-width: 0px 0px 1px 0px;
   background-color: #ffffff;
@@ -10347,8 +10353,8 @@ body header.global.slim > nav,
   max-width: none;
   padding-top: 0;
   padding-bottom: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 @media (min-width: 768px) {
   body header.global > nav,
@@ -10469,7 +10475,21 @@ body header.global.slim > nav h1.menu,
   width: 30px;
   float: left;
   margin: 10px 30px 0 0;
-  font-size: 30px;
+  font-size: 20px;
+}
+body header.global > nav h1.menu a,
+.view-login header.global > nav h1.menu a,
+.view-register header.global > nav h1.menu a,
+.view-passwordreset header.global > nav h1.menu a,
+body header.global-new > nav h1.menu a,
+.view-login header.global-new > nav h1.menu a,
+.view-register header.global-new > nav h1.menu a,
+.view-passwordreset header.global-new > nav h1.menu a,
+body header.global.slim > nav h1.menu a,
+.view-login header.global.slim > nav h1.menu a,
+.view-register header.global.slim > nav h1.menu a,
+.view-passwordreset header.global.slim > nav h1.menu a {
+  color: #1a1a1a;
 }
 body header.global > nav h1.logo,
 .view-login header.global > nav h1.logo,
@@ -10621,7 +10641,7 @@ body header.global.slim > nav .nav-global,
 .view-login header.global.slim > nav .nav-global,
 .view-register header.global.slim > nav .nav-global,
 .view-passwordreset header.global.slim > nav .nav-global {
-  margin: 1em 0 0 0;
+  margin: 0.65em 0 0 0;
 }
 @media (max-width: 480px) {
   body header.global > nav .nav-global,
@@ -12089,6 +12109,7 @@ body header.global.slim > nav div.image-wrapper img#imageMain,
 .view-login header.global.slim > nav div.image-wrapper img#imageMain,
 .view-register header.global.slim > nav div.image-wrapper img#imageMain,
 .view-passwordreset header.global.slim > nav div.image-wrapper img#imageMain {
+  height: 39px;
   border-radius: 25px;
 }
 body header.global > nav ol.user,
@@ -12103,7 +12124,7 @@ body header.global.slim > nav ol.user,
 .view-login header.global.slim > nav ol.user,
 .view-register header.global.slim > nav ol.user,
 .view-passwordreset header.global.slim > nav ol.user {
-  margin: 10px 0 0 0;
+  margin: 4px 0 0 0;
 }
 body header.global > nav ol.user > li.primary > a,
 .view-login header.global > nav ol.user > li.primary > a,
@@ -19290,7 +19311,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses {
-  margin: 0 5px 12px 5px;
+  margin: 0 10px 12px 10px;
   height: 50px;
   border: 1px solid #E8E1E1;
   padding: 7px 10px;
@@ -19644,10 +19665,10 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course-back {
   height: 294px;
-  width: calc(100% - 10px);
+  width: calc(100% - 20px);
   padding: 4%;
-  top: 3px;
-  left: 5px;
+  top: 10px;
+  left: 10px;
   position: absolute;
   background: rgba(255, 255, 255, 0.85);
   z-index: 10;
@@ -19750,7 +19771,6 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course {
-  margin: 3px 5px;
   background-color: #ffffff;
   border: 1px solid #c9caca;
 }
@@ -22912,7 +22932,7 @@ body.view-incourse .content-wrapper .wrapper-course-material {
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .course-material,
-body.view-incourse .content-wrapper #course-content {
+body.view-incourse .content-wrapper .course-content {
   width: auto;
   height: auto;
   margin-right: auto;
@@ -22930,60 +22950,62 @@ body.view-incourse .content-wrapper #course-content {
 }
 @media (min-width: 768px) {
   body.view-incourse .content-wrapper .course-material,
-  body.view-incourse .content-wrapper #course-content {
+  body.view-incourse .content-wrapper .course-content {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
   body.view-incourse .content-wrapper .course-material,
-  body.view-incourse .content-wrapper #course-content {
+  body.view-incourse .content-wrapper .course-content {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
   body.view-incourse .content-wrapper .course-material,
-  body.view-incourse .content-wrapper #course-content {
+  body.view-incourse .content-wrapper .course-content {
     width: 1170px;
   }
 }
 body.view-incourse .content-wrapper .course-material > .navbar-header,
-body.view-incourse .content-wrapper #course-content > .navbar-header,
+body.view-incourse .content-wrapper .course-content > .navbar-header,
 body.view-incourse .content-wrapper .course-material > .navbar-collapse,
-body.view-incourse .content-wrapper #course-content > .navbar-collapse {
+body.view-incourse .content-wrapper .course-content > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
 }
 @media (min-width: 768px) {
   body.view-incourse .content-wrapper .course-material > .navbar-header,
-  body.view-incourse .content-wrapper #course-content > .navbar-header,
+  body.view-incourse .content-wrapper .course-content > .navbar-header,
   body.view-incourse .content-wrapper .course-material > .navbar-collapse,
-  body.view-incourse .content-wrapper #course-content > .navbar-collapse {
+  body.view-incourse .content-wrapper .course-content > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
 }
 body.view-incourse .content-wrapper .course-material .course-tabs,
-body.view-incourse .content-wrapper #course-content .course-tabs {
+body.view-incourse .content-wrapper .course-content .course-tabs {
   background-color: #ffffff;
   border-radius: 0;
   padding: 0;
   margin: 0;
   height: 40px;
+  list-style: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li,
-body.view-incourse .content-wrapper #course-content .course-tabs li {
-  margin: 10px 0.5em 0 0;
+body.view-incourse .content-wrapper .course-content .course-tabs li {
+  margin: 7px 0.5em 0 5px;
+  float: left;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li:nd-child(2),
-body.view-incourse .content-wrapper #course-content .course-tabs li:nd-child(2) {
+body.view-incourse .content-wrapper .course-content .course-tabs li:nd-child(2) {
   margin-top: 0px;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li:last-child,
-body.view-incourse .content-wrapper #course-content .course-tabs li:last-child {
-  margin: 10px 0 0 0;
+body.view-incourse .content-wrapper .course-content .course-tabs li:last-child {
+  margin: 7px 0 0 0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a,
-body.view-incourse .content-wrapper #course-content .course-tabs li a {
+body.view-incourse .content-wrapper .course-content .course-tabs li a {
   font: inherit;
   color: inherit;
   font-weight: 200;
@@ -22991,11 +23013,11 @@ body.view-incourse .content-wrapper #course-content .course-tabs li a {
   padding: 8px 12px;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a:hover {
+body.view-incourse .content-wrapper .course-content .course-tabs li a:hover {
   background-color: transparent;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.active {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.active {
   box-shadow: none;
   text-shadow: none;
   background: none;
@@ -23003,7 +23025,7 @@ body.view-incourse .content-wrapper #course-content .course-tabs li a.active {
   color: #080808;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
   width: auto;
   height: auto;
   font: inherit;
@@ -23041,45 +23063,45 @@ body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-b
   font-size: 0.9em;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active.focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active.focus {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active.focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
   color: #333333;
   text-decoration: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.disabled,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled],
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled],
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn[disabled],
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
-fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
+fieldset[disabled] body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -23087,107 +23109,107 @@ fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-t
   box-shadow: none;
 }
 abody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled,
-abody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled,
+abody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.disabled,
 fieldset[disabled] abody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
-fieldset[disabled] abody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
+fieldset[disabled] abody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
   pointer-events: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
   color: #ffffff;
   background-color: #046c9e;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover {
   color: #ffffff;
   background-color: #046c9e;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
-.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
   color: #ffffff;
   background-color: #046c9e;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active:hover,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active:hover,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active:hover,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
-.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover,
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active:focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active.focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active.focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
   color: #ffffff;
   background-color: #03547b;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.active,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
-.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
   background-image: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled:hover,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.disabled:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled]:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled]:hover,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn[disabled]:hover,
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
-fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover,
+fieldset[disabled] body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.disabled:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled]:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled]:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn[disabled]:focus,
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+fieldset[disabled] body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled.focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled.focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.disabled.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled].focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled].focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn[disabled].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
-fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
+fieldset[disabled] body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
   background-color: #058ed0;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn .badge,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn .badge {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn .badge {
   color: #058ed0;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
   body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
-  body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
+  body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
     white-space: normal;
   }
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus {
   background-color: #058ed0;
   color: #ffffff;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active {
   background: none;
   background-color: #ffffff;
   color: #058ed0;
@@ -23196,7 +23218,7 @@ body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-b
   outline: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover {
   background: none;
   background-color: #ffffff;
   color: #058ed0;
@@ -23204,7 +23226,7 @@ body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-b
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn span.icon,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn span.icon {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn span.icon {
   width: auto;
   height: auto;
   font: inherit;
@@ -23216,11 +23238,11 @@ body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-b
   padding: 0 0.5em 0 0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.progress,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.progress {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.progress {
   padding: 0px;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.progress #progressbar,
-body.view-incourse .content-wrapper #course-content .course-tabs li a.progress #progressbar {
+body.view-incourse .content-wrapper .course-content .course-tabs li a.progress #progressbar {
   top: 16px;
 }
 body.view-incourse .content-wrapper .container {
