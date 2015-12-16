@@ -10489,7 +10489,7 @@ body header.global.slim > nav h1.menu a,
 .view-login header.global.slim > nav h1.menu a,
 .view-register header.global.slim > nav h1.menu a,
 .view-passwordreset header.global.slim > nav h1.menu a {
-  color: #a99e9e;
+  color: #058ed0;
 }
 body header.global > nav h1.logo,
 .view-login header.global > nav h1.logo,
@@ -12160,9 +12160,9 @@ body header.global.slim > nav ol.user > li.primary > a,
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #696161;
+  color: #8e8787;
   background-color: #ffffff;
-  border-color: #696161;
+  border-color: #8e8787;
   text-shadow: none;
   text-overflow: ellipsis;
   transition: all 0.1s ease-in;
@@ -12413,9 +12413,9 @@ body header.global.slim > nav ol.user > li.primary > a.focus,
 .view-login header.global.slim > nav ol.user > li.primary > a.focus,
 .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  color: #696161;
+  color: #8e8787;
   background-color: #e6e6e6;
-  border-color: #272424;
+  border-color: #4d4949;
 }
 body header.global > nav ol.user > li.primary > a:hover,
 .view-login header.global > nav ol.user > li.primary > a:hover,
@@ -12429,9 +12429,9 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-login header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
-  color: #696161;
+  color: #8e8787;
   background-color: #e6e6e6;
-  border-color: #494444;
+  border-color: #6f6969;
 }
 body header.global > nav ol.user > li.primary > a:active,
 .view-login header.global > nav ol.user > li.primary > a:active,
@@ -12469,9 +12469,9 @@ body header.global.slim > nav ol.user > li.primary > a.active,
 .open > .dropdown-toggle.view-login header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a {
-  color: #696161;
+  color: #8e8787;
   background-color: #e6e6e6;
-  border-color: #494444;
+  border-color: #6f6969;
 }
 body header.global > nav ol.user > li.primary > a:active:hover,
 .view-login header.global > nav ol.user > li.primary > a:active:hover,
@@ -12581,9 +12581,9 @@ body header.global.slim > nav ol.user > li.primary > a.active.focus,
 .open > .dropdown-toggle.view-login header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  color: #696161;
+  color: #8e8787;
   background-color: #d4d4d4;
-  border-color: #272424;
+  border-color: #4d4949;
 }
 body header.global > nav ol.user > li.primary > a:active,
 .view-login header.global > nav ol.user > li.primary > a:active,
@@ -12732,7 +12732,7 @@ fieldset[disabled] .view-login header.global.slim > nav ol.user > li.primary > a
 fieldset[disabled] .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 fieldset[disabled] .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
   background-color: #ffffff;
-  border-color: #696161;
+  border-color: #8e8787;
 }
 body header.global > nav ol.user > li.primary > a .badge,
 .view-login header.global > nav ol.user > li.primary > a .badge,
@@ -12747,7 +12747,7 @@ body header.global.slim > nav ol.user > li.primary > a .badge,
 .view-register header.global.slim > nav ol.user > li.primary > a .badge,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a .badge {
   color: #ffffff;
-  background-color: #696161;
+  background-color: #8e8787;
 }
 @media (max-width: 767px) {
   body header.global > nav ol.user > li.primary > a,
@@ -12778,8 +12778,8 @@ body header.global.slim > nav ol.user > li.primary > a:focus,
 .view-register header.global.slim > nav ol.user > li.primary > a:focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:focus {
   background-color: #ffffff;
-  color: #696161;
-  border-color: #696161;
+  color: #8e8787;
+  border-color: #8e8787;
 }
 body header.global > nav ol.user > li.primary > a:focus,
 .view-login header.global > nav ol.user > li.primary > a:focus,
@@ -12806,10 +12806,10 @@ body header.global.slim > nav ol.user > li.primary > a:active,
 .view-register header.global.slim > nav ol.user > li.primary > a:active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:active {
   background: none;
-  background-color: #696161;
+  background-color: #8e8787;
   color: #ffffff;
   box-shadow: none;
-  border-color: #696161;
+  border-color: #8e8787;
   border-color: #ffffff;
   outline: none;
 }
@@ -12826,11 +12826,11 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
   background: none;
-  background-color: #696161;
+  background-color: #8e8787;
   color: #ffffff;
   border-color: #ffffff;
   box-shadow: none;
-  border-color: #696161;
+  border-color: #8e8787;
 }
 body header.global > nav ol.user > li.primary > a.user-link,
 .view-login header.global > nav ol.user > li.primary > a.user-link,
@@ -12889,10 +12889,9 @@ body header.global.slim > nav ol.user > li.primary > a.dropdown.active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown.active {
   background: none;
   background-color: #ffffff;
-  color: #080808;
-  border-color: #080808;
+  color: #8e8787;
+  border-color: #8e8787;
   box-shadow: none;
-  border-color: #ffffff;
 }
 body header.global > nav ol.user > li.primary > a.dropdown,
 .view-login header.global > nav ol.user > li.primary > a.dropdown,
@@ -12980,7 +12979,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li,
   transition: all 0.1s ease-in;
   border: 0 none;
   padding: 2px 8px;
-  color: #080808;
+  color: #8e8787;
   background-color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li > a,
@@ -13053,7 +13052,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li:hover {
-  background-color: #080808;
+  background-color: #8e8787;
   color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover > a,
@@ -13068,6 +13067,994 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li:hover > a,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li:hover > a,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li:hover > a,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li:hover > a {
+  color: inherit;
+}
+body header.global > nav ol.menu,
+.view-login header.global > nav ol.menu,
+.view-register header.global > nav ol.menu,
+.view-passwordreset header.global > nav ol.menu,
+body header.global-new > nav ol.menu,
+.view-login header.global-new > nav ol.menu,
+.view-register header.global-new > nav ol.menu,
+.view-passwordreset header.global-new > nav ol.menu,
+body header.global.slim > nav ol.menu,
+.view-login header.global.slim > nav ol.menu,
+.view-register header.global.slim > nav ol.menu,
+.view-passwordreset header.global.slim > nav ol.menu {
+  margin: 4px 0 0 0;
+}
+body header.global > nav ol.menu > li h1.menu,
+.view-login header.global > nav ol.menu > li h1.menu,
+.view-register header.global > nav ol.menu > li h1.menu,
+.view-passwordreset header.global > nav ol.menu > li h1.menu,
+body header.global-new > nav ol.menu > li h1.menu,
+.view-login header.global-new > nav ol.menu > li h1.menu,
+.view-register header.global-new > nav ol.menu > li h1.menu,
+.view-passwordreset header.global-new > nav ol.menu > li h1.menu,
+body header.global.slim > nav ol.menu > li h1.menu,
+.view-login header.global.slim > nav ol.menu > li h1.menu,
+.view-register header.global.slim > nav ol.menu > li h1.menu,
+.view-passwordreset header.global.slim > nav ol.menu > li h1.menu {
+  width: 30px;
+  float: left;
+  margin: 10px 30px 0 0;
+  font-size: 20px;
+}
+body header.global > nav ol.menu > li h1.menu a,
+.view-login header.global > nav ol.menu > li h1.menu a,
+.view-register header.global > nav ol.menu > li h1.menu a,
+.view-passwordreset header.global > nav ol.menu > li h1.menu a,
+body header.global-new > nav ol.menu > li h1.menu a,
+.view-login header.global-new > nav ol.menu > li h1.menu a,
+.view-register header.global-new > nav ol.menu > li h1.menu a,
+.view-passwordreset header.global-new > nav ol.menu > li h1.menu a,
+body header.global.slim > nav ol.menu > li h1.menu a,
+.view-login header.global.slim > nav ol.menu > li h1.menu a,
+.view-register header.global.slim > nav ol.menu > li h1.menu a,
+.view-passwordreset header.global.slim > nav ol.menu > li h1.menu a {
+  color: #058ed0;
+}
+body header.global > nav ol.menu > li.primary > a,
+.view-login header.global > nav ol.menu > li.primary > a,
+.view-register header.global > nav ol.menu > li.primary > a,
+.view-passwordreset header.global > nav ol.menu > li.primary > a,
+body header.global-new > nav ol.menu > li.primary > a,
+.view-login header.global-new > nav ol.menu > li.primary > a,
+.view-register header.global-new > nav ol.menu > li.primary > a,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a,
+body header.global.slim > nav ol.menu > li.primary > a,
+.view-login header.global.slim > nav ol.menu > li.primary > a,
+.view-register header.global.slim > nav ol.menu > li.primary > a,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a {
+  width: auto;
+  height: auto;
+  font: inherit;
+  background: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8e8787;
+  background-color: #ffffff;
+  border-color: #8e8787;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  transition: all 0.1s ease-in;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.5em 1.2em;
+  outline: none;
+  overflow: hidden;
+  border: none !important;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-radius: 4px 0 0 4px;
+}
+body header.global > nav ol.menu > li.primary > a:focus,
+.view-login header.global > nav ol.menu > li.primary > a:focus,
+.view-register header.global > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+body header.global-new > nav ol.menu > li.primary > a:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+body header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus,
+body header.global > nav ol.menu > li.primary > a:active:focus,
+.view-login header.global > nav ol.menu > li.primary > a:active:focus,
+.view-register header.global > nav ol.menu > li.primary > a:active:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active:focus,
+body header.global-new > nav ol.menu > li.primary > a:active:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:active:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:active:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active:focus,
+body header.global.slim > nav ol.menu > li.primary > a:active:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active:focus,
+body header.global > nav ol.menu > li.primary > a.active:focus,
+.view-login header.global > nav ol.menu > li.primary > a.active:focus,
+.view-register header.global > nav ol.menu > li.primary > a.active:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active:focus,
+body header.global-new > nav ol.menu > li.primary > a.active:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.active:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.active:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active:focus,
+body header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active:focus,
+body header.global > nav ol.menu > li.primary > a.focus,
+.view-login header.global > nav ol.menu > li.primary > a.focus,
+.view-register header.global > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.focus,
+body header.global-new > nav ol.menu > li.primary > a.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.focus,
+body header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.focus,
+body header.global > nav ol.menu > li.primary > a:active.focus,
+.view-login header.global > nav ol.menu > li.primary > a:active.focus,
+.view-register header.global > nav ol.menu > li.primary > a:active.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active.focus,
+body header.global-new > nav ol.menu > li.primary > a:active.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:active.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:active.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active.focus,
+body header.global.slim > nav ol.menu > li.primary > a:active.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active.focus,
+body header.global > nav ol.menu > li.primary > a.active.focus,
+.view-login header.global > nav ol.menu > li.primary > a.active.focus,
+.view-register header.global > nav ol.menu > li.primary > a.active.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active.focus,
+body header.global-new > nav ol.menu > li.primary > a.active.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.active.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.active.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active.focus,
+body header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+body header.global > nav ol.menu > li.primary > a:hover,
+.view-login header.global > nav ol.menu > li.primary > a:hover,
+.view-register header.global > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:hover,
+body header.global-new > nav ol.menu > li.primary > a:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:hover,
+body header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:hover,
+body header.global > nav ol.menu > li.primary > a:focus,
+.view-login header.global > nav ol.menu > li.primary > a:focus,
+.view-register header.global > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+body header.global-new > nav ol.menu > li.primary > a:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+body header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus,
+body header.global > nav ol.menu > li.primary > a.focus,
+.view-login header.global > nav ol.menu > li.primary > a.focus,
+.view-register header.global > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.focus,
+body header.global-new > nav ol.menu > li.primary > a.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.focus,
+body header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.focus {
+  color: #333333;
+  text-decoration: none;
+}
+body header.global > nav ol.menu > li.primary > a:active,
+.view-login header.global > nav ol.menu > li.primary > a:active,
+.view-register header.global > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active,
+body header.global-new > nav ol.menu > li.primary > a:active,
+.view-login header.global-new > nav ol.menu > li.primary > a:active,
+.view-register header.global-new > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active,
+body header.global.slim > nav ol.menu > li.primary > a:active,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active,
+body header.global > nav ol.menu > li.primary > a.active,
+.view-login header.global > nav ol.menu > li.primary > a.active,
+.view-register header.global > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active,
+body header.global-new > nav ol.menu > li.primary > a.active,
+.view-login header.global-new > nav ol.menu > li.primary > a.active,
+.view-register header.global-new > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active,
+body header.global.slim > nav ol.menu > li.primary > a.active,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+body header.global > nav ol.menu > li.primary > a.disabled,
+.view-login header.global > nav ol.menu > li.primary > a.disabled,
+.view-register header.global > nav ol.menu > li.primary > a.disabled,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.disabled,
+body header.global-new > nav ol.menu > li.primary > a.disabled,
+.view-login header.global-new > nav ol.menu > li.primary > a.disabled,
+.view-register header.global-new > nav ol.menu > li.primary > a.disabled,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.disabled,
+body header.global.slim > nav ol.menu > li.primary > a.disabled,
+.view-login header.global.slim > nav ol.menu > li.primary > a.disabled,
+.view-register header.global.slim > nav ol.menu > li.primary > a.disabled,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.disabled,
+body header.global > nav ol.menu > li.primary > a[disabled],
+.view-login header.global > nav ol.menu > li.primary > a[disabled],
+.view-register header.global > nav ol.menu > li.primary > a[disabled],
+.view-passwordreset header.global > nav ol.menu > li.primary > a[disabled],
+body header.global-new > nav ol.menu > li.primary > a[disabled],
+.view-login header.global-new > nav ol.menu > li.primary > a[disabled],
+.view-register header.global-new > nav ol.menu > li.primary > a[disabled],
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a[disabled],
+body header.global.slim > nav ol.menu > li.primary > a[disabled],
+.view-login header.global.slim > nav ol.menu > li.primary > a[disabled],
+.view-register header.global.slim > nav ol.menu > li.primary > a[disabled],
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a[disabled],
+fieldset[disabled] body header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-login header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-register header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-passwordreset header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] body header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-login header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-register header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-passwordreset header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] body header.global.slim > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-login header.global.slim > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-register header.global.slim > nav ol.menu > li.primary > a,
+fieldset[disabled] .view-passwordreset header.global.slim > nav ol.menu > li.primary > a {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+abody header.global > nav ol.menu > li.primary > a.disabled,
+a.view-login header.global > nav ol.menu > li.primary > a.disabled,
+a.view-register header.global > nav ol.menu > li.primary > a.disabled,
+a.view-passwordreset header.global > nav ol.menu > li.primary > a.disabled,
+abody header.global-new > nav ol.menu > li.primary > a.disabled,
+a.view-login header.global-new > nav ol.menu > li.primary > a.disabled,
+a.view-register header.global-new > nav ol.menu > li.primary > a.disabled,
+a.view-passwordreset header.global-new > nav ol.menu > li.primary > a.disabled,
+abody header.global.slim > nav ol.menu > li.primary > a.disabled,
+a.view-login header.global.slim > nav ol.menu > li.primary > a.disabled,
+a.view-register header.global.slim > nav ol.menu > li.primary > a.disabled,
+a.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.disabled,
+fieldset[disabled] abody header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-login header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-register header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-passwordreset header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] abody header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-login header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-register header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-passwordreset header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] abody header.global.slim > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-login header.global.slim > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-register header.global.slim > nav ol.menu > li.primary > a,
+fieldset[disabled] a.view-passwordreset header.global.slim > nav ol.menu > li.primary > a {
+  pointer-events: none;
+}
+body header.global > nav ol.menu > li.primary > a:focus,
+.view-login header.global > nav ol.menu > li.primary > a:focus,
+.view-register header.global > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+body header.global-new > nav ol.menu > li.primary > a:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+body header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus,
+body header.global > nav ol.menu > li.primary > a.focus,
+.view-login header.global > nav ol.menu > li.primary > a.focus,
+.view-register header.global > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.focus,
+body header.global-new > nav ol.menu > li.primary > a.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.focus,
+body header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.focus {
+  color: #8e8787;
+  background-color: #e6e6e6;
+  border-color: #4d4949;
+}
+body header.global > nav ol.menu > li.primary > a:hover,
+.view-login header.global > nav ol.menu > li.primary > a:hover,
+.view-register header.global > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:hover,
+body header.global-new > nav ol.menu > li.primary > a:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:hover,
+body header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:hover {
+  color: #8e8787;
+  background-color: #e6e6e6;
+  border-color: #6f6969;
+}
+body header.global > nav ol.menu > li.primary > a:active,
+.view-login header.global > nav ol.menu > li.primary > a:active,
+.view-register header.global > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active,
+body header.global-new > nav ol.menu > li.primary > a:active,
+.view-login header.global-new > nav ol.menu > li.primary > a:active,
+.view-register header.global-new > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active,
+body header.global.slim > nav ol.menu > li.primary > a:active,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active,
+body header.global > nav ol.menu > li.primary > a.active,
+.view-login header.global > nav ol.menu > li.primary > a.active,
+.view-register header.global > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active,
+body header.global-new > nav ol.menu > li.primary > a.active,
+.view-login header.global-new > nav ol.menu > li.primary > a.active,
+.view-register header.global-new > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active,
+body header.global.slim > nav ol.menu > li.primary > a.active,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active,
+.open > .dropdown-togglebody header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-login header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-register header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-passwordreset header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-togglebody header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-login header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-register header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-passwordreset header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-togglebody header.global.slim > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-login header.global.slim > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-register header.global.slim > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.menu > li.primary > a {
+  color: #8e8787;
+  background-color: #e6e6e6;
+  border-color: #6f6969;
+}
+body header.global > nav ol.menu > li.primary > a:active:hover,
+.view-login header.global > nav ol.menu > li.primary > a:active:hover,
+.view-register header.global > nav ol.menu > li.primary > a:active:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active:hover,
+body header.global-new > nav ol.menu > li.primary > a:active:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a:active:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a:active:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active:hover,
+body header.global.slim > nav ol.menu > li.primary > a:active:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active:hover,
+body header.global > nav ol.menu > li.primary > a.active:hover,
+.view-login header.global > nav ol.menu > li.primary > a.active:hover,
+.view-register header.global > nav ol.menu > li.primary > a.active:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active:hover,
+body header.global-new > nav ol.menu > li.primary > a.active:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a.active:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a.active:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active:hover,
+body header.global.slim > nav ol.menu > li.primary > a.active:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active:hover,
+.open > .dropdown-togglebody header.global > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-login header.global > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-register header.global > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-passwordreset header.global > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-togglebody header.global-new > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-login header.global-new > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-register header.global-new > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-passwordreset header.global-new > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-togglebody header.global.slim > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-login header.global.slim > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-register header.global.slim > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:hover,
+body header.global > nav ol.menu > li.primary > a:active:focus,
+.view-login header.global > nav ol.menu > li.primary > a:active:focus,
+.view-register header.global > nav ol.menu > li.primary > a:active:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active:focus,
+body header.global-new > nav ol.menu > li.primary > a:active:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:active:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:active:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active:focus,
+body header.global.slim > nav ol.menu > li.primary > a:active:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active:focus,
+body header.global > nav ol.menu > li.primary > a.active:focus,
+.view-login header.global > nav ol.menu > li.primary > a.active:focus,
+.view-register header.global > nav ol.menu > li.primary > a.active:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active:focus,
+body header.global-new > nav ol.menu > li.primary > a.active:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.active:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.active:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active:focus,
+body header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.open > .dropdown-togglebody header.global > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-login header.global > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-register header.global > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-togglebody header.global-new > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-login header.global-new > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-register header.global-new > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-togglebody header.global.slim > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus,
+body header.global > nav ol.menu > li.primary > a:active.focus,
+.view-login header.global > nav ol.menu > li.primary > a:active.focus,
+.view-register header.global > nav ol.menu > li.primary > a:active.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active.focus,
+body header.global-new > nav ol.menu > li.primary > a:active.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:active.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:active.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active.focus,
+body header.global.slim > nav ol.menu > li.primary > a:active.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active.focus,
+body header.global > nav ol.menu > li.primary > a.active.focus,
+.view-login header.global > nav ol.menu > li.primary > a.active.focus,
+.view-register header.global > nav ol.menu > li.primary > a.active.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active.focus,
+body header.global-new > nav ol.menu > li.primary > a.active.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.active.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.active.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active.focus,
+body header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.open > .dropdown-togglebody header.global > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-login header.global > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-register header.global > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-passwordreset header.global > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-togglebody header.global-new > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-login header.global-new > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-register header.global-new > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-passwordreset header.global-new > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-togglebody header.global.slim > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-login header.global.slim > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-register header.global.slim > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.focus {
+  color: #8e8787;
+  background-color: #d4d4d4;
+  border-color: #4d4949;
+}
+body header.global > nav ol.menu > li.primary > a:active,
+.view-login header.global > nav ol.menu > li.primary > a:active,
+.view-register header.global > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active,
+body header.global-new > nav ol.menu > li.primary > a:active,
+.view-login header.global-new > nav ol.menu > li.primary > a:active,
+.view-register header.global-new > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active,
+body header.global.slim > nav ol.menu > li.primary > a:active,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active,
+body header.global > nav ol.menu > li.primary > a.active,
+.view-login header.global > nav ol.menu > li.primary > a.active,
+.view-register header.global > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.active,
+body header.global-new > nav ol.menu > li.primary > a.active,
+.view-login header.global-new > nav ol.menu > li.primary > a.active,
+.view-register header.global-new > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.active,
+body header.global.slim > nav ol.menu > li.primary > a.active,
+.view-login header.global.slim > nav ol.menu > li.primary > a.active,
+.view-register header.global.slim > nav ol.menu > li.primary > a.active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.active,
+.open > .dropdown-togglebody header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-login header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-register header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-passwordreset header.global > nav ol.menu > li.primary > a,
+.open > .dropdown-togglebody header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-login header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-register header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-passwordreset header.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-togglebody header.global.slim > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-login header.global.slim > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-register header.global.slim > nav ol.menu > li.primary > a,
+.open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.menu > li.primary > a {
+  background-image: none;
+}
+body header.global > nav ol.menu > li.primary > a.disabled:hover,
+.view-login header.global > nav ol.menu > li.primary > a.disabled:hover,
+.view-register header.global > nav ol.menu > li.primary > a.disabled:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.disabled:hover,
+body header.global-new > nav ol.menu > li.primary > a.disabled:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a.disabled:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a.disabled:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.disabled:hover,
+body header.global.slim > nav ol.menu > li.primary > a.disabled:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a.disabled:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a.disabled:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.disabled:hover,
+body header.global > nav ol.menu > li.primary > a[disabled]:hover,
+.view-login header.global > nav ol.menu > li.primary > a[disabled]:hover,
+.view-register header.global > nav ol.menu > li.primary > a[disabled]:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a[disabled]:hover,
+body header.global-new > nav ol.menu > li.primary > a[disabled]:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a[disabled]:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a[disabled]:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a[disabled]:hover,
+body header.global.slim > nav ol.menu > li.primary > a[disabled]:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a[disabled]:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a[disabled]:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a[disabled]:hover,
+fieldset[disabled] body header.global > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-login header.global > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-register header.global > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-passwordreset header.global > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] body header.global-new > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-login header.global-new > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-register header.global-new > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-passwordreset header.global-new > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] body header.global.slim > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-login header.global.slim > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-register header.global.slim > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] .view-passwordreset header.global.slim > nav ol.menu > li.primary > a:hover,
+body header.global > nav ol.menu > li.primary > a.disabled:focus,
+.view-login header.global > nav ol.menu > li.primary > a.disabled:focus,
+.view-register header.global > nav ol.menu > li.primary > a.disabled:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.disabled:focus,
+body header.global-new > nav ol.menu > li.primary > a.disabled:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.disabled:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.disabled:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.disabled:focus,
+body header.global.slim > nav ol.menu > li.primary > a.disabled:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.disabled:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.disabled:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.disabled:focus,
+body header.global > nav ol.menu > li.primary > a[disabled]:focus,
+.view-login header.global > nav ol.menu > li.primary > a[disabled]:focus,
+.view-register header.global > nav ol.menu > li.primary > a[disabled]:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a[disabled]:focus,
+body header.global-new > nav ol.menu > li.primary > a[disabled]:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a[disabled]:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a[disabled]:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a[disabled]:focus,
+body header.global.slim > nav ol.menu > li.primary > a[disabled]:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a[disabled]:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a[disabled]:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a[disabled]:focus,
+fieldset[disabled] body header.global > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-login header.global > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-register header.global > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] body header.global-new > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-login header.global-new > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-register header.global-new > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] body header.global.slim > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] .view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus,
+body header.global > nav ol.menu > li.primary > a.disabled.focus,
+.view-login header.global > nav ol.menu > li.primary > a.disabled.focus,
+.view-register header.global > nav ol.menu > li.primary > a.disabled.focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.disabled.focus,
+body header.global-new > nav ol.menu > li.primary > a.disabled.focus,
+.view-login header.global-new > nav ol.menu > li.primary > a.disabled.focus,
+.view-register header.global-new > nav ol.menu > li.primary > a.disabled.focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.disabled.focus,
+body header.global.slim > nav ol.menu > li.primary > a.disabled.focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a.disabled.focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a.disabled.focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.disabled.focus,
+body header.global > nav ol.menu > li.primary > a[disabled].focus,
+.view-login header.global > nav ol.menu > li.primary > a[disabled].focus,
+.view-register header.global > nav ol.menu > li.primary > a[disabled].focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a[disabled].focus,
+body header.global-new > nav ol.menu > li.primary > a[disabled].focus,
+.view-login header.global-new > nav ol.menu > li.primary > a[disabled].focus,
+.view-register header.global-new > nav ol.menu > li.primary > a[disabled].focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a[disabled].focus,
+body header.global.slim > nav ol.menu > li.primary > a[disabled].focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a[disabled].focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a[disabled].focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a[disabled].focus,
+fieldset[disabled] body header.global > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-login header.global > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-register header.global > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-passwordreset header.global > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] body header.global-new > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-login header.global-new > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-register header.global-new > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-passwordreset header.global-new > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] body header.global.slim > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-login header.global.slim > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-register header.global.slim > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] .view-passwordreset header.global.slim > nav ol.menu > li.primary > a.focus {
+  background-color: #ffffff;
+  border-color: #8e8787;
+}
+body header.global > nav ol.menu > li.primary > a .badge,
+.view-login header.global > nav ol.menu > li.primary > a .badge,
+.view-register header.global > nav ol.menu > li.primary > a .badge,
+.view-passwordreset header.global > nav ol.menu > li.primary > a .badge,
+body header.global-new > nav ol.menu > li.primary > a .badge,
+.view-login header.global-new > nav ol.menu > li.primary > a .badge,
+.view-register header.global-new > nav ol.menu > li.primary > a .badge,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a .badge,
+body header.global.slim > nav ol.menu > li.primary > a .badge,
+.view-login header.global.slim > nav ol.menu > li.primary > a .badge,
+.view-register header.global.slim > nav ol.menu > li.primary > a .badge,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a .badge {
+  color: #ffffff;
+  background-color: #8e8787;
+}
+@media (max-width: 767px) {
+  body header.global > nav ol.menu > li.primary > a,
+  .view-login header.global > nav ol.menu > li.primary > a,
+  .view-register header.global > nav ol.menu > li.primary > a,
+  .view-passwordreset header.global > nav ol.menu > li.primary > a,
+  body header.global-new > nav ol.menu > li.primary > a,
+  .view-login header.global-new > nav ol.menu > li.primary > a,
+  .view-register header.global-new > nav ol.menu > li.primary > a,
+  .view-passwordreset header.global-new > nav ol.menu > li.primary > a,
+  body header.global.slim > nav ol.menu > li.primary > a,
+  .view-login header.global.slim > nav ol.menu > li.primary > a,
+  .view-register header.global.slim > nav ol.menu > li.primary > a,
+  .view-passwordreset header.global.slim > nav ol.menu > li.primary > a {
+    white-space: normal;
+  }
+}
+body header.global > nav ol.menu > li.primary > a:focus,
+.view-login header.global > nav ol.menu > li.primary > a:focus,
+.view-register header.global > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+body header.global-new > nav ol.menu > li.primary > a:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+body header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus {
+  background-color: #ffffff;
+  color: #8e8787;
+  border-color: #8e8787;
+}
+body header.global > nav ol.menu > li.primary > a:focus,
+.view-login header.global > nav ol.menu > li.primary > a:focus,
+.view-register header.global > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:focus,
+body header.global-new > nav ol.menu > li.primary > a:focus,
+.view-login header.global-new > nav ol.menu > li.primary > a:focus,
+.view-register header.global-new > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:focus,
+body header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-login header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-register header.global.slim > nav ol.menu > li.primary > a:focus,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:focus,
+body header.global > nav ol.menu > li.primary > a:active,
+.view-login header.global > nav ol.menu > li.primary > a:active,
+.view-register header.global > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:active,
+body header.global-new > nav ol.menu > li.primary > a:active,
+.view-login header.global-new > nav ol.menu > li.primary > a:active,
+.view-register header.global-new > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:active,
+body header.global.slim > nav ol.menu > li.primary > a:active,
+.view-login header.global.slim > nav ol.menu > li.primary > a:active,
+.view-register header.global.slim > nav ol.menu > li.primary > a:active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:active {
+  background: none;
+  background-color: #8e8787;
+  color: #ffffff;
+  box-shadow: none;
+  border-color: #8e8787;
+  border-color: #ffffff;
+  outline: none;
+}
+body header.global > nav ol.menu > li.primary > a:hover,
+.view-login header.global > nav ol.menu > li.primary > a:hover,
+.view-register header.global > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global > nav ol.menu > li.primary > a:hover,
+body header.global-new > nav ol.menu > li.primary > a:hover,
+.view-login header.global-new > nav ol.menu > li.primary > a:hover,
+.view-register header.global-new > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a:hover,
+body header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-login header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-register header.global.slim > nav ol.menu > li.primary > a:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a:hover {
+  background: none;
+  background-color: #8e8787;
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+  border-color: #8e8787;
+}
+body header.global > nav ol.menu > li.primary > a.user-link,
+.view-login header.global > nav ol.menu > li.primary > a.user-link,
+.view-register header.global > nav ol.menu > li.primary > a.user-link,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.user-link,
+body header.global-new > nav ol.menu > li.primary > a.user-link,
+.view-login header.global-new > nav ol.menu > li.primary > a.user-link,
+.view-register header.global-new > nav ol.menu > li.primary > a.user-link,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.user-link,
+body header.global.slim > nav ol.menu > li.primary > a.user-link,
+.view-login header.global.slim > nav ol.menu > li.primary > a.user-link,
+.view-register header.global.slim > nav ol.menu > li.primary > a.user-link,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.user-link {
+  max-width: 120px;
+}
+body header.global > nav ol.menu > li.primary > a.user-link i.fa,
+.view-login header.global > nav ol.menu > li.primary > a.user-link i.fa,
+.view-register header.global > nav ol.menu > li.primary > a.user-link i.fa,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.user-link i.fa,
+body header.global-new > nav ol.menu > li.primary > a.user-link i.fa,
+.view-login header.global-new > nav ol.menu > li.primary > a.user-link i.fa,
+.view-register header.global-new > nav ol.menu > li.primary > a.user-link i.fa,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.user-link i.fa,
+body header.global.slim > nav ol.menu > li.primary > a.user-link i.fa,
+.view-login header.global.slim > nav ol.menu > li.primary > a.user-link i.fa,
+.view-register header.global.slim > nav ol.menu > li.primary > a.user-link i.fa,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.user-link i.fa {
+  display: none;
+}
+body header.global > nav ol.menu > li.primary > a.user-link div,
+.view-login header.global > nav ol.menu > li.primary > a.user-link div,
+.view-register header.global > nav ol.menu > li.primary > a.user-link div,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.user-link div,
+body header.global-new > nav ol.menu > li.primary > a.user-link div,
+.view-login header.global-new > nav ol.menu > li.primary > a.user-link div,
+.view-register header.global-new > nav ol.menu > li.primary > a.user-link div,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.user-link div,
+body header.global.slim > nav ol.menu > li.primary > a.user-link div,
+.view-login header.global.slim > nav ol.menu > li.primary > a.user-link div,
+.view-register header.global.slim > nav ol.menu > li.primary > a.user-link div,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.user-link div {
+  margin: 0;
+  padding: 0;
+}
+body header.global > nav ol.menu > li.primary > a.dropdown.active,
+.view-login header.global > nav ol.menu > li.primary > a.dropdown.active,
+.view-register header.global > nav ol.menu > li.primary > a.dropdown.active,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.dropdown.active,
+body header.global-new > nav ol.menu > li.primary > a.dropdown.active,
+.view-login header.global-new > nav ol.menu > li.primary > a.dropdown.active,
+.view-register header.global-new > nav ol.menu > li.primary > a.dropdown.active,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.dropdown.active,
+body header.global.slim > nav ol.menu > li.primary > a.dropdown.active,
+.view-login header.global.slim > nav ol.menu > li.primary > a.dropdown.active,
+.view-register header.global.slim > nav ol.menu > li.primary > a.dropdown.active,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.dropdown.active {
+  background: none;
+  background-color: #ffffff;
+  color: #8e8787;
+  border-color: #8e8787;
+  box-shadow: none;
+}
+body header.global > nav ol.menu > li.primary > a.dropdown,
+.view-login header.global > nav ol.menu > li.primary > a.dropdown,
+.view-register header.global > nav ol.menu > li.primary > a.dropdown,
+.view-passwordreset header.global > nav ol.menu > li.primary > a.dropdown,
+body header.global-new > nav ol.menu > li.primary > a.dropdown,
+.view-login header.global-new > nav ol.menu > li.primary > a.dropdown,
+.view-register header.global-new > nav ol.menu > li.primary > a.dropdown,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a.dropdown,
+body header.global.slim > nav ol.menu > li.primary > a.dropdown,
+.view-login header.global.slim > nav ol.menu > li.primary > a.dropdown,
+.view-register header.global.slim > nav ol.menu > li.primary > a.dropdown,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a.dropdown {
+  padding: 7px 8px;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  letter-spacing: normal;
+}
+body header.global > nav ol.menu > li.primary > a > span.avatar,
+.view-login header.global > nav ol.menu > li.primary > a > span.avatar,
+.view-register header.global > nav ol.menu > li.primary > a > span.avatar,
+.view-passwordreset header.global > nav ol.menu > li.primary > a > span.avatar,
+body header.global-new > nav ol.menu > li.primary > a > span.avatar,
+.view-login header.global-new > nav ol.menu > li.primary > a > span.avatar,
+.view-register header.global-new > nav ol.menu > li.primary > a > span.avatar,
+.view-passwordreset header.global-new > nav ol.menu > li.primary > a > span.avatar,
+body header.global.slim > nav ol.menu > li.primary > a > span.avatar,
+.view-login header.global.slim > nav ol.menu > li.primary > a > span.avatar,
+.view-register header.global.slim > nav ol.menu > li.primary > a > span.avatar,
+.view-passwordreset header.global.slim > nav ol.menu > li.primary > a > span.avatar {
+  display: none;
+  background: none;
+}
+body header.global > nav ol.menu ul.dropdown-menu,
+.view-login header.global > nav ol.menu ul.dropdown-menu,
+.view-register header.global > nav ol.menu ul.dropdown-menu,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu,
+body header.global-new > nav ol.menu ul.dropdown-menu,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu,
+body header.global.slim > nav ol.menu ul.dropdown-menu,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu {
+  width: auto;
+  height: auto;
+  padding: 0;
+  z-index: 10;
+  top: 28px;
+  left: initial;
+  right: 0;
+  box-shadow: none;
+  border: 1px solid #ffffff;
+  border-top: 0 none;
+  border-top-right-radius: 0;
+  background-color: #ffffff;
+}
+body header.global > nav ol.menu ul.dropdown-menu:before,
+.view-login header.global > nav ol.menu ul.dropdown-menu:before,
+.view-register header.global > nav ol.menu ul.dropdown-menu:before,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu:before,
+body header.global-new > nav ol.menu ul.dropdown-menu:before,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu:before,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu:before,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu:before,
+body header.global.slim > nav ol.menu ul.dropdown-menu:before,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu:before,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu:before,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu:before {
+  display: none;
+}
+body header.global > nav ol.menu ul.dropdown-menu > li,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li,
+body header.global-new > nav ol.menu ul.dropdown-menu > li,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li {
+  transition: all 0.1s ease-in;
+  border: 0 none;
+  padding: 2px 8px;
+  color: #8e8787;
+  background-color: #ffffff;
+}
+body header.global > nav ol.menu ul.dropdown-menu > li > a,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li > a,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li > a,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li > a,
+body header.global-new > nav ol.menu ul.dropdown-menu > li > a,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li > a,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li > a,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li > a,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li > a,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li > a,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li > a,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li > a {
+  border: 0 none;
+  outline: none;
+  padding: 0;
+  letter-spacing: normal;
+  color: inherit;
+  background-color: inherit;
+}
+body header.global > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li > a:hover,
+body header.global-new > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li > a:hover,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li > a:hover,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li > a:hover,
+body header.global > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li > a:focus,
+body header.global-new > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li > a:focus,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li > a:focus,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li > a:focus,
+body header.global > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li > a:active,
+body header.global-new > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li > a:active,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li > a:active,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li > a:active {
+  background: inherit;
+  color: inherit;
+}
+body header.global > nav ol.menu ul.dropdown-menu > li:hover,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li:hover,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li:hover,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li:hover,
+body header.global-new > nav ol.menu ul.dropdown-menu > li:hover,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li:hover,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li:hover,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li:hover,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li:hover,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li:hover,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li:hover,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li:hover {
+  background-color: #8e8787;
+  color: #ffffff;
+}
+body header.global > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-login header.global > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-register header.global > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu > li:hover > a,
+body header.global-new > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu > li:hover > a,
+body header.global.slim > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu > li:hover > a,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu > li:hover > a {
   color: inherit;
 }
 body .view-profile .profile-image-field .image-wrapper,

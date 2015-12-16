@@ -33,7 +33,7 @@ header.global, header.global-new, header.global.slim {
             margin: 10px 30px 0 0;
             font-size: 20px;
             a{
-                color:@gray2;
+                color:@color-secondary;
             }
         }
         h1.logo {
@@ -151,7 +151,8 @@ header.global, header.global-new, header.global.slim {
             margin: 4px 0 0 0;
 
             > li.primary > a {
-                .ionisx-btn(#696161, @white);
+                .ionisx-btn(@gray2, @white);
+                //.ionisx-btn(@color-secondary, @white);
                 border: none !important;
                 border-radius: 0;
                 border-top-left-radius: 4px;
@@ -172,7 +173,7 @@ header.global, header.global-new, header.global.slim {
                 }
 
                 &.dropdown.active {
-                    .ionisx-btn-hover(@color-primary, @black);
+                    .ionisx-btn-hover(@color-primary, @gray2);
                 }
 
                 &.dropdown {
@@ -210,7 +211,7 @@ header.global, header.global-new, header.global.slim {
                     transition: all .1s ease-in;
                     border: 0 none;
                     padding: 2px 8px;
-                    color: @black;
+                    color: @gray2;
                     background-color: @white;
 
                     > a {
@@ -228,7 +229,112 @@ header.global, header.global-new, header.global.slim {
                     }
 
                     &:hover {
-                        background-color: @black;
+                        background-color: @gray2;
+                        color: @white;
+
+                        > a {
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+        }
+        ol.menu {
+            margin: 4px 0 0 0;
+            > li {
+                h1.menu{
+                    width: 30px;
+                    float: left;
+                    margin: 10px 30px 0 0;
+                    font-size: 20px;
+                    a{
+                        color:@color-secondary;
+                    }
+                }
+            }
+
+            > li.primary > a {
+                .ionisx-btn(@gray2, @white);
+                //.ionisx-btn(@color-secondary, @white);
+                border: none !important;
+                border-radius: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                border-radius: @default-border-radius 0 0 @default-border-radius;
+
+                &.user-link {
+                    max-width: 120px;
+
+                    i.fa {
+                        display: none;
+                    }
+
+                    div {
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+
+                &.dropdown.active {
+                    .ionisx-btn-hover(@color-primary, @gray2);
+                }
+
+                &.dropdown {
+                    padding: 7px 8px;
+                    border-left: none;
+                    border-radius: 0 @default-border-radius @default-border-radius 0;
+                    letter-spacing: normal;
+                }
+
+                > span.avatar {
+                    display: none;
+                    background: none;
+                }
+            }
+            
+
+
+            ul.dropdown-menu {
+                .square(auto);
+
+                padding: 0;
+                z-index: 10;
+                top: 28px;
+                left: initial;
+                right: 0;
+                box-shadow: none;
+                border: 1px solid @color-primary;
+                border-top: 0 none;
+                border-top-right-radius: 0;
+                background-color: @white;
+
+                &:before {
+                    display: none;
+                }
+
+                > li {
+                    transition: all .1s ease-in;
+                    border: 0 none;
+                    padding: 2px 8px;
+                    color: @gray2;
+                    background-color: @white;
+
+                    > a {
+                        border: 0 none;
+                        outline: none;
+                        padding: 0;
+                        letter-spacing: normal;
+                        color: inherit;
+                        background-color: inherit;
+
+                        &:hover, &:focus, &:active {
+                            background: inherit;
+                            color: inherit;
+                        }
+                    }
+
+                    &:hover {
+                        background-color: @gray2;
                         color: @white;
 
                         > a {
