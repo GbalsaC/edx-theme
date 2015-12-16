@@ -9724,7 +9724,7 @@ textarea:active + span:after {
   margin-right: 0;
 }
 body {
-  padding-top: 60px;
+  padding-top: 52px;
 }
 body,
 .view-login,
@@ -20786,6 +20786,8 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   display: inline-block;
   position: relative;
   float: left;
+  top: 5px;
+  right: 7px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .course-actions .action,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .course-actions .action {
@@ -20836,6 +20838,12 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   height: calc(70px);
   padding-top: 10px;
   padding-bottom: 17px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child .wrapper-course-actions,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child .wrapper-course-actions {
+  right: 5px;
+  top: -9px;
+  position: relative;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-details {
