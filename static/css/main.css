@@ -13925,13 +13925,13 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-login header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 {
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 500px;
+  left: -7px;
+  top: 68px;
+  position: absolute;
   padding: 0;
   z-index: 10;
-  top: 28px;
-  left: initial;
-  right: 0;
   box-shadow: none;
   border: 1px solid #ffffff;
   border-top: 0 none;
@@ -13966,7 +13966,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li {
   transition: all 0.1s ease-in;
   border: 0 none;
-  padding: 2px 8px;
+  padding: 10px 8px;
   color: #8e8787;
   background-color: #ffffff;
 }
@@ -13988,6 +13988,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a,
   letter-spacing: normal;
   color: inherit;
   background-color: inherit;
+  text-decoration: none;
 }
 body header.global > nav ol.menu ul.dropdown-menu2 > li > a:hover,
 .view-login header.global > nav ol.menu ul.dropdown-menu2 > li > a:hover,
@@ -14025,8 +14026,22 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:active,
 .view-login header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:active,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:active,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:active {
-  background: inherit;
+  background-color: inherit;
   color: inherit;
+}
+body header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-login header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-register header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
+body header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > i,
+body header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > i,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > i {
+  margin-right: 7px;
 }
 body header.global > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-login header.global > nav ol.menu ul.dropdown-menu2 > li:hover,
