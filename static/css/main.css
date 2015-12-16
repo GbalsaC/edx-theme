@@ -9758,7 +9758,7 @@ body header.global.slim,
   border: 1px solid transparent;
   background-color: #f8f8f8;
   border-color: #e7e7e7;
-  width: 100%;
+  width: 100% !important;
   top: 0px;
   position: fixed;
   padding: 0;
@@ -19598,6 +19598,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   transition: all 0.1s ease-in;
   background-color: transparent;
   border-radius: 4px;
+  margin-bottom: 0px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item:last-child,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item:last-child {
@@ -22996,8 +22997,8 @@ body.view-incourse .content-wrapper .course-content .course-tabs li {
   margin: 7px 0.5em 0 5px;
   float: left;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li:nd-child(2),
-body.view-incourse .content-wrapper .course-content .course-tabs li:nd-child(2) {
+body.view-incourse .content-wrapper .course-material .course-tabs li:nth-child(2),
+body.view-incourse .content-wrapper .course-content .course-tabs li:nth-child(2) {
   margin-top: 0px;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li:last-child,
@@ -23007,7 +23008,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li:last-child {
 body.view-incourse .content-wrapper .course-material .course-tabs li a,
 body.view-incourse .content-wrapper .course-content .course-tabs li a {
   font: inherit;
-  color: inherit;
+  color: #058ed0;
   font-weight: 200;
   border-radius: 4px;
   padding: 8px 12px;
@@ -23243,7 +23244,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.progress {
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.progress #progressbar,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.progress #progressbar {
-  top: 16px;
+  top: -3px;
 }
 body.view-incourse .content-wrapper .container {
   margin: 0;

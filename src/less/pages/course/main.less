@@ -29,7 +29,7 @@
         li {
             margin: 7px 0.5em 0 5px;
             float: left;
-            &:nd-child(2){
+            &:nth-child(2){
                 margin-top: 0px;
             }
             &:last-child {
@@ -40,7 +40,7 @@
 
             a {
                 font: inherit;
-                color: inherit;
+                color: @color-secondary;
                 font-weight: @headings-font-weight;
                 border-radius: @default-border-radius;
                 padding: 8px 12px;
@@ -78,7 +78,7 @@
             a.progress{
                 padding: 0px;
                 #progressbar{
-                    top:16px;
+                    top:-3px;
                 }
             }
         }
