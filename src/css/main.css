@@ -6568,6 +6568,8 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper:after,
 body.view-incourse .content-wrapper .course-material:before,
 body.view-incourse .content-wrapper .course-material:after,
+body.view-incourse .content-wrapper #course-content:before,
+body.view-incourse .content-wrapper #course-content:after,
 body.view-incourse .content-wrapper .container:before,
 body.view-incourse .content-wrapper .container:after,
 body.view-incourse .content-wrapper .container > .discussion-body:before,
@@ -6646,6 +6648,7 @@ body footer.global .footer-container:after,
 .content-wrapper > .activation:after,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper:after,
 body.view-incourse .content-wrapper .course-material:after,
+body.view-incourse .content-wrapper #course-content:after,
 body.view-incourse .content-wrapper .container:after,
 body.view-incourse .content-wrapper .container > .discussion-body:after,
 body.view-incourse .content-wrapper > .book-wrapper:after {
@@ -22908,7 +22911,8 @@ body.view-incourse .content-wrapper .wrapper-course-material {
   border-radius: 0;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .course-material {
+body.view-incourse .content-wrapper .course-material,
+body.view-incourse .content-wrapper #course-content {
   width: auto;
   height: auto;
   margin-right: auto;
@@ -22925,89 +22929,81 @@ body.view-incourse .content-wrapper .course-material {
   margin-top: 15px;
 }
 @media (min-width: 768px) {
-  body.view-incourse .content-wrapper .course-material {
+  body.view-incourse .content-wrapper .course-material,
+  body.view-incourse .content-wrapper #course-content {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  body.view-incourse .content-wrapper .course-material {
+  body.view-incourse .content-wrapper .course-material,
+  body.view-incourse .content-wrapper #course-content {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  body.view-incourse .content-wrapper .course-material {
+  body.view-incourse .content-wrapper .course-material,
+  body.view-incourse .content-wrapper #course-content {
     width: 1170px;
   }
 }
 body.view-incourse .content-wrapper .course-material > .navbar-header,
-body.view-incourse .content-wrapper .course-material > .navbar-collapse {
+body.view-incourse .content-wrapper #course-content > .navbar-header,
+body.view-incourse .content-wrapper .course-material > .navbar-collapse,
+body.view-incourse .content-wrapper #course-content > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
 }
 @media (min-width: 768px) {
   body.view-incourse .content-wrapper .course-material > .navbar-header,
-  body.view-incourse .content-wrapper .course-material > .navbar-collapse {
+  body.view-incourse .content-wrapper #course-content > .navbar-header,
+  body.view-incourse .content-wrapper .course-material > .navbar-collapse,
+  body.view-incourse .content-wrapper #course-content > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
 }
-body.view-incourse .content-wrapper .course-material .course-tabs {
+body.view-incourse .content-wrapper .course-material .course-tabs,
+body.view-incourse .content-wrapper #course-content .course-tabs {
+  background-color: #ffffff;
   border-radius: 0;
   padding: 0;
   margin: 0;
+  height: 40px;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li {
-  margin: 0 0.5em 0 0;
+body.view-incourse .content-wrapper .course-material .course-tabs li,
+body.view-incourse .content-wrapper #course-content .course-tabs li {
+  margin: 10px 0.5em 0 0;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li:last-child {
-  margin: 0;
+body.view-incourse .content-wrapper .course-material .course-tabs li:nd-child(2),
+body.view-incourse .content-wrapper #course-content .course-tabs li:nd-child(2) {
+  margin-top: 0px;
 }
-@media (max-width: 767px) {
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right {
-    width: auto;
-    height: auto;
-    float: none;
-  }
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right:before,
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right:after {
-    content: " ";
-    display: table;
-  }
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right:after {
-    clear: both;
-  }
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right:before,
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right:after {
-    content: " ";
-    display: table;
-  }
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right:after {
-    clear: both;
-  }
-  body.view-incourse .content-wrapper .course-material .course-tabs li:last-child.right a {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
+body.view-incourse .content-wrapper .course-material .course-tabs li:last-child,
+body.view-incourse .content-wrapper #course-content .course-tabs li:last-child {
+  margin: 10px 0 0 0;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a {
+body.view-incourse .content-wrapper .course-material .course-tabs li a,
+body.view-incourse .content-wrapper #course-content .course-tabs li a {
   font: inherit;
   color: inherit;
   font-weight: 200;
   border-radius: 4px;
   padding: 8px 12px;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a:hover {
-  background-color: #ffffff;
+body.view-incourse .content-wrapper .course-material .course-tabs li a:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a:hover {
+  background-color: transparent;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.active {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.active,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.active {
   box-shadow: none;
   text-shadow: none;
   background: none;
   background-color: #ffffff;
   color: #080808;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
   width: auto;
   height: auto;
   font: inherit;
@@ -23045,31 +23041,45 @@ body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-
   font-size: 0.9em;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active.focus,
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active.focus {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active.focus,
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active.focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active.focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
   color: #333333;
   text-decoration: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled],
-fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled],
+fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
+fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -23077,73 +23087,107 @@ fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-
   box-shadow: none;
 }
 abody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled,
-fieldset[disabled] abody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn {
+abody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled,
+fieldset[disabled] abody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
+fieldset[disabled] abody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
   pointer-events: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
   color: #ffffff;
   background-color: #046c9e;
   border-color: #bfbfbf;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover {
   color: #ffffff;
   background-color: #046c9e;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active,
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
+.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
   color: #ffffff;
   background-color: #046c9e;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active:hover,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
+.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active:focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
+.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active.focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active.focus,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active.focus,
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
+.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
   color: #ffffff;
   background-color: #03547b;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.active,
-.open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.active,
+.open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
+.open > .dropdown-togglebody.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
   background-image: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled]:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled]:hover,
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
+fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled]:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled]:focus,
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
+fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.disabled.focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.disabled.focus,
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn[disabled].focus,
-fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn[disabled].focus,
+fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
+fieldset[disabled] body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn.focus {
   background-color: #058ed0;
   border-color: #ffffff;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn .badge {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn .badge,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn .badge {
   color: #058ed0;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
-  body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn {
+  body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
+  body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn {
     white-space: normal;
   }
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus {
   background-color: #058ed0;
   color: #ffffff;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active {
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:focus,
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:active {
   background: none;
   background-color: #ffffff;
   color: #058ed0;
@@ -23151,14 +23195,16 @@ body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-
   border-color: #058ed0;
   outline: none;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn:hover {
   background: none;
   background-color: #ffffff;
   color: #058ed0;
   border-color: #058ed0;
   box-shadow: none;
 }
-body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn span.icon {
+body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn span.icon,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.new-post-btn span.icon {
   width: auto;
   height: auto;
   font: inherit;
@@ -23168,6 +23214,14 @@ body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-
   float: none;
   margin: 0;
   padding: 0 0.5em 0 0;
+}
+body.view-incourse .content-wrapper .course-material .course-tabs li a.progress,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.progress {
+  padding: 0px;
+}
+body.view-incourse .content-wrapper .course-material .course-tabs li a.progress #progressbar,
+body.view-incourse .content-wrapper #course-content .course-tabs li a.progress #progressbar {
+  top: 16px;
 }
 body.view-incourse .content-wrapper .container {
   margin: 0;

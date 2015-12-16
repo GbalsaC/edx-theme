@@ -10,7 +10,7 @@
     box-shadow: none;
 }
 
-.course-material {
+.course-material, #course-content {
     .ionisx-container();
 
     background: none;
@@ -19,30 +19,21 @@
     margin-top: @layout-top-spacing / 2;
 
     .course-tabs {
+        background-color: @white;
         border-radius: 0;
         padding: 0;
         margin: 0;
+        height: 40px;
 
         li {
-            margin: 0 0.5em 0 0;
-
+            margin: 10px 0.5em 0 0;
+            &:nd-child(2){
+                margin-top: 0px;
+            }
             &:last-child {
-                margin: 0;
+                margin: 10px 0 0 0;
 
-                @media (max-width: @screen-xs-max) {
-                    &.right {
-                        .clearfix();
-                        .square(auto);
-
-                        float: none;
-
-                        a {
-                            .size(100%, auto);
-
-                            margin-top: 10px;
-                        }
-                    }
-                }
+                
             }
 
             a {
@@ -53,7 +44,7 @@
                 padding: 8px 12px;
 
                 &:hover {
-                    background-color: @white;
+                    background-color: transparent;
                 }
 
                 &.active {
@@ -80,6 +71,12 @@
                         margin: 0;
                         padding: 0 0.5em 0 0;
                     }
+                }
+            }
+            a.progress{
+                padding: 0px;
+                #progressbar{
+                    top:16px;
                 }
             }
         }
