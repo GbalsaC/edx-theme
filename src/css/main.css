@@ -23244,7 +23244,8 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.progress {
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.progress #progressbar,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.progress #progressbar {
-  top: 16px;
+  top: 19px;
+  overflow: visible;
 }
 body.view-incourse .content-wrapper .container {
   margin: 0;
@@ -23472,7 +23473,16 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
   padding: 0.6em 0.8em;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 .ui-accordion-header-icon {
-  left: 0.6em;
+  right: 0.6em;
+  left: initial;
+  border: 2px solid #545252;
+  border-radius: 10px;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 span.ui-icon-triangle-1-e {
+  background-position: -18px -131px;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 span.ui-icon-triangle-1-s {
+  background-position: -50px -131px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 a {
   font: inherit;
@@ -23518,14 +23528,15 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
   margin-left: 43px;
   margin-top: 6px;
   font-size: 12px;
+  width: 65%;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li.graded a:after {
   content: '\f017';
   font-family: 'FontAwesome';
   font-size: 1.2em;
   position: absolute;
-  right: 0.5em;
-  bottom: 0.15em;
+  right: 1.8em;
+  bottom: 0.6em;
   color: #2D88CE;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li.graded img {
