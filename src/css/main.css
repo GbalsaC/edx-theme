@@ -13726,7 +13726,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 {
   width: 200px;
   height: 457px;
-  left: -7px;
+  left: 7px;
   top: 61px;
   position: absolute;
   border: 1px solid #ffffff;
@@ -13764,7 +13764,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before {
   content: " ";
   position: absolute;
-  left: 31px;
+  left: 10px;
   top: -9px;
   width: 0px;
   height: 0px;
@@ -17652,6 +17652,12 @@ body footer.global .by-ionisx img,
 .view-passwordreset footer.global .by-ionisx img {
   height: 50px;
 }
+body.logging #content {
+  padding-bottom: 0px;
+}
+body.logging .login-register .form-wrapper form {
+  border: none;
+}
 .container {
   max-width: 100% !important;
   width: 100%;
@@ -19873,7 +19879,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
   padding: 4px 8px;
 }
 .content-wrapper > .dashboard {
-  margin-top: 30px;
+  margin-top: 6px;
 }
 .content-wrapper > .dashboard .dashboard-banner {
   outline: none;
