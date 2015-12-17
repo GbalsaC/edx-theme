@@ -25442,6 +25442,9 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   right: 0px;
   position: absolute;
 }
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-next span.sr {
+  display: none;
+}
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-next span {
   background-color: #8e8787;
   border-radius: 30px;
