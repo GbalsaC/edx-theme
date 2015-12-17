@@ -12709,9 +12709,8 @@ body header.global.slim > nav ol.user ul.dropdown-menu,
   height: auto;
   padding: 0;
   z-index: 10;
-  top: 28px;
+  top: 57px;
   left: initial;
-  right: 0;
   box-shadow: none;
   border: 1px solid #ffffff;
   border-top: 0 none;
@@ -12731,6 +12730,28 @@ body header.global.slim > nav ol.user ul.dropdown-menu:before,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu:before,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu:before {
   display: none;
+}
+body header.global > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-login header.global > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-register header.global > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-passwordreset header.global > nav ol.user ul.dropdown-menu li#userTop::before,
+body header.global-new > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-login header.global-new > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-register header.global-new > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-passwordreset header.global-new > nav ol.user ul.dropdown-menu li#userTop::before,
+body header.global.slim > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-login header.global.slim > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-register header.global.slim > nav ol.user ul.dropdown-menu li#userTop::before,
+.view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu li#userTop::before {
+  content: " ";
+  position: absolute;
+  right: 19px;
+  top: -9px;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid #FFFFFF;
 }
 body header.global > nav ol.user ul.dropdown-menu > li,
 .view-login header.global > nav ol.user ul.dropdown-menu > li,
@@ -13696,14 +13717,13 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2,
   width: 200px;
   height: 457px;
   left: -7px;
-  top: 72px;
+  top: 61px;
   position: absolute;
   border: 1px solid #ffffff;
   padding: 0;
   z-index: 10;
   box-shadow: none;
   border-top: 0 none;
-  border-top-right-radius: 0;
   background-color: #ffffff;
 }
 body header.global > nav ol.menu ul.dropdown-menu2:before,
