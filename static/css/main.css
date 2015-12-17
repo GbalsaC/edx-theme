@@ -17532,6 +17532,7 @@ body footer.global,
   color: #ffffff;
   padding: 20px 0;
   overflow: hidden;
+  width: 100%;
 }
 body footer.global .footer-container,
 .view-login footer.global .footer-container,
