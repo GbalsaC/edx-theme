@@ -8475,6 +8475,7 @@ body header.global.slim:after,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -9296,6 +9297,7 @@ fieldset[disabled] .ionisx-modal .inner-wrapper form .form-actions input[type=su
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -10172,6 +10174,7 @@ body header.global.slim > nav,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -15563,6 +15566,7 @@ body .leanModal_box.video-modal,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -17546,6 +17550,7 @@ body footer.global .footer-container,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   position: relative;
 }
 body footer.global .footer-container > .navbar-header,
@@ -17648,6 +17653,7 @@ body footer.global .by-ionisx img,
 }
 .container {
   max-width: 100% !important;
+  width: 100%;
 }
 body .content-wrapper section.course-info .course-sidebar > section {
   box-shadow: none;
@@ -17745,6 +17751,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   color: #3c763d;
 }
@@ -17807,6 +17814,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   font-size: 0.9em;
   color: #ffffff;
 }
@@ -17841,6 +17849,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -17904,6 +17913,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -17957,6 +17967,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -18025,6 +18036,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -18163,6 +18175,7 @@ body .content-wrapper,
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -19229,6 +19242,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -20952,6 +20966,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses 
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -21450,6 +21465,7 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -21936,6 +21952,7 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -22359,6 +22376,7 @@ fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -22434,6 +22452,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -23640,6 +23659,7 @@ body.view-incourse .content-wrapper .course-content {
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
@@ -23931,39 +23951,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.progress #
 }
 body.view-incourse .content-wrapper .container {
   margin: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  /*
-  @media (min-width: @screen-sm-min) {
-    width: @container-sm;
-  }
-  @media (min-width: @screen-md-min) {
-    width: @container-md;
-  }
-  @media (min-width: @screen-lg-min) {
-    width: @container-lg;
-  }
-  */
-  max-width: 100% !important;
-  min-width: 0;
-  max-width: none;
-  padding-top: 0;
-  padding-bottom: 0;
   margin-top: 15px;
-}
-body.view-incourse .content-wrapper .container > .navbar-header,
-body.view-incourse .content-wrapper .container > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-  body.view-incourse .content-wrapper .container > .navbar-header,
-  body.view-incourse .content-wrapper .container > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
-  }
 }
 body.view-incourse .content-wrapper .container > div {
   width: auto;
@@ -27108,6 +27096,7 @@ body.view-incourse .content-wrapper > .book-wrapper {
   }
   */
   max-width: 100% !important;
+  width: 100%;
   min-width: 0;
   max-width: none;
   padding-top: 0;
