@@ -25421,12 +25421,16 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   position: absolute;
   left: initial;
 }
+body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-previous span.sr {
+  display: none;
+}
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-previous span {
-  background-color: gray;
+  background-color: #8e8787;
   border-radius: 30px;
   width: 32px;
   height: 32px;
   top: 2px;
+  color: white;
   position: relative;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-previous span:before {
@@ -25439,11 +25443,12 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   position: absolute;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-next span {
-  background-color: gray;
+  background-color: #8e8787;
   border-radius: 30px;
   width: 32px;
   height: 32px;
   top: 2px;
+  color: white;
   position: relative;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button.button-next span:before {
