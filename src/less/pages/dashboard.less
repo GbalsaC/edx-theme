@@ -93,7 +93,7 @@
         .make-lg-column(9);
 
         header.wrapper-header-courses{
-                margin: 0 10px 12px 10px;
+                margin: 0 10px 12px 15px;
                 height: 50px;
                 border: none;
                 width: ~"calc(100% - 30px)";
@@ -188,7 +188,7 @@
                 }
 
                 .cover {
-                    .size(100%, auto);
+                    .size(100%, 151px);
 
                     transition: none;
                     max-height: none;
@@ -393,12 +393,13 @@
                             width: 24px;
                             height: 24px;
                             right: -7px;
+                            top: 2px;
                             padding: 0;
                         }
                         .wrapper-course-image{
                             width: 100%;
-                            height: 170px;
-                            background-color:#F9F9F9; 
+                            height: 151px;
+                            background-color:@dash2; 
                             margin: 0px;
                             padding: 0%;
                             overflow: hidden;
@@ -436,12 +437,16 @@
                             }
                         }
                         .wrapper-course-details{
-                                display: block;
+                                display: table;
                                 float: left;
                                 width: 100%;
                                 height: ~"calc(50px)";
+                                color: @dash3;
                                 position: relative;
-                                padding: 10px 0;
+                                padding: 5px 20px 5px 20px;
+                                img{
+                                    margin-right: 10px;
+                                }
                             .course-title{
                                 margin: 0px;
                                 a{
@@ -454,14 +459,16 @@
                             } 
                             .course-info{
                                 margin: 0px;
-                                display: block;
+                                display: table-cell;
                                 float: left;
-                                width: 90%;
+                                width: auto;
                                 padding: 0;
+                                color: @dash3;
                                 margin-top: -2px;
                                 span{
-                                    font-size: ~"12px !important";
+                                    font-size: ~"14px !important";
                                     margin-top: 5px;
+                                    color: @dash3;
                                 }
                                 .info-university{padding-left: 5%;}
                                 .info-course-id{padding-left: 5%;}
@@ -470,11 +477,17 @@
 
                             }
                             .wrapper-course-actions{
-                                display: block;
+                                display: table-cell;
+                                width: auto;
                                 float: right;
-                                width: 7%;
-                                padding: 0;
-                                margin-top: -2px;
+                                position: relative;
+                                color: inherit;
+                                box-sizing: border-box;
+                                top: 7px;
+                                img{}
+                                span.counter{
+                                    color: @dash3;
+                                }
                                 .course-actions{
                                     .wrapper-action-more{
                                         .fa{
