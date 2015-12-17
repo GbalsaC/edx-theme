@@ -18,7 +18,11 @@
     margin-top: @layout-top-spacing;
     background: none;
     .my-courses, .find-courses {
-        width: ~"100% !important";
+        width: ~"calc(100% + 5px) !important";
+        margin: 0 0 0 -5px;
+        .make-md-column(9);
+        .make-lg-column(9);
+        padding: 0;
         header.wrapper-header-courses{
                 margin: 0 5px 12px 5px;
                 height: 50px;
@@ -60,12 +64,7 @@
                 color: slategrey;
             }
         }
-        .square(auto);
-        .make-md-column(9);
-        .make-lg-column(9);
-
-        margin: 0;
-        padding: 0;
+        
 
         header {
             border: 0 none;

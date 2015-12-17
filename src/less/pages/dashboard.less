@@ -86,11 +86,17 @@
     }
 
     .my-courses, .find-courses {
-        width: ~"100% !important";
+        width: ~"calc(100% + 5px) !important";       
+        margin: 0 0 0 0;
+        padding: 0;
+        .make-md-column(9);
+        .make-lg-column(9);
+
         header.wrapper-header-courses{
                 margin: 0 10px 12px 10px;
                 height: 50px;
                 border: none;
+                width: ~"calc(100% - 30px)";
                 padding: 7px 10px;
                 background: white;
                 .iconContent{
@@ -135,12 +141,7 @@
                 color: slategrey;
             }
         }
-        .square(auto);
-        .make-md-column(9);
-        .make-lg-column(9);
 
-        margin: 0;
-        padding: 0;
 
         header {
             border: 0 none;
@@ -171,11 +172,12 @@
         .listing-courses {
             .course-item {
                 border: 0 none;
-                padding: 0;
+                padding: 15px;
                 transition: all .1s ease-in;
                 background-color: transparent;
                 border-radius: @default-border-radius;
-                margin-bottom: 0px;     
+                margin-bottom: 0px;  
+                position: relative;   
 
                 &:hover {
                     
@@ -242,16 +244,15 @@
                     }
                 }
                 .course-back{
-                        height: 294px;
-                        width: ~"calc(100% - 20px)";
-                        padding: 4%;
-                        top: 10px;
-                        left: 10px;
+                        height: ~"calc(100% - 30px)";
+                        width: ~"calc(100% - 30px)";
+                        top: 15px;
+                        left: 15px;
                         position: absolute;
                         background: rgba(255, 255, 255, 0.85);
                         z-index: 10;
                         opacity: 0;
-                        transition: ease-in .2s all;
+                        transition: ease-in 0.2s all;
                     &:hover{
                         opacity: 1;
                     }
@@ -345,6 +346,7 @@
                 .course{
                     background-color: @white;
                     border: none;
+                    margin: 0;
                     .details{
                         height: 292px;
                         .course-actions{ 
@@ -398,14 +400,22 @@
 
                         }
                         .wrapper-course-details:first-child{
-                            border-bottom: none;
-                            height: ~"calc(70px)";
-                            padding-top:10px;
-                            padding-bottom: 17px;
+                                border-bottom: none;
+                            height: calc(70px);
+                            padding-top: 0px;
+                            padding: 10px 20px 5px 20px;
+                            width: 100%;
+                            position: relative;
+                            display: table;
+                            .title{
+                                display: table-cell;
+                            }
+
                             .wrapper-course-actions{
-                                right: 5px;
-                                top: -9px;
+                                right: 0px;
+                                top: 0px;
                                 position: relative;
+                                display: table-cell;
                             }
                         }
                         .wrapper-course-details{
