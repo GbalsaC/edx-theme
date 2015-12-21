@@ -9579,8 +9579,6 @@ body header.global.slim,
 .view-login header.global.slim,
 .view-register header.global.slim,
 .view-passwordreset header.global.slim {
-  width: auto;
-  height: auto;
   position: relative;
   min-height: 60px;
   margin-bottom: 20px;
@@ -11938,9 +11936,9 @@ body header.global.slim > nav ol.user > li.primary > a,
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #8e8787;
+  color: #058ed0;
   background-color: #ffffff;
-  border-color: #8e8787;
+  border-color: #058ed0;
   text-shadow: none;
   text-overflow: ellipsis;
   transition: all 0.1s ease-in;
@@ -12191,9 +12189,9 @@ body header.global.slim > nav ol.user > li.primary > a.focus,
 .view-login header.global.slim > nav ol.user > li.primary > a.focus,
 .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  color: #8e8787;
+  color: #058ed0;
   background-color: #e6e6e6;
-  border-color: #4d4949;
+  border-color: #023953;
 }
 body header.global > nav ol.user > li.primary > a:hover,
 .view-login header.global > nav ol.user > li.primary > a:hover,
@@ -12207,9 +12205,9 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-login header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
-  color: #8e8787;
+  color: #058ed0;
   background-color: #e6e6e6;
-  border-color: #6f6969;
+  border-color: #046594;
 }
 body header.global > nav ol.user > li.primary > a:active,
 .view-login header.global > nav ol.user > li.primary > a:active,
@@ -12247,9 +12245,9 @@ body header.global.slim > nav ol.user > li.primary > a.active,
 .open > .dropdown-toggle.view-login header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a {
-  color: #8e8787;
+  color: #058ed0;
   background-color: #e6e6e6;
-  border-color: #6f6969;
+  border-color: #046594;
 }
 body header.global > nav ol.user > li.primary > a:active:hover,
 .view-login header.global > nav ol.user > li.primary > a:active:hover,
@@ -12359,9 +12357,9 @@ body header.global.slim > nav ol.user > li.primary > a.active.focus,
 .open > .dropdown-toggle.view-login header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  color: #8e8787;
+  color: #058ed0;
   background-color: #d4d4d4;
-  border-color: #4d4949;
+  border-color: #023953;
 }
 body header.global > nav ol.user > li.primary > a:active,
 .view-login header.global > nav ol.user > li.primary > a:active,
@@ -12510,7 +12508,7 @@ fieldset[disabled] .view-login header.global.slim > nav ol.user > li.primary > a
 fieldset[disabled] .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 fieldset[disabled] .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
   background-color: #ffffff;
-  border-color: #8e8787;
+  border-color: #058ed0;
 }
 body header.global > nav ol.user > li.primary > a .badge,
 .view-login header.global > nav ol.user > li.primary > a .badge,
@@ -12525,7 +12523,7 @@ body header.global.slim > nav ol.user > li.primary > a .badge,
 .view-register header.global.slim > nav ol.user > li.primary > a .badge,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a .badge {
   color: #ffffff;
-  background-color: #8e8787;
+  background-color: #058ed0;
 }
 @media (max-width: 767px) {
   body header.global > nav ol.user > li.primary > a,
@@ -12556,8 +12554,8 @@ body header.global.slim > nav ol.user > li.primary > a:focus,
 .view-register header.global.slim > nav ol.user > li.primary > a:focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:focus {
   background-color: #ffffff;
-  color: #8e8787;
-  border-color: #8e8787;
+  color: #058ed0;
+  border-color: #058ed0;
 }
 body header.global > nav ol.user > li.primary > a:focus,
 .view-login header.global > nav ol.user > li.primary > a:focus,
@@ -12584,10 +12582,10 @@ body header.global.slim > nav ol.user > li.primary > a:active,
 .view-register header.global.slim > nav ol.user > li.primary > a:active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:active {
   background: none;
-  background-color: #8e8787;
+  background-color: #058ed0;
   color: #ffffff;
   box-shadow: none;
-  border-color: #8e8787;
+  border-color: #058ed0;
   border-color: #ffffff;
   outline: none;
 }
@@ -12604,11 +12602,11 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
   background: none;
-  background-color: #8e8787;
+  background-color: #058ed0;
   color: #ffffff;
   border-color: #ffffff;
   box-shadow: none;
-  border-color: #8e8787;
+  border-color: #058ed0;
 }
 body header.global > nav ol.user > li.primary > a.user-link,
 .view-login header.global > nav ol.user > li.primary > a.user-link,
@@ -12667,8 +12665,8 @@ body header.global.slim > nav ol.user > li.primary > a.dropdown.active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown.active {
   background: none;
   background-color: #ffffff;
-  color: #8e8787;
-  border-color: #8e8787;
+  color: #058ed0;
+  border-color: #058ed0;
   box-shadow: none;
 }
 body header.global > nav ol.user > li.primary > a.dropdown,
@@ -12777,8 +12775,9 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li {
   transition: all 0.1s ease-in;
   border: 0 none;
+  text-transform: uppercase;
   padding: 2px 8px;
-  color: #8e8787;
+  color: #058ed0;
   background-color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li > a,
@@ -12851,7 +12850,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li:hover {
-  background-color: #8e8787;
+  background-color: #058ed0;
   color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover > a,
@@ -12896,22 +12895,42 @@ body header.global.slim > nav ol.menu > li h1.menu,
 .view-passwordreset header.global.slim > nav ol.menu > li h1.menu {
   width: 30px;
   float: left;
-  margin: 10px 30px 0 0;
+  margin: 0px 30px 0 0;
   font-size: 20px;
 }
-body header.global > nav ol.menu > li h1.menu a,
-.view-login header.global > nav ol.menu > li h1.menu a,
-.view-register header.global > nav ol.menu > li h1.menu a,
-.view-passwordreset header.global > nav ol.menu > li h1.menu a,
-body header.global-new > nav ol.menu > li h1.menu a,
-.view-login header.global-new > nav ol.menu > li h1.menu a,
-.view-register header.global-new > nav ol.menu > li h1.menu a,
-.view-passwordreset header.global-new > nav ol.menu > li h1.menu a,
-body header.global.slim > nav ol.menu > li h1.menu a,
-.view-login header.global.slim > nav ol.menu > li h1.menu a,
-.view-register header.global.slim > nav ol.menu > li h1.menu a,
-.view-passwordreset header.global.slim > nav ol.menu > li h1.menu a {
+body header.global > nav ol.menu > li h1.menu a i,
+.view-login header.global > nav ol.menu > li h1.menu a i,
+.view-register header.global > nav ol.menu > li h1.menu a i,
+.view-passwordreset header.global > nav ol.menu > li h1.menu a i,
+body header.global-new > nav ol.menu > li h1.menu a i,
+.view-login header.global-new > nav ol.menu > li h1.menu a i,
+.view-register header.global-new > nav ol.menu > li h1.menu a i,
+.view-passwordreset header.global-new > nav ol.menu > li h1.menu a i,
+body header.global.slim > nav ol.menu > li h1.menu a i,
+.view-login header.global.slim > nav ol.menu > li h1.menu a i,
+.view-register header.global.slim > nav ol.menu > li h1.menu a i,
+.view-passwordreset header.global.slim > nav ol.menu > li h1.menu a i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   color: #058ed0;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+body header.global > nav ol.menu > li h1.menu a i:hover,
+.view-login header.global > nav ol.menu > li h1.menu a i:hover,
+.view-register header.global > nav ol.menu > li h1.menu a i:hover,
+.view-passwordreset header.global > nav ol.menu > li h1.menu a i:hover,
+body header.global-new > nav ol.menu > li h1.menu a i:hover,
+.view-login header.global-new > nav ol.menu > li h1.menu a i:hover,
+.view-register header.global-new > nav ol.menu > li h1.menu a i:hover,
+.view-passwordreset header.global-new > nav ol.menu > li h1.menu a i:hover,
+body header.global.slim > nav ol.menu > li h1.menu a i:hover,
+.view-login header.global.slim > nav ol.menu > li h1.menu a i:hover,
+.view-register header.global.slim > nav ol.menu > li h1.menu a i:hover,
+.view-passwordreset header.global.slim > nav ol.menu > li h1.menu a i:hover {
+  color: #ffffff;
+  background-color: #058ed0;
 }
 body header.global > nav ol.menu > li.primary > a,
 .view-login header.global > nav ol.menu > li.primary > a,
@@ -13724,14 +13743,15 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-login header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 {
-  width: 200px;
-  height: 457px;
-  left: 7px;
-  top: 61px;
+  width: calc(100% - 20px);
+  min-height: 408px;
+  z-index: 10;
+  left: 11px;
+  top: 86px;
   position: absolute;
   border: 1px solid #ffffff;
   padding: 0;
-  z-index: 10;
+  z-index: 100;
   box-shadow: none;
   border-top: 0 none;
   background-color: #ffffff;
@@ -13787,7 +13807,8 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li,
   transition: all 0.1s ease-in;
   border: 0 none;
   padding: 10px 10px;
-  color: #8e8787;
+  color: #058ed0;
+  text-transform: uppercase;
   background-color: #ffffff;
 }
 body header.global > nav ol.menu ul.dropdown-menu2 > li > a,
@@ -13849,6 +13870,21 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:active,
   background-color: inherit;
   color: inherit;
 }
+body header.global > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-login header.global > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-register header.global > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu2 > li > a > img,
+body header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > img,
+body header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > img,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > img {
+  width: 25px;
+  margin-right: 10px;
+}
 body header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
 .view-login header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
 .view-register header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
@@ -13875,7 +13911,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-login header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover {
-  background-color: #8e8787;
+  background-color: #058ed0;
   color: #ffffff;
 }
 body header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a,
@@ -13891,6 +13927,21 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a {
   color: inherit;
+}
+body header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-login header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-register header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-passwordreset header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+body header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-login header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-register header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-passwordreset header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+body header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-login header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+.view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a > img {
+  -webkit-filter: brightness(500%) grayscale(100%);
+  filter: brightness(500%) grayscale(100%);
 }
 body .view-profile .profile-image-field .image-wrapper,
 .view-login .view-profile .profile-image-field .image-wrapper,
@@ -17728,17 +17779,6 @@ body .content-wrapper,
   padding: 0;
   background: none;
   padding-bottom: 30px;
-  min-height: 105vh;
-}
-@media (min-width: 767px) {
-  body .content-wrapper,
-  .view-login .content-wrapper,
-  .view-register .content-wrapper,
-  .view-passwordreset .content-wrapper {
-    min-height: 105vh;
-    margin-top: -142px;
-    padding-top: 142px;
-  }
 }
 .wrapper-msg {
   background-color: #dff0d8;
@@ -17804,7 +17844,7 @@ body .content-wrapper,
   color: #a94442;
 }
 .wrapper-preview-menu {
-  background-color: #141414;
+  background-color: #058ed0;
   padding: 15px 0;
 }
 .wrapper-preview-menu .preview-menu {
@@ -20014,8 +20054,8 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 }
 .content-wrapper > .dashboard .my-courses,
 .content-wrapper > .dashboard .find-courses {
-  width: calc(100% + 5px) !important;
-  margin: 0 0 0 0;
+  width: calc(75% + 5px) !important;
+  margin: 0 0 0 25%;
   padding: 0;
   position: relative;
   min-height: 1px;
@@ -20055,10 +20095,11 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
   margin-left: 5px;
   margin-top: 6px;
   color: gray;
+  cursor: pointer;
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses .iconContent i:hover,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses .iconContent i:hover {
-  color: #4A6EB3;
+  color: #058ed0;
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses select,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses select,
@@ -20509,6 +20550,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details {
   height: 292px;
+  position: relative;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .course-actions .wrapper-action-more,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .course-actions .wrapper-action-more {
@@ -20554,7 +20596,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   width: 24px;
   height: 24px;
   right: -7px;
-  top: 2px;
+  top: -15px;
   padding: 0;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-image,
@@ -20587,13 +20629,14 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child .wrapper-course-actions,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-details:first-child .wrapper-course-actions {
   right: 0px;
-  top: 0px;
+  top: 16px;
   position: relative;
   display: table-cell;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle {
   font-size: 14px;
+  height: 130px;
   color: #8f9092;
   padding: 0px 20px 20px 20px;
 }
@@ -20603,7 +20646,67 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle p:after,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle p:after {
-  content: " ... ";
+  content: "  ";
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.88);
+  opacity: 0;
+  z-index: 10;
+  width: 100%;
+  top: 70px;
+  min-height: 209px;
+  max-height: 209px !important;
+  display: block;
+  font-size: 14px;
+  color: #8f9092;
+  padding: 0px 20px 20px 20px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 p,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 p {
+  margin: 0;
+  max-height: 145px;
+  height: 145px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 p:after,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 p:after {
+  content: "  ";
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2:hover,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2:hover {
+  opacity: 1;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon {
+  height: 60px;
+  position: relative;
+  bottom: 0px;
+  width: 200px;
+  margin: 0 auto;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon div,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon div {
+  height: 100%;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon .enterCourse,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon .enterCourse {
+  background-repeat: no-repeat;
+  background-position: 6px -9px;
+  max-width: 87px;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon .enterCourse a,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon .enterCourse a {
+  height: 100%;
+  width: 100%;
+}
+.content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon .rocketCourse,
+.content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-subtitle.sub2 .bottomIcon .rocketCourse {
+  background-repeat: no-repeat;
+  background-position: -66px -9px;
+  max-width: 87px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-details {
@@ -20668,6 +20771,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   color: inherit;
   box-sizing: border-box;
   top: 7px;
+  margin-top: 0px;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions span.counter,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course .details .wrapper-course-details .wrapper-course-actions span.counter {
@@ -24012,7 +24116,6 @@ body.view-incourse .content-wrapper .container > div {
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  overflow: hidden;
 }
 body.view-incourse .content-wrapper .container > div:before,
 body.view-incourse .content-wrapper .container > div:after {
@@ -24085,6 +24188,9 @@ body.view-incourse .content-wrapper .container body.view-courseware .content-wra
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper {
   background-color: transparent;
   max-width: 100% !important;
+}
+body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-content > div.xblock {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 body.view-incourse .content-wrapper .container body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav button {
   border: 2px solid transparent;
@@ -24163,10 +24269,21 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #co
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion {
   font: inherit;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion nav {
   min-height: 600px;
   background-color: white;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion nav h2.course-header {
+  margin: 0 0 0 0;
+  padding: 10px;
+  color: #8e8787;
+  font-weight: 200;
+  line-height: 26px;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion nav h2.course-header span {
+  font-weight: bold;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter {
   border-radius: 0;
@@ -24184,7 +24301,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 {
   font: inherit;
-  padding: 0.6em 0.8em;
+  padding: 0.6em 1.3em 0.6em 0.8em;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter h3 .ui-accordion-header-icon {
   right: 0.6em;
@@ -24216,9 +24333,17 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li {
   margin: 0 0 0.6em 0;
   color: #796C6C;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 4px;
+  border-width: 1px;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li:last-child {
   margin: 0;
+}
+body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li:hover {
+  border-color: #058ed0;
+  color: #058ed0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
   font: inherit;

@@ -65,6 +65,9 @@ body.view-incourse{
 
                 }
                 .course-content{
+                    > div.xblock{
+                        box-shadow: 0 1px 3px rgba(0,0,0,.3);
+                    }
                     .sequence-nav{
                         button{
                             background: none;
@@ -156,9 +159,20 @@ body.view-incourse{
 
         #accordion {
             font: inherit;
+            box-shadow: 0 1px 3px rgba(0,0,0,.3);
             nav{
                 min-height: 600px;
                 background-color: white;
+                h2.course-header{
+                    margin: 0 0 0 0;
+                    padding: 10px;
+                    color: @gray2;
+                    font-weight: 200;
+                    line-height: 26px;
+                    span{
+                        font-weight: bold;
+                    }
+                }
             }
 
             .chapter {
@@ -179,7 +193,7 @@ body.view-incourse{
 
                 h3 {
                     font: inherit;
-                    padding: 0.6em 0.8em;
+                    padding: 0.6em 1.3em 0.6em 0.8em;
 
                     .ui-accordion-header-icon {
                         right: 0.6em;
@@ -216,8 +230,16 @@ body.view-incourse{
                     li {
                         margin: 0 0 0.6em 0;
                         color: #796C6C;
+                        border-style: solid;
+                        border-color: @white;
+                        border-radius: 4px;
+                        border-width: 1px;
                         &:last-child {
                             margin: 0;
+                        }
+                        &:hover{
+                            border-color: @color-secondary;
+                            color: @color-secondary;
                         }
 
                         a {

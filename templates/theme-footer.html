@@ -3,37 +3,38 @@
 <%! from microsite_configuration.templatetags.microsite import platform_name %>
 <%namespace name='static' file='static_content.html'/>
 
-<footer class="global">
+##Footer might need changing back to only footer.global, fixed position is not adequate.
+<footer class="global navbar navbar-default navbar-fixed-bottom" style="background-color: white; color: black">
   <div class="footer-container">
     <ul class="links">
       %if settings.MKTG_URL_LINK_MAP.get('ABOUT'):
       <li>
-        <a id="about" href="${marketing_link('ABOUT')}">${_("About")}</a>
+        <a id="about" href="${marketing_link('ABOUT')}" style="color: black">${_("About")}</a>
       </li>
       %endif
 
       %if settings.MKTG_URL_LINK_MAP.get('CONTACT'):
       <li>
-        <a id="contact" href="${marketing_link('CONTACT')}">${_("Contact")}</a>
+        <a id="contact" href="${marketing_link('CONTACT')}" style="color: black">${_("Contact")}</a>
       </li>
       %endif
       %if settings.MKTG_URL_LINK_MAP.get('TOS'):
       <li>
-        <a href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
+        <a href="${marketing_link('TOS')}" style="color: black">${_("Terms of Service")}</a>
       </li>
       %endif
    
       
       %if settings.MKTG_URL_LINK_MAP.get('PRIVACY'):
       <li>
-        <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+        <a href="${marketing_link('PRIVACY')}" style="color: black">${_("Privacy Policy")}</a>
       </li>
       %endif
     </ul>
     <p class="copyright">${_(u"© 2015 {platform_name}, some rights reserved.").format(platform_name=platform_name())}</p>
     <div class="by-ionisx">
       <a href="https://ionisx.com">
-        <img src="${static.url('themes/{theme_name}/images/logo-white.png'.format(theme_name=settings.THEME_NAME))}" alt="Theme by populo">
+        <img src="${static.url('themes/{theme_name}/images/populo-growth.png'.format(theme_name=settings.THEME_NAME))}" alt="Theme by populo">
       </a>
     </div>
   </div>

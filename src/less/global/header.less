@@ -4,7 +4,6 @@ nav.nav-course {
     }
 }
 header.global, header.global-new, header.global.slim {
-    .square(auto);
     .navbar();
     .navbar-default();
     width: 100% !important;
@@ -152,7 +151,7 @@ header.global, header.global-new, header.global.slim {
             margin: 4px 0 0 0;
 
             > li.primary > a {
-                .ionisx-btn(@gray2, @white);
+                .ionisx-btn(@color-secondary, @white);
                 //.ionisx-btn(@color-secondary, @white);
                 border: none !important;
                 border-radius: 0;
@@ -174,7 +173,7 @@ header.global, header.global-new, header.global.slim {
                 }
 
                 &.dropdown.active {
-                    .ionisx-btn-hover(@color-primary, @gray2);
+                    .ionisx-btn-hover(@color-primary, @color-secondary);
                 }
 
                 &.dropdown {
@@ -222,8 +221,9 @@ header.global, header.global-new, header.global.slim {
                 > li {
                     transition: all .1s ease-in;
                     border: 0 none;
+                    text-transform: uppercase;
                     padding: 2px 8px;
-                    color: @gray2;
+                    color: @color-secondary;
                     background-color: @white;
 
                     > a {
@@ -241,7 +241,7 @@ header.global, header.global-new, header.global.slim {
                     }
 
                     &:hover {
-                        background-color: @gray2;
+                        background-color: @color-secondary;
                         color: @white;
 
                         > a {
@@ -257,10 +257,23 @@ header.global, header.global-new, header.global.slim {
                 h1.menu{
                     width: 30px;
                     float: left;
-                    margin: 10px 30px 0 0;
+                    margin: 0px 30px 0 0;
                     font-size: 20px;
                     a{
-                        color:@color-secondary;
+                        
+                        i{
+                            width: 30px;
+                            height: 30px;
+                            line-height: 30px;
+                            color:@color-secondary;
+                            background-color: @white;
+                            border-radius: 30px;
+                            &:hover{
+                                color:@white;
+                                background-color: @color-secondary;
+                            }
+
+                        }
                     }
                 }
             }
@@ -307,19 +320,19 @@ header.global, header.global-new, header.global.slim {
 
 
             ul.dropdown-menu2 {
-                width: 200px;
-                height: 457px;
+                width: ~"calc(100% - 20px)";
+                min-height: 408px;
                 padding: 0;
                 z-index: 10;
-                left: 7px;
-                top: 61px;
+                left: 11px;
+                top: 86px;
                 position: absolute;
                 box-shadow: none;
                 border: 1px solid @white;
                 border-top: 0 none;
                 background-color: #ffffff;
                 padding: 0;
-                z-index: 10;
+                z-index: 100;
                 box-shadow: none;
                 border-top: 0 none;
                 background-color: @white;
@@ -344,7 +357,8 @@ header.global, header.global-new, header.global.slim {
                     transition: all .1s ease-in;
                     border: 0 none;
                     padding: 10px 10px;
-                    color: @gray2;
+                    color: @color-secondary;
+                    text-transform: uppercase;
                     background-color: @white;
 
                     > a {
@@ -360,6 +374,10 @@ header.global, header.global-new, header.global.slim {
                             background-color: inherit;
                             color: inherit;
                         }
+                        > img{
+                            width: 25px;
+                            margin-right: 10px;
+                        }
                         > i{
                             margin-right: 7px;
 
@@ -367,11 +385,15 @@ header.global, header.global-new, header.global.slim {
                     }
 
                     &:hover {
-                        background-color: @gray2;
+                        background-color: @color-secondary;
                         color: @white;
 
                         > a {
                             color: inherit;
+                            > img{
+                                -webkit-filter:~"brightness(500%) grayscale(100%)";
+                                filter: ~"brightness(500%) grayscale(100%)";
+                            }
                             > i{
 
                             }
