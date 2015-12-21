@@ -1,2 +1,4 @@
 bower_components/
 node_modules/
+/src/css/global/header2.css
+/src/css/global/header2.css.map
