@@ -4,38 +4,41 @@
 <%namespace name='static' file='static_content.html'/>
 
 ##Footer might need changing back to only footer.global, fixed position is not adequate.
-<footer class="global navbar navbar-default navbar-fixed-bottom" style="background-color: white; color: black">
-  <div class="footer-container">
-    <ul class="links">
-      %if settings.MKTG_URL_LINK_MAP.get('ABOUT'):
-      <li>
-        <a id="about" href="${marketing_link('ABOUT')}" style="color: black">${_("About")}</a>
-      </li>
-      %endif
-
-      %if settings.MKTG_URL_LINK_MAP.get('CONTACT'):
-      <li>
-        <a id="contact" href="${marketing_link('CONTACT')}" style="color: black">${_("Contact")}</a>
-      </li>
-      %endif
-      %if settings.MKTG_URL_LINK_MAP.get('TOS'):
-      <li>
-        <a href="${marketing_link('TOS')}" style="color: black">${_("Terms of Service")}</a>
-      </li>
-      %endif
-   
-      
-      %if settings.MKTG_URL_LINK_MAP.get('PRIVACY'):
-      <li>
-        <a href="${marketing_link('PRIVACY')}" style="color: black">${_("Privacy Policy")}</a>
-      </li>
-      %endif
-    </ul>
-    <p class="copyright">${_(u"© 2015 {platform_name}, some rights reserved.").format(platform_name=platform_name())}</p>
-    <div class="by-ionisx">
-      <a href="https://ionisx.com">
-        <img src="${static.url('themes/{theme_name}/images/populo-growth.png'.format(theme_name=settings.THEME_NAME))}" alt="Theme by populo">
-      </a>
+<footer class="global navbar navbar-default">
+  
+    <div class="col-md-12 text-center hidden-xs">
+      <span>&copy;Copyright 2015 populo. All rights reserved.</span>
+      <span>Made With</span>
+      <img class="padding-5" src="https://dl.dropboxusercontent.com/s/zlqwtmcmddpytfq/love-icon.png">
+        <span>in Chicago</span>
+        <ul class="list-inline">
+          <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms & Cconditions</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
     </div>
-  </div>
+    
+    <div class="visible-xs">
+        <div class="col-xs-12 collapse-header text-center">
+                <a href="#legal-links" data-toggle="collapse" aria-expanded="false" aria-controls="legal-links">
+                    <img src="https://dl.dropboxusercontent.com/s/ftb8vqz84pnm3bz/expand-icon.png">
+                </a>
+        </div>        
+                
+                <div class="collapse" id="legal-links">
+                    <div class="col-xs-12 text-center">
+                        <ul class="list-group">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms & Cconditions</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+        <div class="col-xs-12 text-center">        
+            <span>Made With</span>
+            <img class="padding-5" src="https://dl.dropboxusercontent.com/s/zlqwtmcmddpytfq/love-icon.png">
+            <span>in Chicago</span>
+        </div>
+    </div>
 </footer>
