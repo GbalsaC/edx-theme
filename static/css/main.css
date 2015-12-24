@@ -9106,7 +9106,7 @@ body header.global.slim:after,
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -9116,7 +9116,7 @@ body header.global.slim:after,
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:focus,
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit]:focus,
@@ -9175,13 +9175,13 @@ fieldset[disabled] a.ionisx-modal .inner-wrapper form .form-actions input[type=s
 .ionisx-modal .inner-wrapper form .submit input[type=submit].focus,
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:hover,
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:active,
@@ -9191,7 +9191,7 @@ fieldset[disabled] a.ionisx-modal .inner-wrapper form .form-actions input[type=s
 .open > .dropdown-toggle.ionisx-modal .inner-wrapper form .submit input[type=submit],
 .open > .dropdown-toggle.ionisx-modal .inner-wrapper form .form-actions input[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:active:hover,
@@ -9213,7 +9213,7 @@ fieldset[disabled] a.ionisx-modal .inner-wrapper form .form-actions input[type=s
 .open > .dropdown-toggle.ionisx-modal .inner-wrapper form .submit input[type=submit].focus,
 .open > .dropdown-toggle.ionisx-modal .inner-wrapper form .form-actions input[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:active,
@@ -9242,12 +9242,12 @@ fieldset[disabled] .ionisx-modal .inner-wrapper form .form-actions input[type=su
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit][disabled].focus,
 fieldset[disabled] .ionisx-modal .inner-wrapper form .submit input[type=submit].focus,
 fieldset[disabled] .ionisx-modal .inner-wrapper form .form-actions input[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit] .badge,
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -9258,7 +9258,7 @@ fieldset[disabled] .ionisx-modal .inner-wrapper form .form-actions input[type=su
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:focus,
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -9268,17 +9268,17 @@ fieldset[disabled] .ionisx-modal .inner-wrapper form .form-actions input[type=su
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .ionisx-modal .inner-wrapper form .submit input[type=submit]:hover,
 .ionisx-modal .inner-wrapper form .form-actions input[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 .ionisx-container-modal {
@@ -9359,7 +9359,7 @@ h3,
 }
 h4,
 .h4 {
-  color: #058ed0;
+  color: #1c99d6;
   font-weight: 500;
   letter-spacing: normal;
   -webkit-font-smoothing: auto;
@@ -9438,7 +9438,7 @@ a:visited:active,
 p a:active,
 p a:link:active,
 p a:visited:active {
-  color: #058ed0;
+  color: #1c99d6;
   border: 0 none;
   outline: none;
 }
@@ -10265,7 +10265,7 @@ body header.global.slim > nav h1.menu a,
 .view-login header.global.slim > nav h1.menu a,
 .view-register header.global.slim > nav h1.menu a,
 .view-passwordreset header.global.slim > nav h1.menu a {
-  color: #058ed0;
+  color: #1c99d6;
 }
 body header.global > nav h1.logo,
 .view-login header.global > nav h1.logo,
@@ -11936,9 +11936,9 @@ body header.global.slim > nav ol.user > li.primary > a,
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   text-shadow: none;
   text-overflow: ellipsis;
   transition: all 0.1s ease-in;
@@ -12189,9 +12189,9 @@ body header.global.slim > nav ol.user > li.primary > a.focus,
 .view-login header.global.slim > nav ol.user > li.primary > a.focus,
 .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #e6e6e6;
-  border-color: #023953;
+  border-color: #0d4865;
 }
 body header.global > nav ol.user > li.primary > a:hover,
 .view-login header.global > nav ol.user > li.primary > a:hover,
@@ -12205,9 +12205,9 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-login header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #e6e6e6;
-  border-color: #046594;
+  border-color: #1572a0;
 }
 body header.global > nav ol.user > li.primary > a:active,
 .view-login header.global > nav ol.user > li.primary > a:active,
@@ -12245,9 +12245,9 @@ body header.global.slim > nav ol.user > li.primary > a.active,
 .open > .dropdown-toggle.view-login header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #e6e6e6;
-  border-color: #046594;
+  border-color: #1572a0;
 }
 body header.global > nav ol.user > li.primary > a:active:hover,
 .view-login header.global > nav ol.user > li.primary > a:active:hover,
@@ -12357,9 +12357,9 @@ body header.global.slim > nav ol.user > li.primary > a.active.focus,
 .open > .dropdown-toggle.view-login header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-register header.global.slim > nav ol.user > li.primary > a.focus,
 .open > .dropdown-toggle.view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #d4d4d4;
-  border-color: #023953;
+  border-color: #0d4865;
 }
 body header.global > nav ol.user > li.primary > a:active,
 .view-login header.global > nav ol.user > li.primary > a:active,
@@ -12508,7 +12508,7 @@ fieldset[disabled] .view-login header.global.slim > nav ol.user > li.primary > a
 fieldset[disabled] .view-register header.global.slim > nav ol.user > li.primary > a.focus,
 fieldset[disabled] .view-passwordreset header.global.slim > nav ol.user > li.primary > a.focus {
   background-color: #ffffff;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 body header.global > nav ol.user > li.primary > a .badge,
 .view-login header.global > nav ol.user > li.primary > a .badge,
@@ -12523,7 +12523,7 @@ body header.global.slim > nav ol.user > li.primary > a .badge,
 .view-register header.global.slim > nav ol.user > li.primary > a .badge,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a .badge {
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
 }
 @media (max-width: 767px) {
   body header.global > nav ol.user > li.primary > a,
@@ -12554,8 +12554,8 @@ body header.global.slim > nav ol.user > li.primary > a:focus,
 .view-register header.global.slim > nav ol.user > li.primary > a:focus,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:focus {
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
 }
 body header.global > nav ol.user > li.primary > a:focus,
 .view-login header.global > nav ol.user > li.primary > a:focus,
@@ -12582,10 +12582,10 @@ body header.global.slim > nav ol.user > li.primary > a:active,
 .view-register header.global.slim > nav ol.user > li.primary > a:active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:active {
   background: none;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   border-color: #ffffff;
   outline: none;
 }
@@ -12602,11 +12602,11 @@ body header.global.slim > nav ol.user > li.primary > a:hover,
 .view-register header.global.slim > nav ol.user > li.primary > a:hover,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a:hover {
   background: none;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 body header.global > nav ol.user > li.primary > a.user-link,
 .view-login header.global > nav ol.user > li.primary > a.user-link,
@@ -12665,8 +12665,8 @@ body header.global.slim > nav ol.user > li.primary > a.dropdown.active,
 .view-passwordreset header.global.slim > nav ol.user > li.primary > a.dropdown.active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body header.global > nav ol.user > li.primary > a.dropdown,
@@ -12777,7 +12777,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li,
   border: 0 none;
   text-transform: uppercase;
   padding: 2px 8px;
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li > a,
@@ -12850,7 +12850,7 @@ body header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-login header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-register header.global.slim > nav ol.user ul.dropdown-menu > li:hover,
 .view-passwordreset header.global.slim > nav ol.user ul.dropdown-menu > li:hover {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
 }
 body header.global > nav ol.user ul.dropdown-menu > li:hover > a,
@@ -12913,7 +12913,7 @@ body header.global.slim > nav ol.menu > li h1.menu a i,
   width: 30px;
   height: 30px;
   line-height: 30px;
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
   border-radius: 30px;
 }
@@ -12930,7 +12930,7 @@ body header.global.slim > nav ol.menu > li h1.menu a i:hover,
 .view-register header.global.slim > nav ol.menu > li h1.menu a i:hover,
 .view-passwordreset header.global.slim > nav ol.menu > li h1.menu a i:hover {
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
 }
 body header.global > nav ol.menu > li.primary > a,
 .view-login header.global > nav ol.menu > li.primary > a,
@@ -13831,7 +13831,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li,
   transition: all 0.1s ease-in;
   border: 0 none;
   padding: 10px 10px;
-  color: #058ed0;
+  color: #1c99d6;
   text-transform: uppercase;
   background-color: #ffffff;
 }
@@ -13936,7 +13936,7 @@ body header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-login header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-register header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover,
 .view-passwordreset header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
 }
 body header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a,
@@ -14758,7 +14758,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit],
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -14768,7 +14768,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit],
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 body .modal .inner-wrapper form .submit input[type=submit]:focus,
 .view-login .modal .inner-wrapper form .submit input[type=submit]:focus,
@@ -15079,7 +15079,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus,
 .view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus,
 .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body .modal .inner-wrapper form .submit input[type=submit]:hover,
@@ -15099,7 +15099,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit]:hover,
 .view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit]:hover,
 .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body .modal .inner-wrapper form .submit input[type=submit]:active,
@@ -15151,7 +15151,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit].active,
 .open > .dropdown-toggle.view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit],
 .open > .dropdown-toggle.view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body .modal .inner-wrapper form .submit input[type=submit]:active:hover,
@@ -15299,7 +15299,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit].active.
 .open > .dropdown-toggle.view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus,
 .open > .dropdown-toggle.view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body .modal .inner-wrapper form .submit input[type=submit]:active,
@@ -15496,7 +15496,7 @@ fieldset[disabled] body .leanModal_box .inner-wrapper form .form-actions input[t
 fieldset[disabled] .view-login .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus,
 fieldset[disabled] .view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus,
 fieldset[disabled] .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body .modal .inner-wrapper form .submit input[type=submit] .badge,
@@ -15515,7 +15515,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit] .badge,
 .view-login .leanModal_box .inner-wrapper form .form-actions input[type=submit] .badge,
 .view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit] .badge,
 .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -15554,7 +15554,7 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit]:focus,
 .view-login .leanModal_box .inner-wrapper form .form-actions input[type=submit]:focus,
 .view-register .leanModal_box .inner-wrapper form .form-actions input[type=submit]:focus,
 .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -15592,9 +15592,9 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit]:active,
 .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body .modal .inner-wrapper form .submit input[type=submit]:hover,
@@ -15615,8 +15615,8 @@ body .leanModal_box .inner-wrapper form .form-actions input[type=submit]:hover,
 .view-passwordreset .leanModal_box .inner-wrapper form .form-actions input[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body .modal.video-modal,
@@ -15746,7 +15746,7 @@ body .leanModal_box button.dismiss:not(.close-modal),
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -15756,7 +15756,7 @@ body .leanModal_box button.dismiss:not(.close-modal),
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 body .modal button.dismiss:not(.close-modal):focus,
 .view-login .modal button.dismiss:not(.close-modal):focus,
@@ -15923,7 +15923,7 @@ body .leanModal_box button.dismiss:not(.close-modal).focus,
 .view-register .leanModal_box button.dismiss:not(.close-modal).focus,
 .view-passwordreset .leanModal_box button.dismiss:not(.close-modal).focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body .modal button.dismiss:not(.close-modal):hover,
@@ -15935,7 +15935,7 @@ body .leanModal_box button.dismiss:not(.close-modal):hover,
 .view-register .leanModal_box button.dismiss:not(.close-modal):hover,
 .view-passwordreset .leanModal_box button.dismiss:not(.close-modal):hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body .modal button.dismiss:not(.close-modal):active,
@@ -15963,7 +15963,7 @@ body .leanModal_box button.dismiss:not(.close-modal).active,
 .open > .dropdown-toggle.view-register .leanModal_box button.dismiss:not(.close-modal),
 .open > .dropdown-toggle.view-passwordreset .leanModal_box button.dismiss:not(.close-modal) {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body .modal button.dismiss:not(.close-modal):active:hover,
@@ -16039,7 +16039,7 @@ body .leanModal_box button.dismiss:not(.close-modal).active.focus,
 .open > .dropdown-toggle.view-register .leanModal_box button.dismiss:not(.close-modal).focus,
 .open > .dropdown-toggle.view-passwordreset .leanModal_box button.dismiss:not(.close-modal).focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body .modal button.dismiss:not(.close-modal):active,
@@ -16140,7 +16140,7 @@ fieldset[disabled] body .leanModal_box button.dismiss:not(.close-modal).focus,
 fieldset[disabled] .view-login .leanModal_box button.dismiss:not(.close-modal).focus,
 fieldset[disabled] .view-register .leanModal_box button.dismiss:not(.close-modal).focus,
 fieldset[disabled] .view-passwordreset .leanModal_box button.dismiss:not(.close-modal).focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body .modal button.dismiss:not(.close-modal) .badge,
@@ -16151,7 +16151,7 @@ body .leanModal_box button.dismiss:not(.close-modal) .badge,
 .view-login .leanModal_box button.dismiss:not(.close-modal) .badge,
 .view-register .leanModal_box button.dismiss:not(.close-modal) .badge,
 .view-passwordreset .leanModal_box button.dismiss:not(.close-modal) .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -16174,7 +16174,7 @@ body .leanModal_box button.dismiss:not(.close-modal):focus,
 .view-login .leanModal_box button.dismiss:not(.close-modal):focus,
 .view-register .leanModal_box button.dismiss:not(.close-modal):focus,
 .view-passwordreset .leanModal_box button.dismiss:not(.close-modal):focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -16196,9 +16196,9 @@ body .leanModal_box button.dismiss:not(.close-modal):active,
 .view-passwordreset .leanModal_box button.dismiss:not(.close-modal):active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body .modal button.dismiss:not(.close-modal):hover,
@@ -16211,8 +16211,8 @@ body .leanModal_box button.dismiss:not(.close-modal):hover,
 .view-passwordreset .leanModal_box button.dismiss:not(.close-modal):hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body #forgot-password-modal,
@@ -16689,7 +16689,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -16699,7 +16699,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit]:focus,
 .view-login #forgot-password-modal .inner-wrapper form .submit input[type=submit]:focus,
@@ -16866,7 +16866,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus,
 .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit]:hover,
@@ -16878,7 +16878,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:hover,
 .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit]:active,
@@ -16906,7 +16906,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .open > .dropdown-toggle.view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit],
 .open > .dropdown-toggle.view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit]:active:hover,
@@ -16982,7 +16982,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .open > .dropdown-toggle.view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus,
 .open > .dropdown-toggle.view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit]:active,
@@ -17083,7 +17083,7 @@ fieldset[disabled] body #forgot-password-modal .inner-wrapper form .form-actions
 fieldset[disabled] .view-login #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus,
 fieldset[disabled] .view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus,
 fieldset[disabled] .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit] .badge,
@@ -17094,7 +17094,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .view-login #forgot-password-modal .inner-wrapper form .form-actions input[type=submit] .badge,
 .view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit] .badge,
 .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -17117,7 +17117,7 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .view-login #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:focus,
 .view-register #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:focus,
 .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -17139,9 +17139,9 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body #forgot-password-modal .inner-wrapper form .submit input[type=submit]:hover,
@@ -17154,8 +17154,8 @@ body #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]
 .view-passwordreset #forgot-password-modal .inner-wrapper form .form-actions input[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body #forgot-password-modal #password-reset,
@@ -17326,7 +17326,7 @@ body #forgot-password-modal #password-reset form button[type=submit],
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -17336,7 +17336,7 @@ body #forgot-password-modal #password-reset form button[type=submit],
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
 }
 body #forgot-password-modal #password-reset form button[type=submit]:focus,
 .view-login #forgot-password-modal #password-reset form button[type=submit]:focus,
@@ -17431,7 +17431,7 @@ body #forgot-password-modal #password-reset form button[type=submit].focus,
 .view-register #forgot-password-modal #password-reset form button[type=submit].focus,
 .view-passwordreset #forgot-password-modal #password-reset form button[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body #forgot-password-modal #password-reset form button[type=submit]:hover,
@@ -17439,7 +17439,7 @@ body #forgot-password-modal #password-reset form button[type=submit]:hover,
 .view-register #forgot-password-modal #password-reset form button[type=submit]:hover,
 .view-passwordreset #forgot-password-modal #password-reset form button[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body #forgot-password-modal #password-reset form button[type=submit]:active,
@@ -17455,7 +17455,7 @@ body #forgot-password-modal #password-reset form button[type=submit].active,
 .open > .dropdown-toggle.view-register #forgot-password-modal #password-reset form button[type=submit],
 .open > .dropdown-toggle.view-passwordreset #forgot-password-modal #password-reset form button[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body #forgot-password-modal #password-reset form button[type=submit]:active:hover,
@@ -17495,7 +17495,7 @@ body #forgot-password-modal #password-reset form button[type=submit].active.focu
 .open > .dropdown-toggle.view-register #forgot-password-modal #password-reset form button[type=submit].focus,
 .open > .dropdown-toggle.view-passwordreset #forgot-password-modal #password-reset form button[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body #forgot-password-modal #password-reset form button[type=submit]:active,
@@ -17548,14 +17548,14 @@ fieldset[disabled] body #forgot-password-modal #password-reset form button[type=
 fieldset[disabled] .view-login #forgot-password-modal #password-reset form button[type=submit].focus,
 fieldset[disabled] .view-register #forgot-password-modal #password-reset form button[type=submit].focus,
 fieldset[disabled] .view-passwordreset #forgot-password-modal #password-reset form button[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body #forgot-password-modal #password-reset form button[type=submit] .badge,
 .view-login #forgot-password-modal #password-reset form button[type=submit] .badge,
 .view-register #forgot-password-modal #password-reset form button[type=submit] .badge,
 .view-passwordreset #forgot-password-modal #password-reset form button[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -17570,7 +17570,7 @@ body #forgot-password-modal #password-reset form button[type=submit]:focus,
 .view-login #forgot-password-modal #password-reset form button[type=submit]:focus,
 .view-register #forgot-password-modal #password-reset form button[type=submit]:focus,
 .view-passwordreset #forgot-password-modal #password-reset form button[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -17584,9 +17584,9 @@ body #forgot-password-modal #password-reset form button[type=submit]:active,
 .view-passwordreset #forgot-password-modal #password-reset form button[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body #forgot-password-modal #password-reset form button[type=submit]:hover,
@@ -17595,8 +17595,8 @@ body #forgot-password-modal #password-reset form button[type=submit]:hover,
 .view-passwordreset #forgot-password-modal #password-reset form button[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body footer.global,
@@ -17869,7 +17869,7 @@ body .content-wrapper,
   color: #a94442;
 }
 .wrapper-preview-menu {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   padding: 15px 0;
 }
 .wrapper-preview-menu .preview-menu {
@@ -18492,7 +18492,7 @@ body .content-wrapper,
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -18502,7 +18502,7 @@ body .content-wrapper,
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:focus,
@@ -18562,13 +18562,13 @@ fieldset[disabled] a.content-wrapper > .find-courses .find-courses .empty-dashbo
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a.focus,
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:hover,
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:active,
@@ -18578,7 +18578,7 @@ fieldset[disabled] a.content-wrapper > .find-courses .find-courses .empty-dashbo
 .open > .dropdown-toggle.content-wrapper > .find-courses .my-courses .empty-dashboard-message > a,
 .open > .dropdown-toggle.content-wrapper > .find-courses .find-courses .empty-dashboard-message > a {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:active:hover,
@@ -18600,7 +18600,7 @@ fieldset[disabled] a.content-wrapper > .find-courses .find-courses .empty-dashbo
 .open > .dropdown-toggle.content-wrapper > .find-courses .my-courses .empty-dashboard-message > a.focus,
 .open > .dropdown-toggle.content-wrapper > .find-courses .find-courses .empty-dashboard-message > a.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:active,
@@ -18629,12 +18629,12 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a[disabled].focus,
 fieldset[disabled] .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a.focus,
 fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a .badge,
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -18645,7 +18645,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:focus,
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -18655,17 +18655,17 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .find-courses .my-courses .empty-dashboard-message > a:hover,
 .content-wrapper > .find-courses .find-courses .empty-dashboard-message > a:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item,
@@ -18781,13 +18781,13 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   letter-spacing: 0;
-  border: 1px solid #058ed0;
+  border: 1px solid #1c99d6;
   border-radius: 30px;
   padding: 10px 14px;
   text-align: center;
   float: left;
   line-height: 16px;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #fff;
   margin: 0px 20px 0px 36px;
 }
@@ -18822,7 +18822,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action .fa,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action .fa {
   font-size: 27px;
-  color: #058ed0;
+  color: #1c99d6;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
@@ -19108,7 +19108,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -19118,7 +19118,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .empty-dashboa
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   width: 100%;
   height: auto;
   font-size: 0.9em;
@@ -19180,13 +19180,13 @@ fieldset[disabled] a.content-wrapper > .find-courses .find-courses .listing-cour
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course.focus,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course:hover,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course:active,
@@ -19196,7 +19196,7 @@ fieldset[disabled] a.content-wrapper > .find-courses .find-courses .listing-cour
 .open > .dropdown-toggle.content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course,
 .open > .dropdown-toggle.content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course:active:hover,
@@ -19218,7 +19218,7 @@ fieldset[disabled] a.content-wrapper > .find-courses .find-courses .listing-cour
 .open > .dropdown-toggle.content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course.focus,
 .open > .dropdown-toggle.content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course:active,
@@ -19247,12 +19247,12 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course[disabled].focus,
 fieldset[disabled] .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course.focus,
 fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course .badge,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -19263,7 +19263,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course:focus,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -19273,17 +19273,17 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .find-courses .my-courses .listing-courses .course-item .info .enter-course:hover,
 .content-wrapper > .find-courses .find-courses .listing-courses .course-item .info .enter-course:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (min-width: 992px) {
@@ -19431,13 +19431,13 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   letter-spacing: 0;
-  border: 1px solid #058ed0;
+  border: 1px solid #1c99d6;
   border-radius: 30px;
   padding: 10px 14px;
   text-align: center;
   float: left;
   line-height: 16px;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #fff;
   margin: 0px 20px 0px 36px;
 }
@@ -19468,7 +19468,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action .fa {
   font-size: 27px;
-  color: #058ed0;
+  color: #1c99d6;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
   position: absolute;
@@ -19719,7 +19719,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -19729,7 +19729,7 @@ fieldset[disabled] .content-wrapper > .find-courses .find-courses .listing-cours
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   width: 100%;
   height: auto;
   font-size: 0.9em;
@@ -19773,19 +19773,19 @@ fieldset[disabled] a.content-wrapper > .find-courses .courses .listing-courses .
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:focus,
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:active,
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course.active,
 .open > .dropdown-toggle.content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:active:hover,
@@ -19798,7 +19798,7 @@ fieldset[disabled] a.content-wrapper > .find-courses .courses .listing-courses .
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course.active.focus,
 .open > .dropdown-toggle.content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:active,
@@ -19815,11 +19815,11 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course.disabled.focus,
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course[disabled].focus,
 fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -19828,7 +19828,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
   }
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -19836,16 +19836,16 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .find-courses .courses .listing-courses .course-item .info .enter-course:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (min-width: 992px) {
@@ -20124,7 +20124,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses .iconContent i:hover,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses .iconContent i:hover {
-  color: #058ed0;
+  color: #1c99d6;
 }
 .content-wrapper > .dashboard .my-courses header.wrapper-header-courses select,
 .content-wrapper > .dashboard .find-courses header.wrapper-header-courses select,
@@ -20211,7 +20211,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -20221,7 +20221,7 @@ fieldset[disabled] .content-wrapper > .find-courses .courses .listing-courses .c
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:focus,
@@ -20281,13 +20281,13 @@ fieldset[disabled] a.content-wrapper > .dashboard .find-courses .empty-dashboard
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a.focus,
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:hover,
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:active,
@@ -20297,7 +20297,7 @@ fieldset[disabled] a.content-wrapper > .dashboard .find-courses .empty-dashboard
 .open > .dropdown-toggle.content-wrapper > .dashboard .my-courses .empty-dashboard-message > a,
 .open > .dropdown-toggle.content-wrapper > .dashboard .find-courses .empty-dashboard-message > a {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:active:hover,
@@ -20319,7 +20319,7 @@ fieldset[disabled] a.content-wrapper > .dashboard .find-courses .empty-dashboard
 .open > .dropdown-toggle.content-wrapper > .dashboard .my-courses .empty-dashboard-message > a.focus,
 .open > .dropdown-toggle.content-wrapper > .dashboard .find-courses .empty-dashboard-message > a.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:active,
@@ -20348,12 +20348,12 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a[disabled].focus,
 fieldset[disabled] .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a.focus,
 fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a .badge,
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -20364,7 +20364,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:focus,
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -20374,17 +20374,17 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .dashboard .my-courses .empty-dashboard-message > a:hover,
 .content-wrapper > .dashboard .find-courses .empty-dashboard-message > a:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item,
@@ -20501,13 +20501,13 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   letter-spacing: 0;
-  border: 1px solid #058ed0;
+  border: 1px solid #1c99d6;
   border-radius: 30px;
   padding: 10px 14px;
   text-align: center;
   float: left;
   line-height: 16px;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #fff;
   margin: 0px 20px 0px 36px;
 }
@@ -20542,7 +20542,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action .fa,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .action .fa {
   font-size: 27px;
-  color: #058ed0;
+  color: #1c99d6;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .course-back .course .details .wrapper-course-details .wrapper-course-actions .course-actions .wrapper-action-more .actions-dropdown {
@@ -20943,7 +20943,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -20953,7 +20953,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .empty-dashboard-
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   width: 100%;
   height: auto;
   font-size: 0.9em;
@@ -21015,13 +21015,13 @@ fieldset[disabled] a.content-wrapper > .dashboard .find-courses .listing-courses
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course:hover,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course:active,
@@ -21031,7 +21031,7 @@ fieldset[disabled] a.content-wrapper > .dashboard .find-courses .listing-courses
 .open > .dropdown-toggle.content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course,
 .open > .dropdown-toggle.content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course:active:hover,
@@ -21053,7 +21053,7 @@ fieldset[disabled] a.content-wrapper > .dashboard .find-courses .listing-courses
 .open > .dropdown-toggle.content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,
 .open > .dropdown-toggle.content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course:active,
@@ -21082,12 +21082,12 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses 
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course[disabled].focus,
 fieldset[disabled] .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,
 fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course .badge,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -21098,7 +21098,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses 
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course:focus,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -21108,17 +21108,17 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses 
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .dashboard .my-courses .listing-courses .course-item .info .enter-course:hover,
 .content-wrapper > .dashboard .find-courses .listing-courses .course-item .info .enter-course:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (min-width: 992px) {
@@ -21466,7 +21466,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses 
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -21476,7 +21476,7 @@ fieldset[disabled] .content-wrapper > .dashboard .find-courses .listing-courses 
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-weight: 200;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:focus,
@@ -21518,19 +21518,19 @@ fieldset[disabled] a.content-wrapper > .register .content form .form-actions but
 .content-wrapper > .register .content form .form-actions button[type=submit]:focus,
 .content-wrapper > .register .content form .form-actions button[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:active,
 .content-wrapper > .register .content form .form-actions button[type=submit].active,
 .open > .dropdown-toggle.content-wrapper > .register .content form .form-actions button[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:active:hover,
@@ -21543,7 +21543,7 @@ fieldset[disabled] a.content-wrapper > .register .content form .form-actions but
 .content-wrapper > .register .content form .form-actions button[type=submit].active.focus,
 .open > .dropdown-toggle.content-wrapper > .register .content form .form-actions button[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:active,
@@ -21560,11 +21560,11 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
 .content-wrapper > .register .content form .form-actions button[type=submit].disabled.focus,
 .content-wrapper > .register .content form .form-actions button[type=submit][disabled].focus,
 fieldset[disabled] .content-wrapper > .register .content form .form-actions button[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -21573,7 +21573,7 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
   }
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -21581,16 +21581,16 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
 .content-wrapper > .register .content form .form-actions button[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .register .content form .form-actions button[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (min-width: 992px) {
@@ -21953,7 +21953,7 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -21963,7 +21963,7 @@ fieldset[disabled] .content-wrapper > .register .content form .form-actions butt
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-weight: 200;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:focus,
@@ -22005,19 +22005,19 @@ fieldset[disabled] a.content-wrapper > .login .content form .form-actions button
 .content-wrapper > .login .content form .form-actions button[type=submit]:focus,
 .content-wrapper > .login .content form .form-actions button[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:active,
 .content-wrapper > .login .content form .form-actions button[type=submit].active,
 .open > .dropdown-toggle.content-wrapper > .login .content form .form-actions button[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:active:hover,
@@ -22030,7 +22030,7 @@ fieldset[disabled] a.content-wrapper > .login .content form .form-actions button
 .content-wrapper > .login .content form .form-actions button[type=submit].active.focus,
 .open > .dropdown-toggle.content-wrapper > .login .content form .form-actions button[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:active,
@@ -22047,11 +22047,11 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
 .content-wrapper > .login .content form .form-actions button[type=submit].disabled.focus,
 .content-wrapper > .login .content form .form-actions button[type=submit][disabled].focus,
 fieldset[disabled] .content-wrapper > .login .content form .form-actions button[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -22060,7 +22060,7 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
   }
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -22068,16 +22068,16 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
 .content-wrapper > .login .content form .form-actions button[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .login .content form .form-actions button[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (min-width: 992px) {
@@ -22377,7 +22377,7 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -22387,7 +22387,7 @@ fieldset[disabled] .content-wrapper > .login .content form .form-actions button[
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-weight: 200;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
@@ -22429,19 +22429,19 @@ fieldset[disabled] a.content-wrapper > .passwordreset .content form .form-action
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active,
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit].active,
 .open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active:hover,
@@ -22454,7 +22454,7 @@ fieldset[disabled] a.content-wrapper > .passwordreset .content form .form-action
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit].active.focus,
 .open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active,
@@ -22471,11 +22471,11 @@ fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled.focus,
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled].focus,
 fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -22484,7 +22484,7 @@ fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions
   }
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -22492,16 +22492,16 @@ fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (min-width: 992px) {
@@ -22947,7 +22947,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -22957,7 +22957,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   width: 49%;
   height: auto;
 }
@@ -23036,14 +23036,14 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register.focus,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong:hover,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register:hover,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong:active,
@@ -23056,7 +23056,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 .open > .dropdown-togglebody.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register,
 .open > .dropdown-togglebody.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong:active:hover,
@@ -23087,7 +23087,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 .open > .dropdown-togglebody.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong:active,
@@ -23128,13 +23128,13 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 fieldset[disabled] body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong.focus,
 fieldset[disabled] body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register.focus,
 fieldset[disabled] body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong .badge,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register .badge,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -23147,7 +23147,7 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong:focus,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.register:focus,
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -23159,9 +23159,9 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a strong:hover,
@@ -23169,8 +23169,8 @@ body.view-incourse .content-wrapper section.course-info header.course-profile .i
 body.view-incourse .content-wrapper section.course-info header.course-profile .intro-inner-wrapper .table .intro .main-cta a.add-to-cart:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 @media (max-width: 767px) {
@@ -23888,7 +23888,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li:last-child {
 body.view-incourse .content-wrapper .course-material .course-tabs li a,
 body.view-incourse .content-wrapper .course-content .course-tabs li a {
   font: inherit;
-  color: #058ed0;
+  color: #1c99d6;
   font-weight: 200;
   border-radius: 4px;
   padding: 8px 12px;
@@ -23930,7 +23930,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-b
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -23940,7 +23940,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-b
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
@@ -24000,13 +24000,13 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-b
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
@@ -24016,7 +24016,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-b
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active:hover,
@@ -24038,7 +24038,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-b
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:active,
@@ -24067,12 +24067,12 @@ body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn[disabled].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn.focus,
 fieldset[disabled] body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn .badge,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -24083,7 +24083,7 @@ body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-b
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:focus,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -24093,17 +24093,17 @@ body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn:hover,
 body.view-incourse .content-wrapper .course-content .course-tabs li a.new-post-btn:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .course-material .course-tabs li a.new-post-btn span.icon,
@@ -24224,7 +24224,7 @@ body.view-incourse .content-wrapper .container body.view-incourse .content-wrapp
   overflow: hidden;
   text-shadow: none;
   transition: none;
-  color: #058ed0;
+  color: #1c99d6;
   background: none;
   -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
   -moz-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
@@ -24367,8 +24367,8 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-index #ac
   margin: 0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li:hover {
-  border-color: #058ed0;
-  color: #058ed0;
+  border-color: #1c99d6;
+  color: #1c99d6;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
   font: inherit;
@@ -24996,7 +24996,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -25006,7 +25006,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:focus,
@@ -25048,19 +25048,19 @@ fieldset[disabled] abody.view-incourse .content-wrapper .container .course-wrapp
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn.focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:active,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn.active,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:active:hover,
@@ -25073,7 +25073,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn.active.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn.focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:active,
@@ -25090,11 +25090,11 @@ fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrappe
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn.disabled.focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn[disabled].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn.focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -25103,7 +25103,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   }
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -25111,16 +25111,16 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_DiscussionModule .new-post-btn span.icon {
@@ -25177,7 +25177,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -25187,7 +25187,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
   display: inline;
 }
@@ -25248,13 +25248,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button.focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button:hover,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button:active,
@@ -25264,7 +25264,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button:active:hover,
@@ -25286,7 +25286,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button:active,
@@ -25315,12 +25315,12 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button][disabled].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button.focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button .badge,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -25331,7 +25331,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button:focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -25341,17 +25341,17 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button:hover,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule input[type=button]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock.xmodule_CapaModule button span,
@@ -25394,7 +25394,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -25404,7 +25404,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
   display: inline;
 }
@@ -25465,13 +25465,13 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button.focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button:hover,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button:active,
@@ -25481,7 +25481,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button:active:hover,
@@ -25503,7 +25503,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button.focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button:active,
@@ -25532,12 +25532,12 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button][disabled].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button.focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button .badge,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -25548,7 +25548,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button:focus,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -25558,17 +25558,17 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button:hover,
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext input[type=button]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .xblock .taggedtext button span,
@@ -25660,7 +25660,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
   color: #141414;
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav ol li#icon-holder a {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   width: 30px;
   height: 30px;
   border-radius: 30px;
@@ -25722,7 +25722,7 @@ body.view-incourse .content-wrapper .container .course-wrapper .course-content .
 }
 body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li a.active {
   border-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
 }
 @media (max-width: 991px) {
   body.view-incourse .content-wrapper .container .course-wrapper .course-content .sequence-nav .sequence-list-wrapper ol li a.active {
@@ -25852,7 +25852,7 @@ body.view-incourse .content-wrapper .container .static_tab_wrapper .xmodule_Stat
   font: inherit;
   font-size: 16px;
   font-weight: 200;
-  color: #058ed0;
+  color: #1c99d6;
   margin: 20px 0 10px 0;
 }
 body.view-incourse .content-wrapper .container .static_tab_wrapper .xmodule_StaticTabModule p {
@@ -26371,7 +26371,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper >
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content ul.instructor-nav li a.active-section,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 ul.instructor-nav li a.active-section,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 ul.instructor-nav li a.active-section {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input,
@@ -26411,7 +26411,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
   -ms-user-select: none;
   user-select: none;
   color: #ffffff;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
   text-shadow: none;
   text-overflow: ellipsis;
@@ -26421,7 +26421,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
   padding: 0.5em 1.2em;
   outline: none;
   overflow: hidden;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   font-size: 0.9em;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:focus,
@@ -26517,7 +26517,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].focus,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].focus {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:hover,
@@ -26525,7 +26525,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:hover,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:hover {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active,
@@ -26541,7 +26541,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button],
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button] {
   color: #ffffff;
-  background-color: #046c9e;
+  background-color: #1679a9;
   border-color: #e0e0e0;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active:hover,
@@ -26581,7 +26581,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].focus,
 .open > .dropdown-togglebody.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].focus {
   color: #ffffff;
-  background-color: #03547b;
+  background-color: #126289;
   border-color: #bfbfbf;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:active,
@@ -26634,14 +26634,14 @@ fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-
 fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button].focus,
 fieldset[disabled] body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button].focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   border-color: #ffffff;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button] .badge,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button] .badge,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button] .badge,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button] .badge {
-  color: #058ed0;
+  color: #1c99d6;
   background-color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -26656,7 +26656,7 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper >
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content input[type=button]:focus,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content-2 input[type=button]:focus,
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:focus {
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -26670,9 +26670,9 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper >
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:active {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
+  color: #1c99d6;
   box-shadow: none;
-  border-color: #058ed0;
+  border-color: #1c99d6;
   outline: none;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content input[type=button]:hover,
@@ -26681,8 +26681,8 @@ body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper >
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper-2 > .instructor-dashboard-content-2 input[type=button]:hover {
   background: none;
   background-color: #ffffff;
-  color: #058ed0;
-  border-color: #058ed0;
+  color: #1c99d6;
+  border-color: #1c99d6;
   box-shadow: none;
 }
 body.view-incourse .content-wrapper .container > .instructor-dashboard-wrapper > .instructor-dashboard-content .member-list-widget .label,
@@ -26830,7 +26830,7 @@ body.view-incourse .content-wrapper .container > .discussion-body .thread-wrappe
 }
 body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post header .user-label-staff {
   background: none;
-  background-color: #058ed0;
+  background-color: #1c99d6;
   color: #ffffff;
 }
 body.view-incourse .content-wrapper .container > .discussion-body .thread-wrapper .discussion-post .post-context {
