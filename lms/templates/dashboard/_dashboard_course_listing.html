@@ -9,9 +9,9 @@ from django.utils.translation import ugettext as _
 from django.utils.translation import ungettext
 from django.core.urlresolvers import reverse
 from markupsafe import escape
+from xmodule.modulestore.django import modulestore
 from courseware.courses import get_course_about_section
-
-
+from openedx.core.lib.courses import course_image_url
 from course_modes.models import CourseMode
 from student.helpers import (
   VERIFY_STATUS_NEED_TO_VERIFY,
@@ -154,15 +154,19 @@ def convert_line_endings(temp, mode):
 
 
 <%namespace name='static' file='../static_content.html'/>
-
+<%
+  store = modulestore()
+  course = store.get_course(enrollment.course_id)
+ 
+%>
 <li class="col-xs-12 col-sm-6 col-md-4" id="${(no_slash(unicode(course_overview.id))).lower()}" 
-data-org="${(get_course_about_section(course, 'university')).lower()}" 
-data-number="${(get_course_about_section(course, 'number')).lower()}"  
-data-title="${get_course_about_section(course, 'title').lower()}" 
-data-staff="${get_course_about_section(course, 'course_staff_short').lower()}" 
-data-requirements="${get_course_about_section(course, 'requirements').lower()}" 
-data-shortdescription="${get_course_about_section(course, 'short_description').lower()}" 
-data-description="${get_course_about_section(course, 'description').lower()}" 
+data-org="${(course_overview.display_org_with_default).lower()}" 
+data-number="${(course_overview.display_number_with_default).lower()}"  
+data-title="${(course_overview.display_name_with_default_escaped).lower()}" 
+data-staff="${get_course_about_section(request, course, 'course_staff_short').lower()}" 
+data-requirements="${get_course_about_section(request, course, 'requirements').lower()}" 
+data-shortdescription="${get_course_about_section(request, course, 'short_description').lower()}" 
+data-description="${get_course_about_section(request,course, 'description').lower()}" 
 >
   <article class="tile">  
    <% 
@@ -179,11 +183,11 @@ data-description="${get_course_about_section(course, 'description').lower()}"
             </div>
       </section>
       <div class="course-description">
-        ${title_limit(course_overview.display_short_description_with_default, 93)}
+        ${title_limit(get_course_about_section(request, course, 'short_description'), 93)}
       </div>
         <div class="wrapper-course-subtitle sub2">
           <p class="short-description">
-            ${course_overview.display_short_description_with_default}
+            ${get_course_about_section(request, course, 'short_description')}
           </p>
           <div class="bottomIcon" style="width:160px; margin: 0 auto;">
               <div class="col-xs-6 enterCourse" style="position: relative;">       
@@ -219,8 +223,8 @@ data-description="${get_course_about_section(course, 'description').lower()}"
       </div>
       <footer class="tile-footer">
           <div class="tile-avatar">
-            <div class="initial-avatar" style="background-color: ${avat_text2()}">${avat_text(get_course_about_section(course, 'university'))}</div> 
-            ${get_course_about_section(course, 'university')}
+            <div class="initial-avatar" style="background-color: ${avat_text2()}">${avat_text(course_overview.display_org_with_default)}</div> 
+            ${course_overview.display_org_with_default}
           </div>
           <div class="text-right"><a class="tip"><span>Times Accessed</span><img src="/static/themes/edx-theme/images/views-icon.png"></a>0</div>
       </footer>
